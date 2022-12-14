@@ -336,146 +336,6 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-logos {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.home-container14 {
-  flex: 0 0 auto;
-  display: flex;
-  min-width: 400px;
-  align-items: flex-start;
-  padding-left: var(--dl-space-space-triplequarterunit);
-  flex-direction: column;
-}
-.home-container15 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: var(--dl-space-space-tripleunit);
-  flex-direction: row;
-  justify-content: space-between;
-}
-.home-container16 {
-  width: 58px;
-  height: 58px;
-  padding: var(--dl-space-space-unit);
-  align-self: flex-end;
-  object-fit: cover;
-  margin-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-round);
-  background-color: var(--dl-color-gray-white);
-}
-.home-image01 {
-  width: 100%;
-}
-.home-container17 {
-  width: 58px;
-  height: 58px;
-  padding: var(--dl-space-space-unit);
-  object-fit: cover;
-  border-radius: var(--dl-radius-radius-round);
-  background-color: var(--dl-color-gray-white);
-}
-.home-image02 {
-  width: 100%;
-}
-.home-container18 {
-  width: 58px;
-  height: 58px;
-  padding: var(--dl-space-space-unit);
-  align-self: flex-end;
-  object-fit: cover;
-  margin-right: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-round);
-  background-color: var(--dl-color-gray-white);
-}
-.home-image03 {
-  width: 100%;
-}
-.home-container19 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  margin-bottom: var(--dl-space-space-tripleunit);
-  flex-direction: row;
-  justify-content: space-between;
-}
-.home-container20 {
-  width: 58px;
-  height: 58px;
-  padding: var(--dl-space-space-unit);
-  object-fit: cover;
-  border-radius: var(--dl-radius-radius-round);
-  background-color: var(--dl-color-gray-white);
-}
-.home-image04 {
-  width: 100%;
-  object-fit: cover;
-}
-.home-container21 {
-  width: 58px;
-  height: 58px;
-  padding: var(--dl-space-space-unit);
-  align-self: center;
-  object-fit: cover;
-  border-radius: var(--dl-radius-radius-round);
-  background-color: var(--dl-color-gray-white);
-}
-.home-image05 {
-  width: 100%;
-}
-.home-container22 {
-  width: 58px;
-  padding: var(--dl-space-space-unit);
-  align-self: flex-end;
-  object-fit: cover;
-  border-radius: var(--dl-radius-radius-round);
-  background-color: var(--dl-color-gray-white);
-}
-.home-image06 {
-  width: 100%;
-}
-.home-container23 {
-  flex: 0 0 auto;
-  width: 50%;
-  height: 70px;
-  display: flex;
-  align-self: center;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.home-container24 {
-  width: 58px;
-  height: 58px;
-  padding: var(--dl-space-space-unit);
-  object-fit: cover;
-  border-radius: var(--dl-radius-radius-round);
-  background-color: var(--dl-color-gray-white);
-}
-.home-image07 {
-  width: 100%;
-}
-.home-container25 {
-  width: 58px;
-  height: 58px;
-  padding: var(--dl-space-space-unit);
-  align-self: flex-end;
-  object-fit: cover;
-  border-radius: var(--dl-radius-radius-round);
-  background-color: var(--dl-color-gray-white);
-}
-.home-image08 {
-  width: 100%;
-  object-fit: cover;
-}
 .home-bottom-wave-image {
   top: auto;
   left: auto;
@@ -485,7 +345,7 @@
   position: absolute;
   object-fit: cover;
 }
-.home-image09 {
+.home-image1 {
   top: auto;
   left: 0px;
   right: 0px;
@@ -541,6 +401,231 @@
   align-items: center;
   justify-content: space-around;
 }
+.home-container14 {
+  width: 30%;
+  height: 25rem;
+  display: flex;
+  position: relative;
+  box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-sixunits);
+  padding-left: var(--dl-space-space-sixunits);
+  border-radius: var(--dl-radius-radius-radius1);
+  margin-bottom: 50px;
+  padding-right: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg');
+  background-position: center;
+}
+.home-container14:hover {
+  transform: scale(1.04);
+}
+.home-container15 {
+  top: 0px;
+  left: 0px;
+  right: auto;
+  width: 100%;
+  bottom: auto;
+  height: 100%;
+  position: absolute;
+  background: rgba(0,0,0,.4);
+  transition: 0.3s;
+  border-radius: var(--dl-radius-radius-radius1);
+}
+
+.home-container16 {
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-text41 {
+  color: var(--dl-color-applegreen-main);
+  max-width: 200px;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+  text-transform: uppercase;
+}
+.home-container17 {
+  width: 30%;
+  height: 25rem;
+  display: flex;
+  position: relative;
+  box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-sixunits);
+  padding-left: var(--dl-space-space-sixunits);
+  border-radius: var(--dl-radius-radius-radius1);
+  margin-bottom: 50px;
+  padding-right: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg');
+  background-position: center;
+}
+.home-container17:hover {
+  transform: scale(1.04);
+}
+.home-container18 {
+  top: 0px;
+  left: 0px;
+  right: auto;
+  width: 100%;
+  bottom: auto;
+  height: 100%;
+  position: absolute;
+  background: rgba(0,0,0,.4);
+  transition: 0.3s;
+  border-radius: var(--dl-radius-radius-radius1);
+}
+
+.home-container19 {
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-text44 {
+  font-size: 0.875rem;
+  font-family: Open Sans;
+  font-weight: 200;
+  line-height: 1.5;
+  text-transform: none;
+  text-decoration: none;
+}
+.home-text45 {
+  color: var(--dl-color-applegreen-main);
+  max-width: 200px;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+  text-transform: uppercase;
+}
+.home-container20 {
+  width: 30%;
+  height: 25rem;
+  display: flex;
+  position: relative;
+  box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-sixunits);
+  padding-left: var(--dl-space-space-sixunits);
+  border-radius: var(--dl-radius-radius-radius1);
+  margin-bottom: 50px;
+  padding-right: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg');
+  background-position: center;
+}
+.home-container20:hover {
+  transform: scale(1.04);
+}
+.home-container21 {
+  top: 0px;
+  left: 0px;
+  right: auto;
+  width: 100%;
+  bottom: auto;
+  height: 100%;
+  position: absolute;
+  background: rgba(0,0,0,.4);
+  transition: 0.3s;
+  border-radius: var(--dl-radius-radius-radius1);
+}
+
+.home-container22 {
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-text50 {
+  font-size: 0.7rem;
+  font-family: Open Sans;
+  font-weight: 200;
+  line-height: 1.5;
+  text-transform: none;
+  text-decoration: none;
+}
+.home-text51 {
+  color: var(--dl-color-applegreen-main);
+  font-size: 1.1rem;
+  max-width: 200px;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+  text-transform: uppercase;
+}
+.home-container23 {
+  width: 30%;
+  height: 25rem;
+  display: flex;
+  position: relative;
+  box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-sixunits);
+  padding-left: var(--dl-space-space-sixunits);
+  border-radius: var(--dl-radius-radius-radius1);
+  margin-bottom: 50px;
+  padding-right: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg');
+  background-position: center;
+}
+.home-container23:hover {
+  transform: scale(1.04);
+}
+.home-container24 {
+  top: 0px;
+  left: 0px;
+  right: auto;
+  width: 100%;
+  bottom: auto;
+  height: 100%;
+  position: absolute;
+  background: rgba(0,0,0,.4);
+  transition: 0.3s;
+  border-radius: var(--dl-radius-radius-radius1);
+}
+
+.home-container25 {
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-text54 {
+  font-size: 0.875rem;
+  font-family: Open Sans;
+  font-weight: 200;
+  line-height: 1.5;
+  text-transform: none;
+  text-decoration: none;
+}
+.home-text55 {
+  color: var(--dl-color-applegreen-main);
+  max-width: 200px;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+  text-transform: uppercase;
+}
 .home-container26 {
   width: 30%;
   height: 25rem;
@@ -584,231 +669,6 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text41 {
-  color: var(--dl-color-applegreen-main);
-  max-width: 200px;
-  text-align: center;
-  margin-bottom: var(--dl-space-space-unit);
-  text-transform: uppercase;
-}
-.home-container29 {
-  width: 30%;
-  height: 25rem;
-  display: flex;
-  position: relative;
-  box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: var(--dl-space-space-sixunits);
-  padding-left: var(--dl-space-space-sixunits);
-  border-radius: var(--dl-radius-radius-radius1);
-  margin-bottom: 50px;
-  padding-right: var(--dl-space-space-sixunits);
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-doubleunit);
-  background-size: cover;
-  justify-content: center;
-  background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg');
-  background-position: center;
-}
-.home-container29:hover {
-  transform: scale(1.04);
-}
-.home-container30 {
-  top: 0px;
-  left: 0px;
-  right: auto;
-  width: 100%;
-  bottom: auto;
-  height: 100%;
-  position: absolute;
-  background: rgba(0,0,0,.4);
-  transition: 0.3s;
-  border-radius: var(--dl-radius-radius-radius1);
-}
-
-.home-container31 {
-  display: flex;
-  z-index: 1;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.home-text44 {
-  font-size: 0.875rem;
-  font-family: Open Sans;
-  font-weight: 200;
-  line-height: 1.5;
-  text-transform: none;
-  text-decoration: none;
-}
-.home-text45 {
-  color: var(--dl-color-applegreen-main);
-  max-width: 200px;
-  text-align: center;
-  margin-bottom: var(--dl-space-space-unit);
-  text-transform: uppercase;
-}
-.home-container32 {
-  width: 30%;
-  height: 25rem;
-  display: flex;
-  position: relative;
-  box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: var(--dl-space-space-sixunits);
-  padding-left: var(--dl-space-space-sixunits);
-  border-radius: var(--dl-radius-radius-radius1);
-  margin-bottom: 50px;
-  padding-right: var(--dl-space-space-sixunits);
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-doubleunit);
-  background-size: cover;
-  justify-content: center;
-  background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg');
-  background-position: center;
-}
-.home-container32:hover {
-  transform: scale(1.04);
-}
-.home-container33 {
-  top: 0px;
-  left: 0px;
-  right: auto;
-  width: 100%;
-  bottom: auto;
-  height: 100%;
-  position: absolute;
-  background: rgba(0,0,0,.4);
-  transition: 0.3s;
-  border-radius: var(--dl-radius-radius-radius1);
-}
-
-.home-container34 {
-  display: flex;
-  z-index: 1;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.home-text50 {
-  font-size: 0.7rem;
-  font-family: Open Sans;
-  font-weight: 200;
-  line-height: 1.5;
-  text-transform: none;
-  text-decoration: none;
-}
-.home-text51 {
-  color: var(--dl-color-applegreen-main);
-  font-size: 1.1rem;
-  max-width: 200px;
-  text-align: center;
-  margin-bottom: var(--dl-space-space-unit);
-  text-transform: uppercase;
-}
-.home-container35 {
-  width: 30%;
-  height: 25rem;
-  display: flex;
-  position: relative;
-  box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: var(--dl-space-space-sixunits);
-  padding-left: var(--dl-space-space-sixunits);
-  border-radius: var(--dl-radius-radius-radius1);
-  margin-bottom: 50px;
-  padding-right: var(--dl-space-space-sixunits);
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-doubleunit);
-  background-size: cover;
-  justify-content: center;
-  background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg');
-  background-position: center;
-}
-.home-container35:hover {
-  transform: scale(1.04);
-}
-.home-container36 {
-  top: 0px;
-  left: 0px;
-  right: auto;
-  width: 100%;
-  bottom: auto;
-  height: 100%;
-  position: absolute;
-  background: rgba(0,0,0,.4);
-  transition: 0.3s;
-  border-radius: var(--dl-radius-radius-radius1);
-}
-
-.home-container37 {
-  display: flex;
-  z-index: 1;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.home-text54 {
-  font-size: 0.875rem;
-  font-family: Open Sans;
-  font-weight: 200;
-  line-height: 1.5;
-  text-transform: none;
-  text-decoration: none;
-}
-.home-text55 {
-  color: var(--dl-color-applegreen-main);
-  max-width: 200px;
-  text-align: center;
-  margin-bottom: var(--dl-space-space-unit);
-  text-transform: uppercase;
-}
-.home-container38 {
-  width: 30%;
-  height: 25rem;
-  display: flex;
-  position: relative;
-  box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: var(--dl-space-space-sixunits);
-  padding-left: var(--dl-space-space-sixunits);
-  border-radius: var(--dl-radius-radius-radius1);
-  margin-bottom: 50px;
-  padding-right: var(--dl-space-space-sixunits);
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-doubleunit);
-  background-size: cover;
-  justify-content: center;
-  background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg');
-  background-position: center;
-}
-.home-container38:hover {
-  transform: scale(1.04);
-}
-.home-container39 {
-  top: 0px;
-  left: 0px;
-  right: auto;
-  width: 100%;
-  bottom: auto;
-  height: 100%;
-  position: absolute;
-  background: rgba(0,0,0,.4);
-  transition: 0.3s;
-  border-radius: var(--dl-radius-radius-radius1);
-}
-
-.home-container40 {
-  display: flex;
-  z-index: 1;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
 .home-text60 {
   font-size: 0.875rem;
   font-family: Open Sans;
@@ -833,7 +693,7 @@
   flex-direction: column;
   background-image: linear-gradient(310deg,#005d63,#82bb27);
 }
-.home-container41 {
+.home-container29 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -847,14 +707,14 @@
   padding-bottom: 15rem;
   justify-content: space-between;
 }
-.home-container42 {
+.home-container30 {
   flex: 1;
   height: auto;
   display: flex;
   align-items: space-between;
   flex-direction: column;
 }
-.home-container43 {
+.home-container31 {
   display: flex;
   max-width: 600px;
   align-items: flex-start;
@@ -881,7 +741,7 @@
   opacity: 0.8;
   margin-bottom: var(--dl-space-space-doubleunit);
 }
-.home-container44 {
+.home-container32 {
   flex: 0 0 auto;
   width: 100%;
   height: 100px;
@@ -890,7 +750,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-container45 {
+.home-container33 {
   flex: 0 0 auto;
   width: 40%;
   height: 400px;
@@ -899,7 +759,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-image10 {
+.home-image2 {
   width: 100%;
   object-fit: cover;
 }
@@ -913,7 +773,7 @@
   position: absolute;
   object-fit: cover;
 }
-.home-image11 {
+.home-image3 {
   top: auto;
   left: 0px;
   right: 0px;
@@ -944,7 +804,7 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-twelveunits);
 }
-.home-container46 {
+.home-container34 {
   flex: 0 0 auto;
   width: 200px;
   height: 100px;
@@ -981,7 +841,7 @@
   text-align: center;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.home-container47 {
+.home-container35 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -1005,7 +865,7 @@
   .home-text69 {
     color: var(--dl-color-gray-white);
   }
-  .home-container46 {
+  .home-container34 {
     position: relative;
   }
   .home-text83 {
@@ -1071,9 +931,6 @@
   .home-container12 {
     margin-right: 0px;
   }
-  .home-logos {
-    display: none;
-  }
   .home-projects {
     height: auto;
     margin-top: var(--dl-space-space-tripleunit);
@@ -1090,30 +947,30 @@
     margin-top: 0;
     flex-direction: column;
   }
+  .home-container14 {
+    width: 100%;
+  }
+  .home-container17 {
+    width: 100%;
+  }
+  .home-container20 {
+    width: 100%;
+  }
+  .home-container23 {
+    width: 100%;
+  }
   .home-container26 {
     width: 100%;
   }
   .home-container29 {
-    width: 100%;
-  }
-  .home-container32 {
-    width: 100%;
-  }
-  .home-container35 {
-    width: 100%;
-  }
-  .home-container38 {
-    width: 100%;
-  }
-  .home-container41 {
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
     justify-content: center;
   }
-  .home-container42 {
+  .home-container30 {
     align-items: center;
   }
-  .home-container43 {
+  .home-container31 {
     margin-right: 0px;
   }
   .home-partners {
@@ -1125,7 +982,7 @@
     padding-right: var(--dl-space-space-fourunits);
     justify-content: flex-start;
   }
-  .home-container46 {
+  .home-container34 {
     position: relative;
     margin-bottom: 60px;
   }
@@ -1162,46 +1019,46 @@
     padding-top: 12rem;
     padding-bottom: 12rem;
   }
-  .home-container26 {
+  .home-container14 {
     background-size: cover;
     background-image: url("/playground_assets/uoc01-1500h.jpg");
   }
   .home-text41 {
     color: var(--dl-color-gray-white);
   }
-  .home-container29 {
+  .home-container17 {
     background-size: cover;
     background-image: url("/playground_assets/uoc01-1500h.jpg");
   }
   .home-text45 {
     color: var(--dl-color-gray-white);
   }
-  .home-container32 {
+  .home-container20 {
     background-size: cover;
     background-image: url("/playground_assets/uoc01-1500h.jpg");
   }
-  .home-container35 {
+  .home-container23 {
     background-size: cover;
     background-image: url("/playground_assets/uoc01-1500h.jpg");
   }
   .home-text55 {
     color: var(--dl-color-gray-white);
   }
-  .home-container38 {
+  .home-container26 {
     background-size: cover;
     background-image: url("/playground_assets/uoc01-1500h.jpg");
   }
   .home-text63 {
     color: var(--dl-color-gray-white);
   }
-  .home-container41 {
+  .home-container29 {
     padding-top: 12rem;
     padding-bottom: 12rem;
   }
-  .home-container45 {
+  .home-container33 {
     display: none;
   }
-  .home-container46 {
+  .home-container34 {
     position: relative;
   }
   .home-text83 {
@@ -1316,12 +1173,12 @@
     margin-top: var(--dl-space-space-fourunits);
     align-items: center;
   }
-  .home-container26 {
+  .home-container14 {
     padding-left: var(--dl-space-space-fourunits);
     padding-right: var(--dl-space-space-fourunits);
     background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg');
   }
-  .home-container28 {
+  .home-container16 {
     max-width: 200px;
   }
   .home-text41 {
@@ -1330,12 +1187,12 @@
   .home-text42 {
     width: 100%;
   }
-  .home-container29 {
+  .home-container17 {
     padding-left: var(--dl-space-space-fourunits);
     padding-right: var(--dl-space-space-fourunits);
     background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg');
   }
-  .home-container31 {
+  .home-container19 {
     max-width: 200px;
   }
   .home-text44 {
@@ -1353,12 +1210,12 @@
   .home-text47 {
     width: 100%;
   }
-  .home-container32 {
+  .home-container20 {
     padding-left: var(--dl-space-space-fourunits);
     padding-right: var(--dl-space-space-fourunits);
     background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg');
   }
-  .home-container34 {
+  .home-container22 {
     max-width: 200px;
   }
   .home-text50 {
@@ -1371,12 +1228,12 @@
   .home-text52 {
     width: 100%;
   }
-  .home-container35 {
+  .home-container23 {
     padding-left: var(--dl-space-space-fourunits);
     padding-right: var(--dl-space-space-fourunits);
     background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg');
   }
-  .home-container37 {
+  .home-container25 {
     max-width: 200px;
   }
   .home-text54 {
@@ -1393,12 +1250,12 @@
   .home-text57 {
     width: 100%;
   }
-  .home-container38 {
+  .home-container26 {
     padding-left: var(--dl-space-space-fourunits);
     padding-right: var(--dl-space-space-fourunits);
     background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg');
   }
-  .home-container40 {
+  .home-container28 {
     max-width: 200px;
   }
   .home-text60 {
@@ -1421,7 +1278,7 @@
   .home-text65 {
     width: 100%;
   }
-  .home-container41 {
+  .home-container29 {
     padding-top: var(--dl-space-space-sixunits);
     padding-bottom: var(--dl-space-space-sixunits);
   }
@@ -1451,10 +1308,10 @@
   .home-text74 {
     color: var(--dl-color-gray-white);
   }
-  .home-container44 {
+  .home-container32 {
     width: 100%;
   }
-  .home-container45 {
+  .home-container33 {
     display: none;
   }
   .home-partners {

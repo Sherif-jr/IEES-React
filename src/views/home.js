@@ -197,72 +197,6 @@ const Home = (props) => {
               </div>
             </div>
           </div>
-          <div className="home-logos">
-            <div className="home-container14">
-              <div className="home-container15">
-                <div className="home-container16">
-                  <img
-                    alt="image"
-                    src="/playground_assets/logo-asana.svg"
-                    className="home-image01"
-                  />
-                </div>
-                <div className="home-container17">
-                  <img
-                    alt="image"
-                    src="/playground_assets/logo-slack.svg"
-                    className="home-image02"
-                  />
-                </div>
-                <div className="home-container18">
-                  <img
-                    alt="image"
-                    src="/playground_assets/logo-google-drive.svg"
-                    className="home-image03"
-                  />
-                </div>
-              </div>
-              <div className="home-container19">
-                <div className="home-container20">
-                  <img
-                    alt="image"
-                    src="/playground_assets/logo-shopify.svg"
-                    className="home-image04"
-                  />
-                </div>
-                <div className="home-container21">
-                  <img
-                    alt="image"
-                    src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/small-logos/logo-apple.svg"
-                    className="home-image05"
-                  />
-                </div>
-                <div className="home-container22">
-                  <img
-                    alt="image"
-                    src="/playground_assets/logo-invision.svg"
-                    className="home-image06"
-                  />
-                </div>
-              </div>
-              <div className="home-container23">
-                <div className="home-container24">
-                  <img
-                    alt="image"
-                    src="/playground_assets/logo-attlasian.svg"
-                    className="home-image07"
-                  />
-                </div>
-                <div className="home-container25">
-                  <img
-                    alt="image"
-                    src="/playground_assets/logo-weave.svg"
-                    className="home-image08"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
         <img
           alt="image"
@@ -272,7 +206,7 @@ const Home = (props) => {
         <img
           alt="image"
           src="/playground_assets/waves-white.svg"
-          className="home-image09"
+          className="home-image1"
         />
         <img
           alt="image"
@@ -293,9 +227,9 @@ const Home = (props) => {
           <br></br>
         </span>
         <div className="home-project-cards">
-          <div className="home-container26">
-            <div className="home-container27"></div>
-            <div className="home-container28">
+          <div className="home-container14">
+            <div className="home-container15"></div>
+            <div className="home-container16">
               <h3 className="home-text41">Universities of Canada</h3>
               <ul className="list list-with-bullets">
                 <li className="list-item">
@@ -308,9 +242,9 @@ const Home = (props) => {
               <OutlineBlackButton button="Explore"></OutlineBlackButton>
             </div>
           </div>
-          <div className="home-container29">
-            <div className="home-container30"></div>
-            <div className="home-container31">
+          <div className="home-container17">
+            <div className="home-container18"></div>
+            <div className="home-container19">
               <p className="home-text44">EGYGAB for Education Development</p>
               <h3 className="home-text45">
                 Egyptian Language School, Shorouk Project
@@ -329,9 +263,9 @@ const Home = (props) => {
               <OutlineBlackButton button="Explore"></OutlineBlackButton>
             </div>
           </div>
-          <div className="home-container32">
-            <div className="home-container33"></div>
-            <div className="home-container34">
+          <div className="home-container20">
+            <div className="home-container21"></div>
+            <div className="home-container22">
               <p className="home-text50">
                 Katameya Company for developing Education
               </p>
@@ -349,9 +283,9 @@ const Home = (props) => {
               <OutlineBlackButton button="Explore"></OutlineBlackButton>
             </div>
           </div>
-          <div className="home-container35">
-            <div className="home-container36"></div>
-            <div className="home-container37">
+          <div className="home-container23">
+            <div className="home-container24"></div>
+            <div className="home-container25">
               <p className="home-text54">
                 6th October Company for developing Education
               </p>
@@ -372,9 +306,9 @@ const Home = (props) => {
               <OutlineBlackButton button="Explore"></OutlineBlackButton>
             </div>
           </div>
-          <div className="home-container38">
-            <div className="home-container39"></div>
-            <div className="home-container40">
+          <div className="home-container26">
+            <div className="home-container27"></div>
+            <div className="home-container28">
               <p className="home-text60">
                 <span>Alexandria Company for developing Education</span>
                 <br></br>
@@ -399,9 +333,9 @@ const Home = (props) => {
         </div>
       </div>
       <section className="home-contact-us">
-        <div className="home-container41">
-          <div className="home-container42">
-            <div className="home-container43">
+        <div className="home-container29">
+          <div className="home-container30">
+            <div className="home-container31">
               <p className="home-text68">Bargain Price, Premium Services</p>
               <h3 className="home-text69">
                 <span className="home-text70">Our mission is</span>
@@ -424,7 +358,7 @@ const Home = (props) => {
                 <br></br>
                 <span>Relax and leave all the hard work to us.</span>
               </p>
-              <div className="home-container44">
+              <div className="home-container32">
                 <OutlineBlackButton
                   button="Contact Us"
                   rootClassName="outline-black-button-root-class-name"
@@ -432,11 +366,11 @@ const Home = (props) => {
               </div>
             </div>
           </div>
-          <div className="home-container45">
+          <div className="home-container33">
             <img
               alt="image"
               src="/playground_assets/servicesasset-1-1024x805-600w.png"
-              className="home-image10"
+              className="home-image2"
             />
           </div>
         </div>
@@ -448,7 +382,7 @@ const Home = (props) => {
         <img
           alt="image"
           src="/playground_assets/asset%201-1500w.png"
-          className="home-image11"
+          className="home-image3"
         />
         <img
           alt="image"
@@ -457,7 +391,7 @@ const Home = (props) => {
         />
       </section>
       <section className="home-partners">
-        <div className="home-container46">
+        <div className="home-container34">
           <h2 className="home-text80">
             <span>Partners</span>
             <br></br>
@@ -467,7 +401,7 @@ const Home = (props) => {
             <br></br>
           </span>
         </div>
-        <div className="home-container47">
+        <div className="home-container35">
           <PartnerCarousel rootClassName="partner-carousel-root-class-name"></PartnerCarousel>
           <div>
             <DangerousHTML
