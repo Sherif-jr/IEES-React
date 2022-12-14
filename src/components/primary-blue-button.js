@@ -7,7 +7,7 @@ import './primary-blue-button.css'
 const PrimaryBlueButton = (props) => {
   return (
     <div className="primary-blue-button-container">
-      <button className="primary-blue-button-button button ButtonSmall">
+      <button type="submit" className="primary-blue-button-button">
         {props.button}
       </button>
     </div>

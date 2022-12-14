@@ -1,0 +1,28 @@
+.component-container {
+  display: flex;
+  position: relative;
+}
+.component-link {
+  font-size: 0.75rem;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.component-link:hover {
+  transform: scale(1.02);
+}
+
+@media(max-width: 479px) {
+  .component-link {
+    width: 100%;
+    text-align: center;
+  }
+  .component-root-class-name {
+    width: 100%;
+  }
+}

@@ -26,7 +26,7 @@ const Header = (props) => {
             <Link to="/" className="header-navlink1 Large">
               Home
             </Link>
-            <Link to="/profile" className="header-navlink2 Large">
+            <Link to="/contact-us" className="header-navlink2 Large">
               Profile
             </Link>
             <Link to="/coming-soon" className="header-navlink3 Large">
@@ -64,7 +64,7 @@ const Header = (props) => {
             <Link to="/" className="header-navlink5 Large">
               Home
             </Link>
-            <Link to="/profile" className="header-navlink6 Large">
+            <Link to="/contact-us" className="header-navlink6 Large">
               Profile
             </Link>
             <Link to="/coming-soon" className="header-navlink7 Large">

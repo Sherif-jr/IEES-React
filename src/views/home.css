@@ -79,7 +79,7 @@
   right: 0px;
   width: 60%;
   bottom: 0px;
-  height: 75vh;
+  height: 85vh;
   position: absolute;
   object-fit: cover;
   object-position: center;
@@ -399,7 +399,7 @@
   margin-top: var(--dl-space-space-tripleunit);
   min-height: auto;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 .home-container14 {
   width: 30%;
@@ -852,6 +852,9 @@
 @media(max-width: 1200px) {
   .home-container02 {
     min-width: 00px;
+  }
+  .home-image {
+    width: 50%;
   }
   .home-services-cards {
     margin-top: var(--dl-space-space-unit);

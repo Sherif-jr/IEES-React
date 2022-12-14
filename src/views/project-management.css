@@ -1,0 +1,495 @@
+.project-management-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-900);
+}
+.project-management-hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 48px;
+  position: relative;
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: linear-gradient(113deg, rgba(0, 93, 99, 0.8) 8.00%,rgba(130, 187, 39, 0.8) 94.00%),url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHx3b3JrJTIwbGFwdG9wfGVufDB8fHx8MTYyNjE3NjkzMA&ixlib=rb-1.2.1&w=1500');
+}
+.project-management-text {
+  color: var(--dl-color-gray-white);
+  font-size: 3rem;
+}
+.project-management-text01 {
+  color: var(--dl-color-gray-white);
+  width: 50%;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.project-management-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.project-management-link {
+  display: contents;
+}
+.project-management-get-started-button {
+  text-decoration: none;
+}
+.project-management-button {
+  color: var(--dl-color-gray-white);
+  font-size: 0.75rem;
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-white);
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+  text-transform: uppercase;
+  background-color: transparent;
+}
+.project-management-button:hover {
+  transform: scale(1.02);
+}
+.project-management-text08:hover {
+  transform: scale(1.02);
+}
+.project-management-section1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: var(--dl-space-space-fourunits);
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: linear-gradient(113deg, rgba(0, 46, 49, 0.8) 8.00%,rgba(64, 91, 21, 0.8) 94.00%),url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHx3b3JrJTIwbGFwdG9wfGVufDB8fHx8MTYyNjE3NjkzMA&ixlib=rb-1.2.1&w=1500');
+}
+.project-management-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+}
+.project-management-text10 {
+  color: var(--dl-color-gray-white);
+  width: fit-content;
+  font-size: 2rem;
+}
+.project-management-text14 {
+  color: var(--dl-color-gray-white);
+  margin-top: 32px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+.project-management-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-doubleunit);
+}
+.project-management-problems1 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.project-management-card {
+  flex: 0 0 auto;
+  width: 70%;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  z-index: 1;
+  min-width: 55%;
+  align-self: center;
+  box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
+  min-height: 30vh;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius1);
+  flex-direction: column;
+  backdrop-filter: saturate(200%) blur(10px);
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.project-management-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.project-management-text18 {
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 1px 1px rgba(0, 0, 0, .1);
+  text-transform: uppercase;
+  background-image: linear-gradient(315deg, rgb(30, 177, 187) 3.00%,rgba(130, 187, 39, 0.92) 99.00%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.project-management-ul {
+  color: var(--dl-color-gray-white);
+  width: auto;
+  align-self: flex-start;
+  list-style-type: disc;
+  list-style-image: url();
+}
+.project-management-text21 {
+  color: var(--dl-color-gray-white);
+}
+.project-management-text22 {
+  color: var(--dl-color-gray-white);
+}
+.project-management-ul1 {
+  font-size: .9rem;
+  list-style-type: square;
+}
+.project-management-text23 {
+  color: var(--dl-color-gray-white);
+}
+.project-management-text24 {
+  color: var(--dl-color-gray-white);
+}
+.project-management-text25 {
+  color: var(--dl-color-gray-white);
+}
+.project-management-text26 {
+  color: var(--dl-color-gray-white);
+}
+.project-management-solutions1 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.project-management-card1 {
+  width: 60%;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  z-index: 1;
+  align-self: center;
+  box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
+  min-height: 30vh;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-radius1);
+  flex-direction: column;
+  backdrop-filter: saturate(200%) blur(10px);
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.project-management-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.project-management-text27 {
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 1px 1px rgba(0, 0, 0, .1);
+  text-transform: uppercase;
+  background-image: linear-gradient(315deg, rgb(0, 93, 99) 3.00%,rgba(130, 187, 39, 0.92) 99.00%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.project-management-container5 {
+  gap: var(--dl-space-space-unitandahalfunit);
+  width: 100%;
+  height: max-content;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style-image: url();
+}
+.project-management-container6 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-sixunits);
+}
+.project-management-main {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  z-index: 0;
+  position: relative;
+  margin-top: 0px;
+  align-items: center;
+  margin-bottom: 0px;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.project-management-container7 {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  z-index: 2;
+  align-self: flex-end;
+  margin-top: var(--dl-space-space-sixunits);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-tripleunit);
+  padding-top: var(--dl-space-space-tripleunit);
+  margin-right: var(--dl-space-space-tripleunit);
+  margin-bottom: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.project-management-text30 {
+  font-size: 3rem;
+  margin-bottom: var(--dl-space-space-halfunit);
+  background-image: linear-gradient(310deg,#7928ca,#ff0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.project-management-text31 {
+  color: var(--dl-color-secondary-700);
+  font-size: 3rem;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.project-management-text32 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.project-management-text33 {
+  color: rgb(103, 116, 142);
+  display: inline;
+  font-weight: 400;
+  white-space: normal;
+}
+.project-management-container8 {
+  flex: 0 0 auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.project-management-textinput {
+  width: 100%;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-secondary-100);
+  margin-right: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-triplequarterunit);
+  border-radius: var(--dl-radius-radius-radius5);
+  padding-right: var(--dl-space-space-triplequarterunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.project-management-textinput:focus {
+  outline: 0;
+  box-shadow: 0 0 0 2px #e9aede;
+  border-color: var(--dl-color-pink-200);
+}
+.project-management-up {
+  top: 48px;
+  flex: 0 0 auto;
+  left: 739px;
+  width: auto;
+  height: auto;
+  display: none;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}
+.project-management-icon {
+  width: 50px;
+  height: 50px;
+}
+.project-management-down {
+  top: 935px;
+  flex: 0 0 auto;
+  left: 752px;
+  width: auto;
+  height: auto;
+  display: none;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}
+.project-management-icon2 {
+  width: 50px;
+  height: 50px;
+}
+@media(max-width: 1200px) {
+  .project-management-section1 {
+    padding: var(--dl-space-space-tripleunit);
+  }
+  .project-management-container2 {
+    padding: var(--dl-space-space-unit);
+    align-items: center;
+    justify-content: space-between;
+  }
+  .project-management-problems1 {
+    width: 45%;
+  }
+  .project-management-card {
+    width: 100%;
+  }
+  .project-management-solutions1 {
+    width: 45%;
+  }
+  .project-management-card1 {
+    width: 100%;
+  }
+}
+@media(max-width: 991px) {
+  .project-management-hero {
+    flex-direction: column;
+  }
+  .project-management-text {
+    text-align: center;
+  }
+  .project-management-text01 {
+    text-align: center;
+  }
+  .project-management-section1 {
+    padding-left: var(--dl-space-space-doubleunit);
+    flex-direction: column;
+  }
+  .project-management-card {
+    width: 100%;
+  }
+  .project-management-card1 {
+    width: 100%;
+  }
+  .project-management-container6 {
+    background-size: auto;
+  }
+  .project-management-main {
+    justify-content: flex-start;
+  }
+  .project-management-container7 {
+    width: 70%;
+    align-self: flex-start;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: var(--dl-space-space-tripleunit);
+    margin-bottom: 0px;
+    padding-right: var(--dl-space-space-tripleunit);
+  }
+}
+@media(max-width: 767px) {
+  .project-management-hero {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .project-management-text01 {
+    width: 70%;
+  }
+  .project-management-section1 {
+    height: auto;
+    min-height: 100vh;
+    padding-top: var(--dl-space-space-tripleunit);
+    padding-bottom: var(--dl-space-space-tripleunit);
+  }
+  .project-management-container2 {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .project-management-problems1 {
+    width: 90%;
+    height: auto;
+    justify-content: flex-start;
+  }
+  .project-management-card {
+    align-items: center;
+    margin-bottom: var(--dl-space-space-tripleunit);
+  }
+  .project-management-solutions1 {
+    width: 90%;
+    height: auto;
+    justify-content: flex-start;
+  }
+  .project-management-card1 {
+    align-items: center;
+  }
+  .project-management-container7 {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .project-management-hero {
+    width: 100%;
+    padding: 32px;
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .project-management-text01 {
+    color: var(--dl-color-gray-white);
+  }
+  .project-management-text03 {
+    color: var(--dl-color-gray-white);
+  }
+  .project-management-text04 {
+    color: var(--dl-color-gray-white);
+  }
+  .project-management-btn-group {
+    flex-direction: column;
+  }
+  .project-management-button {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+  .project-management-text08 {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+  .project-management-section1 {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .project-management-problems1 {
+    width: 100%;
+  }
+  .project-management-card {
+    padding: var(--dl-space-space-unit);
+  }
+  .project-management-solutions1 {
+    width: 100%;
+  }
+  .project-management-card1 {
+    padding: var(--dl-space-space-unit);
+  }
+  .project-management-container8 {
+    flex-direction: column;
+  }
+  .project-management-textinput {
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}

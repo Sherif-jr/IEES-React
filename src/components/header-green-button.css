@@ -24,18 +24,13 @@
   text-transform: uppercase;
 }
 
-@media(max-width: 1200px) {
+@media(max-width: 767px) {
   .header-green-button-button {
-    font-size: 0.78rem;
-  }
-}
-@media(max-width: 991px) {
-  .header-green-button-button {
-    font-size: 1rem;
+    font-size: .6rem;
   }
 }
 @media(max-width: 479px) {
   .header-green-button-button {
-    font-size: 0.75rem;
+    display: none;
   }
 }

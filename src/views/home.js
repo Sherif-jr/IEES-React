@@ -53,7 +53,7 @@ const Home = (props) => {
       <img
         alt="image"
         src="/playground_assets/editedasset%201.svg"
-        loading="lazy"
+        loading="eager"
         className="home-image"
       />
       <div className="home-services">

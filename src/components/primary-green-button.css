@@ -5,7 +5,7 @@
 .primary-green-button-button {
   color: var(--dl-color-gray-white);
   outline: none;
-  font-size: 1.2rem;
+  font-size: 0.78rem;
   background:  linear-gradient( 310deg ,#005d63,#82bb27);
   box-shadow: 0 4px 7px -1px rgb(0 0 0 / 11%), 0 2px 4px -1px rgb(0 0 0 / 7%);
   font-style: normal;
@@ -24,14 +24,14 @@
   text-transform: uppercase;
 }
 
-@media(max-width: 991px) {
+@media(max-width: 767px) {
   .primary-green-button-button {
-    font-size: 1rem;
+    font-size: .6rem;
   }
 }
 @media(max-width: 479px) {
   .primary-green-button-button {
-    font-size: 0.75rem;
+    display: none;
   }
   .primary-green-button-root-class-name {
     width: auto;

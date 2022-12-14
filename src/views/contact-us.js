@@ -1,0 +1,29 @@
+import React from 'react'
+
+import { Helmet } from 'react-helmet'
+
+import HeaderFull from '../components/header-full'
+import Contact from '../components/contact'
+import Footer from '../components/footer'
+import './contact-us.css'
+
+const ContactUs = (props) => {
+  return (
+    <div className="contact-us-container">
+      <Helmet>
+        <title>ContactUs - IEES</title>
+        <meta property="og:title" content="ContactUs - IEES" />
+      </Helmet>
+      <HeaderFull></HeaderFull>
+      <Contact
+        text1="Name"
+        text2="Company"
+        textinput_placeholder1="Your company name"
+        text6="sales@iees-co.com"
+      ></Contact>
+      <Footer></Footer>
+    </div>
+  )
+}
+
+export default ContactUs
