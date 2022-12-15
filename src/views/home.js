@@ -1,7 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Player } from '@lottiefiles/react-lottie-player'
-import DangerousHTML from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
 import Header from '../components/header'
@@ -16,8 +16,8 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>IEES</title>
-        <meta property="og:title" content="IEES" />
+        <title>Home - IEES</title>
+        <meta property="og:title" content="Home - IEES" />
       </Helmet>
       <Header></Header>
       <div className="home-hero">
@@ -95,10 +95,13 @@ const Home = (props) => {
                 </span>
               </p>
               <div className="home-container05">
-                <OutlineGrayButton
-                  button="read more"
-                  rootClassName="outline-gray-button-root-class-name"
-                ></OutlineGrayButton>
+                <Link to="/project-management" className="home-navlink">
+                  <OutlineGrayButton
+                    button="read more"
+                    rootClassName="outline-gray-button-root-class-name"
+                    className="home-component03"
+                  ></OutlineGrayButton>
+                </Link>
               </div>
             </div>
           </div>
@@ -190,10 +193,9 @@ const Home = (props) => {
                 single rose can be my garden... a single friend, my world.&quot;
               </p>
               <div className="home-container13">
-                <OutlineGrayButton
-                  button="read more"
-                  rootClassName="outline-gray-button-root-class-name7"
-                ></OutlineGrayButton>
+                <div className="home-container14">
+                  <button className="home-button">read more</button>
+                </div>
               </div>
             </div>
           </div>
@@ -227,9 +229,9 @@ const Home = (props) => {
           <br></br>
         </span>
         <div className="home-project-cards">
-          <div className="home-container14">
-            <div className="home-container15"></div>
-            <div className="home-container16">
+          <div className="home-container15">
+            <div className="home-container16"></div>
+            <div className="home-container17">
               <h3 className="home-text41">Universities of Canada</h3>
               <ul className="list list-with-bullets">
                 <li className="list-item">
@@ -242,9 +244,9 @@ const Home = (props) => {
               <OutlineBlackButton button="Explore"></OutlineBlackButton>
             </div>
           </div>
-          <div className="home-container17">
-            <div className="home-container18"></div>
-            <div className="home-container19">
+          <div className="home-container18">
+            <div className="home-container19"></div>
+            <div className="home-container20">
               <p className="home-text44">EGYGAB for Education Development</p>
               <h3 className="home-text45">
                 Egyptian Language School, Shorouk Project
@@ -263,9 +265,9 @@ const Home = (props) => {
               <OutlineBlackButton button="Explore"></OutlineBlackButton>
             </div>
           </div>
-          <div className="home-container20">
-            <div className="home-container21"></div>
-            <div className="home-container22">
+          <div className="home-container21">
+            <div className="home-container22"></div>
+            <div className="home-container23">
               <p className="home-text50">
                 Katameya Company for developing Education
               </p>
@@ -283,9 +285,9 @@ const Home = (props) => {
               <OutlineBlackButton button="Explore"></OutlineBlackButton>
             </div>
           </div>
-          <div className="home-container23">
-            <div className="home-container24"></div>
-            <div className="home-container25">
+          <div className="home-container24">
+            <div className="home-container25"></div>
+            <div className="home-container26">
               <p className="home-text54">
                 6th October Company for developing Education
               </p>
@@ -306,9 +308,9 @@ const Home = (props) => {
               <OutlineBlackButton button="Explore"></OutlineBlackButton>
             </div>
           </div>
-          <div className="home-container26">
-            <div className="home-container27"></div>
-            <div className="home-container28">
+          <div className="home-container27">
+            <div className="home-container28"></div>
+            <div className="home-container29">
               <p className="home-text60">
                 <span>Alexandria Company for developing Education</span>
                 <br></br>
@@ -333,9 +335,9 @@ const Home = (props) => {
         </div>
       </div>
       <section className="home-contact-us">
-        <div className="home-container29">
-          <div className="home-container30">
-            <div className="home-container31">
+        <div className="home-container30">
+          <div className="home-container31">
+            <div className="home-container32">
               <p className="home-text68">Bargain Price, Premium Services</p>
               <h3 className="home-text69">
                 <span className="home-text70">Our mission is</span>
@@ -358,15 +360,18 @@ const Home = (props) => {
                 <br></br>
                 <span>Relax and leave all the hard work to us.</span>
               </p>
-              <div className="home-container32">
-                <OutlineBlackButton
-                  button="Contact Us"
-                  rootClassName="outline-black-button-root-class-name"
-                ></OutlineBlackButton>
+              <div className="home-container33">
+                <Link to="/contact-us" className="home-navlink1">
+                  <OutlineBlackButton
+                    button="Contact Us"
+                    rootClassName="outline-black-button-root-class-name"
+                    className="home-component11"
+                  ></OutlineBlackButton>
+                </Link>
               </div>
             </div>
           </div>
-          <div className="home-container33">
+          <div className="home-container34">
             <img
               alt="image"
               src="/playground_assets/servicesasset-1-1024x805-600w.png"
@@ -391,7 +396,7 @@ const Home = (props) => {
         />
       </section>
       <section className="home-partners">
-        <div className="home-container34">
+        <div className="home-container35">
           <h2 className="home-text80">
             <span>Partners</span>
             <br></br>
@@ -401,45 +406,8 @@ const Home = (props) => {
             <br></br>
           </span>
         </div>
-        <div className="home-container35">
+        <div className="home-container36">
           <PartnerCarousel rootClassName="partner-carousel-root-class-name"></PartnerCarousel>
-          <div>
-            <DangerousHTML
-              html={`<script>
-    function App() {
-  const images = [
-    {
-      src:
-        "https://via.placeholder.com/300"
-    },
-    {
-      src:
-        "https://via.placeholder.com/300"
-    },
-    {
-      src:
-        "https://via.placeholder.com/300"
-    }
-  ];
-  return (
-    <Carousel>
-      {images.map((image, index) => (
-        <div
-          key={index}
-          className="demo-item"
-          style={{ backgroundImage: "url(" + image.src + ")" }}
-        />
-      ))}
-    </Carousel>
-  );
-}
-
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
-
-</script>`}
-            ></DangerousHTML>
-          </div>
         </div>
       </section>
       <Footer rootClassName="footer-root-class-name"></Footer>

@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -12,22 +11,23 @@ const PricingCard = (props) => {
   return (
     <div
       id="Card"
+      onClick={() => setIsHovered(!isHovered)}
       onMouseEnter={() => setIsHovered(false)}
       onMouseLeave={() => setIsHovered(true)}
-      className="pricing-card-pricing-card"
+      className={`pricing-card-pricing-card ${props.rootClassName} `}
     >
-      <h1>{props.Title}</h1>
-      <span className="pricing-card-text1">
-        <span>Project</span>
-        <br></br>
-        <span>MANAGEMENT</span>
-      </span>
+      <h1 className="pricing-card-text">{props.Title}</h1>
       {!isHovered && (
         <div className="pricing-card-container">
-          <span>{props.descriptionArea}</span>
-          <Link to="/contact-us" className="pricing-card-navlink button">
+          <span className="pricing-card-text1">{props.descriptionArea}</span>
+          <a
+            href={props.link_button}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="pricing-card-link button"
+          >
             {props.buttontext}
-          </Link>
+          </a>
         </div>
       )}
     </div>
@@ -35,15 +35,19 @@ const PricingCard = (props) => {
 }
 
 PricingCard.defaultProps = {
+  rootClassName: '',
   descriptionArea: 'Text',
   buttontext: 'Learn More',
   Title: 'Title',
+  link_button: '',
 }
 
 PricingCard.propTypes = {
+  rootClassName: PropTypes.string,
   descriptionArea: PropTypes.string,
   buttontext: PropTypes.string,
   Title: PropTypes.string,
+  link_button: PropTypes.string,
 }
 
 export default PricingCard

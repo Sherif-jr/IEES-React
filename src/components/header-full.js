@@ -11,7 +11,7 @@ const HeaderFull = (props) => {
     <div className="header-full-header">
       <nav className="header-full-nav">
         <div className="header-full-container">
-          <Link to="/" className="header-full-navlink">
+          <Link to="/home" className="header-full-navlink">
             <div className="header-full-container1">
               <img
                 alt={props.image_alt}
@@ -22,13 +22,13 @@ const HeaderFull = (props) => {
             </div>
           </Link>
           <div className="header-full-menu">
-            <Link to="/" className="header-full-navlink1 Large">
+            <Link to="/home" className="header-full-navlink1 Large">
               Home
             </Link>
             <Link to="/contact-us" className="header-full-navlink2 Large">
               Profile
             </Link>
-            <Link to="/coming-soon" className="header-full-navlink3 Large">
+            <Link to="/" className="header-full-navlink3 Large">
               Coming Soon
             </Link>
           </div>

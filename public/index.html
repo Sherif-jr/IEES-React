@@ -54,7 +54,25 @@
         to {
           background-position: 200% center;
         }
+
       }
+      @keyframes card-details {
+        from {
+          transform: translateY(100%);
+        }
+        to{
+          transform: translateY(0%);
+        }
+      }
+    </style>
+    <style data-section-id="dropdown">
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
     </style>
   </head>
   <body>

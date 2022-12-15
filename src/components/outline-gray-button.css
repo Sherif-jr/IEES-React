@@ -9,7 +9,7 @@
 .outline-gray-button-button {
   color: var(--dl-color-secondary-200);
   outlinr: none;
-  font-size: 1.2rem;
+  font-size: .78rem;
   font-style: normal;
   text-align: center;
   transition: all .15s ease-in;
@@ -44,9 +44,6 @@
   align-self: center;
 }
 .outline-gray-button-root-class-name6 {
-  align-self: center;
-}
-.outline-gray-button-root-class-name7 {
   align-self: center;
 }
 .outline-gray-button-root-class-name8 {

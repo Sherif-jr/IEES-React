@@ -8,7 +8,6 @@ import About from './views/about'
 import ProjectManagement from './views/project-management'
 import ComingSoon from './views/coming-soon'
 import ContactUs from './views/contact-us'
-import Test from './views/test'
 import Services from './views/services'
 import Profile1 from './views/profile1'
 import Home from './views/home'
@@ -20,12 +19,11 @@ const App = () => {
         <Route component={Home1} exact path="/home1" />
         <Route component={About} exact path="/about" />
         <Route component={ProjectManagement} exact path="/project-management" />
-        <Route component={ComingSoon} exact path="/coming-soon" />
+        <Route component={ComingSoon} exact path="/" />
         <Route component={ContactUs} exact path="/contact-us" />
-        <Route component={Test} exact path="/test" />
         <Route component={Services} exact path="/services" />
         <Route component={Profile1} exact path="/profile1" />
-        <Route component={Home} exact path="/" />
+        <Route component={Home} exact path="/home" />
       </div>
     </Router>
   )
