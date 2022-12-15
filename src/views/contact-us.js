@@ -18,8 +18,8 @@ const ContactUs = (props) => {
       <Contact
         text1="Name"
         text2="Company"
-        textinput_placeholder1="Your company name"
         text6="sales@iees-co.com"
+        textinput_placeholder1="Your company name"
       ></Contact>
       <Footer></Footer>
     </div>

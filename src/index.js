@@ -10,8 +10,8 @@ import ComingSoon from './views/coming-soon'
 import ContactUs from './views/contact-us'
 import Test from './views/test'
 import Services from './views/services'
-import Home from './views/home'
 import Profile1 from './views/profile1'
+import Home from './views/home'
 
 const App = () => {
   return (
@@ -24,8 +24,8 @@ const App = () => {
         <Route component={ContactUs} exact path="/contact-us" />
         <Route component={Test} exact path="/test" />
         <Route component={Services} exact path="/services" />
-        <Route component={Home} exact path="/" />
         <Route component={Profile1} exact path="/profile1" />
+        <Route component={Home} exact path="/" />
       </div>
     </Router>
   )

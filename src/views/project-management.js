@@ -127,11 +127,26 @@ const ProjectManagement = (props) => {
                 </h3>
               </div>
               <div className="project-management-container5 list">
-                <IconListItemSolution rootClassName="icon-list-item-solution-root-class-name"></IconListItemSolution>
-                <IconListItemSolution rootClassName="icon-list-item-solution-root-class-name1"></IconListItemSolution>
-                <IconListItemSolution rootClassName="icon-list-item-solution-root-class-name2"></IconListItemSolution>
-                <IconListItemSolution rootClassName="icon-list-item-solution-root-class-name3"></IconListItemSolution>
-                <IconListItemSolution rootClassName="icon-list-item-solution-root-class-name4"></IconListItemSolution>
+                <IconListItemSolution
+                  text="Review project designs."
+                  rootClassName="icon-list-item-solution-root-class-name"
+                ></IconListItemSolution>
+                <IconListItemSolution
+                  text="Establish a man in between role to raise the level of communication between all project parties."
+                  rootClassName="icon-list-item-solution-root-class-name1"
+                ></IconListItemSolution>
+                <IconListItemSolution
+                  text="Translate the owner's ideas and desires to an engineering concept."
+                  rootClassName="icon-list-item-solution-root-class-name2"
+                ></IconListItemSolution>
+                <IconListItemSolution
+                  text="A future study for the project to get the best estimation which will reflect on the plans and equipment selection."
+                  rootClassName="icon-list-item-solution-root-class-name3"
+                ></IconListItemSolution>
+                <IconListItemSolution
+                  text="Reality in mind."
+                  rootClassName="icon-list-item-solution-root-class-name4"
+                ></IconListItemSolution>
               </div>
             </div>
           </div>

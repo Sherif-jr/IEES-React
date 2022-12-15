@@ -16,22 +16,22 @@ const Contact = (props) => {
             <label className="contact-text02 Label">{props.text1}</label>
             <input
               type="text"
-              placeholder={props.textinput_placeholder}
               required
+              placeholder={props.textinput_placeholder}
               className="contact-textinput Small input"
             />
             <label className="contact-text03 Label">{props.text8}</label>
             <input
               type="text"
-              placeholder={props.textinput_placeholder11}
               required
+              placeholder={props.textinput_placeholder11}
               className="contact-textinput1 Small input"
             />
             <label className="contact-text04 Label">{props.text2}</label>
             <input
               type="text"
-              placeholder={props.textinput_placeholder1}
               required
+              placeholder={props.textinput_placeholder1}
               className="contact-textinput2 Small input"
             />
             <label className="contact-text05 Label">{props.text3}</label>
@@ -130,6 +130,7 @@ const Contact = (props) => {
 Contact.defaultProps = {
   text7:
     '18 St. Zahrah Al Madaen, Joseph Tito, Second floor, Al Nozha, Cairo, Egypt',
+  textinput_placeholder11: '+000000000',
   image_src: '/playground_assets/wave-1.svg',
   textarea_placeholder:
     'Tell us more about your company and what services you need...',
@@ -141,14 +142,14 @@ Contact.defaultProps = {
   text2: "I'm looking for",
   textinput_placeholder1: 'Company Name',
   text6: 'sales@iees-co.com',
+  text8: 'Phone number',
   text5: '(+40) 772 100 200',
   image_alt: 'image',
-  text8: 'Phone number',
-  textinput_placeholder11: '+000000000',
 }
 
 Contact.propTypes = {
   text7: PropTypes.string,
+  textinput_placeholder11: PropTypes.string,
   image_src: PropTypes.string,
   textarea_placeholder: PropTypes.string,
   textinput_placeholder: PropTypes.string,
@@ -159,10 +160,9 @@ Contact.propTypes = {
   text2: PropTypes.string,
   textinput_placeholder1: PropTypes.string,
   text6: PropTypes.string,
+  text8: PropTypes.string,
   text5: PropTypes.string,
   image_alt: PropTypes.string,
-  text8: PropTypes.string,
-  textinput_placeholder11: PropTypes.string,
 }
 
 export default Contact

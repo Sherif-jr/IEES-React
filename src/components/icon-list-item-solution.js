@@ -17,12 +17,7 @@ const IconListItemSolution = (props) => {
               className=""
             ></path>
           </svg>
-        </div>
-        <div className="icon-list-item-solution-container2">
-          <span className="icon-list-item-solution-text">
-            <span className="">This is a list item</span>
-            <br className=""></br>
-          </span>
+          <p className="icon-list-item-solution-text">{props.text}</p>
         </div>
       </li>
     </div>
@@ -30,13 +25,13 @@ const IconListItemSolution = (props) => {
 }
 
 IconListItemSolution.defaultProps = {
+  text: 'This is A list Item',
   rootClassName: '',
-  TextContent: () => {},
 }
 
 IconListItemSolution.propTypes = {
+  text: PropTypes.string,
   rootClassName: PropTypes.string,
-  TextContent: PropTypes.func,
 }
 
 export default IconListItemSolution
