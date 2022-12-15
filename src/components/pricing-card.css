@@ -1,0 +1,85 @@
+.pricing-card-pricing-card {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  padding: 48px;
+  overflow: hidden;
+  position: relative;
+  max-width: 450px;
+  box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
+  min-height: 450px;
+  transition: transform .5s ease-out;
+  align-items: center;
+  padding-top: 32px;
+  border-width: 1px;
+  margin-right: 32px;
+  padding-left: 32px;
+  border-radius: var(--dl-radius-radius-radius1);
+  padding-right: 32px;
+  flex-direction: column;
+  padding-bottom: 32px;
+  backdrop-filter: saturate(200%) blur(30px);
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.pricing-card-pricing-card:hover {
+  transform: scale(1.02);
+}
+.pricing-card-text1 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+}
+.pricing-card-container {
+  width: 100%;
+  bottom: 0;
+  height: 60%;
+  display: flex;
+  position: absolute;
+  min-height: 70px;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-unit);
+  margin-bottom: 0px;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-doubleunit);
+  background-color: var(--dl-color-gray-white);
+}
+.pricing-card-navlink {
+  color: var(--dl-color-gray-white);
+  align-self: center;
+  margin-top: auto;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  justify-self: flex-end;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: var(--dl-color-gray-black);
+}
+.pricing-card-navlink:hover {
+  background-color: var(--dl-color-applegreen-main);
+}
+
+@media(max-width: 991px) {
+  .pricing-card-pricing-card {
+    width: 100%;
+    padding: 32px;
+    max-width: 100%;
+    align-items: center;
+  }
+}
+@media(max-width: 767px) {
+  .pricing-card-pricing-card {
+    width: 100%;
+    max-width: 450px;
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: 32px;
+  }
+}
+
