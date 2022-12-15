@@ -8,6 +8,53 @@
   justify-content: flex-start;
   background-color: var(--dl-color-gray-900);
 }
+.about-banner {
+  width: 100%;
+  display: flex;
+  padding: 48px;
+  margin-top: var(--dl-space-space-sixunits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about-text {
+  font-size: 3rem;
+  text-align: center;
+}
+.about-text1 {
+  max-width: 1400px;
+  margin-top: 32px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.about-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.about-button {
+  color: var(--dl-color-gray-white);
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-black);
+}
+.about-button:hover {
+  transform: scale(1.02);
+}
+.about-button1 {
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+}
+.about-button1:hover {
+  transform: scale(1.02);
+}
 .about-container1 {
   width: 100%;
   height: 100vh;
@@ -46,22 +93,22 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-tripleunit);
 }
-.about-text {
+.about-text5 {
   font-size: 3rem;
   margin-bottom: var(--dl-space-space-halfunit);
   background-image: linear-gradient(310deg,#7928ca,#ff0080);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.about-text1 {
+.about-text6 {
   color: var(--dl-color-secondary-700);
   font-size: 3rem;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.about-text2 {
+.about-text7 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.about-text3 {
+.about-text8 {
   color: rgb(103, 116, 142);
   display: inline;
   font-weight: 400;
@@ -230,6 +277,14 @@
   }
 }
 @media(max-width: 767px) {
+  .about-banner {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .about-text1 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
   .about-container2 {
     width: 100%;
   }
@@ -286,6 +341,22 @@
   }
 }
 @media(max-width: 479px) {
+  .about-banner {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .about-text {
+    font-size: 3rem;
+  }
+  .about-btn-group {
+    flex-direction: column;
+  }
+  .about-button1 {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
   .about-container3 {
     flex-direction: column;
   }

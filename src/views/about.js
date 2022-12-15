@@ -15,13 +15,41 @@ const About = (props) => {
         <meta property="og:title" content="About - IEES" />
       </Helmet>
       <Header></Header>
+      <div className="about-banner">
+        <h1 className="about-text">ABOUT IEES</h1>
+        <span className="about-text1">
+          <span>
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
+              volutpat turpis. Mauris luctus rutrum mi ut rhoncus. Integer in
+              dignissim tortor.
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+          </span>
+        </span>
+        <div className="about-btn-group">
+          <button className="about-button button">Get Started</button>
+          <button className="about-button1 button">Learn More</button>
+        </div>
+      </div>
       <div className="about-container1">
         <div className="about-main">
           <div className="about-container2">
-            <h1 className="about-text HeadingOne">You Work With</h1>
-            <h1 className="about-text1">Soft Design System</h1>
-            <p className="about-text2 Lead">
-              <span className="about-text3">
+            <h1 className="about-text5 HeadingOne">You Work With</h1>
+            <h1 className="about-text6">Soft Design System</h1>
+            <p className="about-text7 Lead">
+              <span className="about-text8">
                 The time is now for it be okay to be great. Subscribe now and
                 get notified when it&apos;s launched!
               </span>
