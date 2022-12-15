@@ -52,7 +52,7 @@ const ProjectManagement = (props) => {
         </div>
       </div>
       <div id="section1" className="project-management-section1">
-        <div className="project-management-container1">
+        <div className="project-management-container01">
           <h1 className="project-management-text10">
             <span>1.</span>
             <br></br>
@@ -71,10 +71,10 @@ const ProjectManagement = (props) => {
             </span>
           </p>
         </div>
-        <div className="project-management-container2">
+        <div className="project-management-container02">
           <div className="project-management-problems1">
             <div className="project-management-card">
-              <div className="project-management-container3">
+              <div className="project-management-container03">
                 <h3 className="project-management-text18">
                   <span>Common Problems</span>
                   <br></br>
@@ -120,13 +120,13 @@ const ProjectManagement = (props) => {
           </div>
           <div className="project-management-solutions1">
             <div className="project-management-card1">
-              <div className="project-management-container4">
+              <div className="project-management-container04">
                 <h3 className="project-management-text27">
                   <span>IEES Solutions</span>
                   <br></br>
                 </h3>
               </div>
-              <div className="project-management-container5 list">
+              <div className="project-management-container05 list">
                 <IconListItemSolution
                   text="Review project designs."
                   rootClassName="icon-list-item-solution-root-class-name"
@@ -152,20 +152,121 @@ const ProjectManagement = (props) => {
           </div>
         </div>
       </div>
-      <div className="project-management-container6">
+      <div id="section2" className="project-management-section2">
+        <div className="project-management-container06">
+          <h1 className="project-management-text30">
+            <span>1.</span>
+            <br></br>
+            <span>DESIGN CONCEPT</span>
+          </h1>
+          <p className="project-management-text34">
+            <span>
+              This is the first stage of any construction project. It is the
+              part which we apply most of the studies, optimizations which will
+              determine the path of the entire project.
+            </span>
+            <br></br>
+            <span>
+              Here are some of the common problems and how to manage to avoid
+              and overcome them.
+            </span>
+          </p>
+        </div>
+        <div className="project-management-container07">
+          <div className="project-management-problems11">
+            <div className="project-management-card2">
+              <div className="project-management-container08">
+                <h3 className="project-management-text38">
+                  <span>Common Problems</span>
+                  <br></br>
+                </h3>
+              </div>
+              <ul className="project-management-ul2 list">
+                <li className="list-item project-management-li06">
+                  <span className="project-management-text41">
+                    Inefficient engineering design quality.
+                  </span>
+                </li>
+                <li className="list-item">
+                  <span className="project-management-text42">
+                    Lack of communication between the engineering view and the
+                    business financial view.
+                  </span>
+                  <ul className="project-management-ul3 list">
+                    <li className="list-item">
+                      <span className="project-management-text43">
+                        Project owner has no engineering experience.
+                      </span>
+                    </li>
+                    <li className="list-item">
+                      <span className="project-management-text44">
+                        Consultant engineers mostly don’t have financial or
+                        economical approach.
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+                <li className="list-item">
+                  <span className="project-management-text45">
+                    Lack of future estimations and predictions.
+                  </span>
+                </li>
+                <li className="list-item">
+                  <span className="project-management-text46">
+                    A huge gap between theoretical approach and reality.
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="project-management-solutions11">
+            <div className="project-management-card3">
+              <div className="project-management-container09">
+                <h3 className="project-management-text47">
+                  <span>IEES Solutions</span>
+                  <br></br>
+                </h3>
+              </div>
+              <div className="project-management-container10 list">
+                <IconListItemSolution
+                  text="Review project designs."
+                  rootClassName="icon-list-item-solution-root-class-name5"
+                ></IconListItemSolution>
+                <IconListItemSolution
+                  text="Establish a man in between role to raise the level of communication between all project parties."
+                  rootClassName="icon-list-item-solution-root-class-name6"
+                ></IconListItemSolution>
+                <IconListItemSolution
+                  text="Translate the owner's ideas and desires to an engineering concept."
+                  rootClassName="icon-list-item-solution-root-class-name7"
+                ></IconListItemSolution>
+                <IconListItemSolution
+                  text="A future study for the project to get the best estimation which will reflect on the plans and equipment selection."
+                  rootClassName="icon-list-item-solution-root-class-name8"
+                ></IconListItemSolution>
+                <IconListItemSolution
+                  text="Reality in mind."
+                  rootClassName="icon-list-item-solution-root-class-name9"
+                ></IconListItemSolution>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="project-management-container11">
         <div className="project-management-main">
-          <div className="project-management-container7">
-            <h1 className="project-management-text30 HeadingOne">
+          <div className="project-management-container12">
+            <h1 className="project-management-text50 HeadingOne">
               You Work With
             </h1>
-            <h1 className="project-management-text31">Soft Design System</h1>
-            <p className="project-management-text32 Lead">
-              <span className="project-management-text33">
+            <h1 className="project-management-text51">Soft Design System</h1>
+            <p className="project-management-text52 Lead">
+              <span className="project-management-text53">
                 The time is now for it be okay to be great. Subscribe now and
                 get notified when it&apos;s launched!
               </span>
             </p>
-            <div className="project-management-container8">
+            <div className="project-management-container13">
               <input
                 type="text"
                 placeholder="Email here"

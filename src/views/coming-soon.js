@@ -19,6 +19,7 @@ const ComingSoon = (props) => {
             autoplay
             speed="1"
             background="transparent"
+            loop
             className="coming-soon-lottie-node"
           ></Player>
         </div>

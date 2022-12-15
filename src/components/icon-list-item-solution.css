@@ -41,6 +41,13 @@
 
 
 
+
+.icon-list-item-solution-root-class-name6 {
+  max-width: auto;
+}
+
+
+
 @media(max-width: 991px) {
   .icon-list-item-solution-text {
     font-size: 0.8rem;
