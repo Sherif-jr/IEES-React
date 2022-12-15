@@ -38,16 +38,16 @@ PricingCard.defaultProps = {
   rootClassName: '',
   descriptionArea: 'Text',
   buttontext: 'Learn More',
-  Title: 'Title',
   link_button: '',
+  Title: 'Title',
 }
 
 PricingCard.propTypes = {
   rootClassName: PropTypes.string,
   descriptionArea: PropTypes.string,
   buttontext: PropTypes.string,
-  Title: PropTypes.string,
   link_button: PropTypes.string,
+  Title: PropTypes.string,
 }
 
 export default PricingCard

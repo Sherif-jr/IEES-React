@@ -1,23 +1,13 @@
 .icon-list-item-solution-container {
   width: 100%;
   height: auto;
-  display: flex;
   align-items: flex-start;
   flex-direction: row;
   justify-content: flex-start;
 }
-.icon-list-item-solution-li {
-  list-style-type: none;
-  list-style-position: inside;
-}
 .icon-list-item-solution-container1 {
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
   display: flex;
   align-items: center;
-  flex-direction: row;
-  justify-content: flex-start;
 }
 .icon-list-item-solution-icon {
   fill: var(--dl-color-primary-700);
@@ -30,7 +20,6 @@
 .icon-list-item-solution-text {
   color: var(--dl-color-primary-700);
   width: 100%;
-  display: inline-block;
   font-size: .9rem;
   text-align: left;
 }
@@ -45,6 +34,19 @@
 .icon-list-item-solution-root-class-name6 {
   max-width: auto;
 }
+
+
+
+.icon-list-item-solution-root-class-name10 {
+  max-width: auto;
+}
+
+
+
+.icon-list-item-solution-root-class-name14 {
+  max-width: auto;
+}
+
 
 
 

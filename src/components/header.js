@@ -12,7 +12,7 @@ const Header = (props) => {
     <div data-role="Header" className="header-header">
       <nav className="header-nav">
         <div className="header-container">
-          <Link to="/home" className="header-navlink">
+          <Link to="/" className="header-navlink">
             <div className="header-container1">
               <img
                 alt={props.image_alt}
@@ -23,7 +23,7 @@ const Header = (props) => {
             </div>
           </Link>
           <div className="header-menu">
-            <Link to="/home" className="header-navlink1 Large">
+            <Link to="/" className="header-navlink1 Large">
               Home
             </Link>
             <div
@@ -93,7 +93,7 @@ const Header = (props) => {
                 </li>
               </ul>
             </div>
-            <Link to="/" className="header-navlink2 Large">
+            <Link to="/coming-soon" className="header-navlink2 Large">
               Projects
             </Link>
             <Link to="/about" className="header-navlink3 Large">
@@ -120,7 +120,7 @@ const Header = (props) => {
       </nav>
       <div data-role="MobileMenu" className="header-mobile-menu">
         <div className="header-top">
-          <Link to="/home" className="header-navlink5 Large">
+          <Link to="/" className="header-navlink5 Large">
             Soft UI Design System
           </Link>
           <div data-role="CloseMobileMenu" className="header-close-menu">
@@ -131,13 +131,13 @@ const Header = (props) => {
         </div>
         <div className="header-mid">
           <div className="header-menu1">
-            <Link to="/home" className="header-navlink6 Large">
+            <Link to="/" className="header-navlink6 Large">
               Home
             </Link>
             <Link to="/contact-us" className="header-navlink7 Large">
               Profile
             </Link>
-            <Link to="/" className="header-navlink8 Large">
+            <Link to="/coming-soon" className="header-navlink8 Large">
               Coming Soon
             </Link>
           </div>
@@ -153,19 +153,19 @@ const Header = (props) => {
 Header.defaultProps = {
   second_item: 'Maintenance Management',
   image_src: '',
+  first_item: 'Project Management',
   forth_item: 'Design Management',
   image_alt: 'image',
   third_item: 'Energy Management',
-  first_item: 'Project Management',
 }
 
 Header.propTypes = {
   second_item: PropTypes.string,
   image_src: PropTypes.string,
+  first_item: PropTypes.string,
   forth_item: PropTypes.string,
   image_alt: PropTypes.string,
   third_item: PropTypes.string,
-  first_item: PropTypes.string,
 }
 
 export default Header

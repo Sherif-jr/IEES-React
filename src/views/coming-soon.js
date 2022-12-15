@@ -9,17 +9,17 @@ const ComingSoon = (props) => {
   return (
     <div className="coming-soon-container">
       <Helmet>
-        <title>IEES</title>
-        <meta property="og:title" content="IEES" />
+        <title>ComingSoon - IEES</title>
+        <meta property="og:title" content="ComingSoon - IEES" />
       </Helmet>
       <div className="coming-soon-container1">
         <div className="coming-soon-main">
           <Player
             src="https://assets7.lottiefiles.com/packages/lf20_ukkmrz6p.json"
-            autoplay
-            speed="1"
-            background="transparent"
             loop
+            speed="1"
+            autoplay
+            background="transparent"
             className="coming-soon-lottie-node"
           ></Player>
         </div>

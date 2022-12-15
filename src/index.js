@@ -19,11 +19,11 @@ const App = () => {
         <Route component={Home1} exact path="/home1" />
         <Route component={About} exact path="/about" />
         <Route component={ProjectManagement} exact path="/project-management" />
-        <Route component={ComingSoon} exact path="/" />
+        <Route component={ComingSoon} exact path="/coming-soon" />
         <Route component={ContactUs} exact path="/contact-us" />
         <Route component={Services} exact path="/services" />
         <Route component={Profile1} exact path="/profile1" />
-        <Route component={Home} exact path="/home" />
+        <Route component={Home} exact path="/" />
       </div>
     </Router>
   )

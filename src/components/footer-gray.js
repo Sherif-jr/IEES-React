@@ -13,17 +13,14 @@ const FooterGray = (props) => {
         <div className="footer-gray-container1">
           <div className="footer-gray-container2">
             <div className="footer-gray-container3">
-              <Link to="/home" className="footer-gray-navlink">
+              <Link to="/" className="footer-gray-navlink">
                 <img
-                  src={props.image_src}
                   alt={props.image_alt}
+                  src={props.image_src}
                   className="footer-gray-image"
                 />
               </Link>
-              <Link
-                to="/home"
-                className="footer-gray-navlink1 animate-gradient"
-              >
+              <Link to="/" className="footer-gray-navlink1 animate-gradient">
                 <span>IEES</span>
                 <br></br>
               </Link>
@@ -62,7 +59,7 @@ const FooterGray = (props) => {
           </div>
           <div className="footer-gray-container5">
             <div className="footer-gray-container6">
-              <span className="footer-gray-text03 Large animate-gradient">
+              <span className="footer-gray-text03 animate-gradient Large">
                 Company
               </span>
               <span className="footer-gray-text04 Large">About Us</span>
@@ -99,13 +96,13 @@ const FooterGray = (props) => {
 }
 
 FooterGray.defaultProps = {
-  image_src: '/playground_assets/asset%202.svg',
   image_alt: 'image',
+  image_src: '/playground_assets/asset%202.svg',
 }
 
 FooterGray.propTypes = {
-  image_src: PropTypes.string,
   image_alt: PropTypes.string,
+  image_src: PropTypes.string,
 }
 
 export default FooterGray
