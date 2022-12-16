@@ -57,6 +57,11 @@
     font-size: 1rem;
   }
 }
+@media(max-width: 767px) {
+  .outline-gray-button-button {
+    font-size: 0.6rem;
+  }
+}
 @media(max-width: 479px) {
   .outline-gray-button-button {
     font-size: 0.75rem;

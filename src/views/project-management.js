@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet'
 
 import Header from '../components/header'
 import AppComponent from '../components/component'
-import IconListItemSolution from '../components/icon-list-item-solution'
+import IconListItemDark from '../components/icon-list-item-dark'
 import FooterGray from '../components/footer-gray'
 import './project-management.css'
 
@@ -126,26 +126,26 @@ const ProjectManagement = (props) => {
                 </h3>
               </div>
               <div className="project-management-container05 list">
-                <IconListItemSolution
+                <IconListItemDark
                   text="Review project designs."
-                  rootClassName="icon-list-item-solution-root-class-name"
-                ></IconListItemSolution>
-                <IconListItemSolution
+                  rootClassName="icon-list-item-dark-root-class-name"
+                ></IconListItemDark>
+                <IconListItemDark
                   text="Establish a man in between role to raise the level of communication between all project parties."
-                  rootClassName="icon-list-item-solution-root-class-name1"
-                ></IconListItemSolution>
-                <IconListItemSolution
+                  rootClassName="icon-list-item-dark-root-class-name1"
+                ></IconListItemDark>
+                <IconListItemDark
                   text="Translate the owner's ideas and desires to an engineering concept."
-                  rootClassName="icon-list-item-solution-root-class-name2"
-                ></IconListItemSolution>
-                <IconListItemSolution
+                  rootClassName="icon-list-item-dark-root-class-name2"
+                ></IconListItemDark>
+                <IconListItemDark
                   text="A future study for the project to get the best estimation which will reflect on the plans and equipment selection."
-                  rootClassName="icon-list-item-solution-root-class-name3"
-                ></IconListItemSolution>
-                <IconListItemSolution
+                  rootClassName="icon-list-item-dark-root-class-name3"
+                ></IconListItemDark>
+                <IconListItemDark
                   text="Reality in mind."
-                  rootClassName="icon-list-item-solution-root-class-name4"
-                ></IconListItemSolution>
+                  rootClassName="icon-list-item-dark-root-class-name4"
+                ></IconListItemDark>
               </div>
             </div>
           </div>
@@ -215,22 +215,22 @@ const ProjectManagement = (props) => {
                 </h3>
               </div>
               <div className="project-management-container10 list">
-                <IconListItemSolution
+                <IconListItemDark
                   text="Review the BOQ as per standards keeping the real world needs and conditions in mind."
-                  rootClassName="icon-list-item-solution-root-class-name5"
-                ></IconListItemSolution>
-                <IconListItemSolution
+                  rootClassName="icon-list-item-dark-root-class-name5"
+                ></IconListItemDark>
+                <IconListItemDark
                   text="Audit the BOQ to maximize its compatibility with the project."
-                  rootClassName="icon-list-item-solution-root-class-name6"
-                ></IconListItemSolution>
-                <IconListItemSolution
+                  rootClassName="icon-list-item-dark-root-class-name6"
+                ></IconListItemDark>
+                <IconListItemDark
                   text="Equipment selection based on reliability, price, and the real world usage."
-                  rootClassName="icon-list-item-solution-root-class-name7"
-                ></IconListItemSolution>
-                <IconListItemSolution
+                  rootClassName="icon-list-item-dark-root-class-name7"
+                ></IconListItemDark>
+                <IconListItemDark
                   text="Risk Management for the contract terms and conditions achieving the best interest to the project."
-                  rootClassName="icon-list-item-solution-root-class-name8"
-                ></IconListItemSolution>
+                  rootClassName="icon-list-item-dark-root-class-name8"
+                ></IconListItemDark>
               </div>
             </div>
           </div>
@@ -289,22 +289,22 @@ const ProjectManagement = (props) => {
                 </h3>
               </div>
               <div className="project-management-container15 list">
-                <IconListItemSolution
+                <IconListItemDark
                   text="Select the appropriate contractor based on both technical and financial sides."
-                  rootClassName="icon-list-item-solution-root-class-name9"
-                ></IconListItemSolution>
-                <IconListItemSolution
+                  rootClassName="icon-list-item-dark-root-class-name9"
+                ></IconListItemDark>
+                <IconListItemDark
                   text="Ensure effectiveness and efficiency of the selected contractor/s, their time schedules and plans."
-                  rootClassName="icon-list-item-solution-root-class-name10"
-                ></IconListItemSolution>
-                <IconListItemSolution
+                  rootClassName="icon-list-item-dark-root-class-name10"
+                ></IconListItemDark>
+                <IconListItemDark
                   text="Equipment selection based on reliability, price, and the real world usage."
-                  rootClassName="icon-list-item-solution-root-class-name11"
-                ></IconListItemSolution>
-                <IconListItemSolution
+                  rootClassName="icon-list-item-dark-root-class-name11"
+                ></IconListItemDark>
+                <IconListItemDark
                   text="Ensure integrity of the offer by keeping up with the market prices and news."
-                  rootClassName="icon-list-item-solution-root-class-name12"
-                ></IconListItemSolution>
+                  rootClassName="icon-list-item-dark-root-class-name12"
+                ></IconListItemDark>
               </div>
             </div>
           </div>
@@ -368,30 +368,30 @@ const ProjectManagement = (props) => {
                 </h3>
               </div>
               <div className="project-management-container20 list">
-                <IconListItemSolution
+                <IconListItemDark
                   text="Review contractor's plan and time schedule to maintain the shortest and most efficient path."
-                  rootClassName="icon-list-item-solution-root-class-name13"
-                ></IconListItemSolution>
-                <IconListItemSolution
+                  rootClassName="icon-list-item-dark-root-class-name13"
+                ></IconListItemDark>
+                <IconListItemDark
                   text="Manage workflow with plain and simple rules to ensure smooth transitions between sequential tasks."
-                  rootClassName="icon-list-item-solution-root-class-name14"
-                ></IconListItemSolution>
-                <IconListItemSolution
+                  rootClassName="icon-list-item-dark-root-class-name14"
+                ></IconListItemDark>
+                <IconListItemDark
                   text="Approve the supplied materials and equipment."
-                  rootClassName="icon-list-item-solution-root-class-name15"
-                ></IconListItemSolution>
-                <IconListItemSolution
+                  rootClassName="icon-list-item-dark-root-class-name15"
+                ></IconListItemDark>
+                <IconListItemDark
                   text="Track progress in the project and apply the appropriate strategies to maintain the time schedule."
-                  rootClassName="icon-list-item-solution-root-class-name16"
-                ></IconListItemSolution>
-                <IconListItemSolution
+                  rootClassName="icon-list-item-dark-root-class-name16"
+                ></IconListItemDark>
+                <IconListItemDark
                   text="Supervise the installation process and apply the required tests."
-                  rootClassName="icon-list-item-solution-root-class-name17"
-                ></IconListItemSolution>
-                <IconListItemSolution
+                  rootClassName="icon-list-item-dark-root-class-name17"
+                ></IconListItemDark>
+                <IconListItemDark
                   text="Supervise the operation process and apply the required tests."
-                  rootClassName="icon-list-item-solution-root-class-name18"
-                ></IconListItemSolution>
+                  rootClassName="icon-list-item-dark-root-class-name18"
+                ></IconListItemDark>
               </div>
             </div>
           </div>
