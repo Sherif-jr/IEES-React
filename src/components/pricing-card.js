@@ -18,7 +18,7 @@ const PricingCard = (props) => {
     >
       <h1 className="pricing-card-text">{props.Title}</h1>
       {!isHovered && (
-        <div className="pricing-card-container">
+        <div className="pricing-card-container animate__slideInUp animate__animated">
           <span className="pricing-card-text1">{props.descriptionArea}</span>
           <a
             href={props.link_button}

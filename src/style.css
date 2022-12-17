@@ -1,4 +1,9 @@
-:root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+ 
+ :root {
   --dl-color-blue-500: #17c1e8ff;
   --dl-color-gray-500: #595959;
   --dl-color-gray-700: #999999;
@@ -97,14 +102,12 @@
   text-fill-color: transparent;
   background-image: linear-gradient(-225deg, #005d63 0%, #82bb27 50%   );
 }
-
 .list-with-bullets {
   color: var(--dl-color-secondary-100);
   font-size: .8rem;
   font-weight: 400;
   list-style-type: disc;
 }
-
 
 .hover-translate {
   transform: translateY(0);
@@ -113,6 +116,23 @@
 .transition-forAll {
   transition: all .3s liner;
 }
+
+.animate__fadeInUp {
+  -animate-duration: .3ms;
+}
+
+
+
+
+
+.custom-hide {
+  display: none !important;
+}
+
+
+
+
+
 .Small {
   font-size: 0.875rem;
   font-family: Open Sans;

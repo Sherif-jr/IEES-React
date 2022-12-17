@@ -24,6 +24,8 @@
   text-transform: uppercase;
 }
 
+
+
 @media(max-width: 767px) {
   .primary-green-button-button {
     font-size: .6rem;
@@ -34,6 +36,12 @@
     display: none;
   }
   .primary-green-button-root-class-name {
+    width: auto;
+  }
+  .primary-green-button-root-class-name1 {
+    width: auto;
+  }
+  .primary-green-button-root-class-name2 {
     width: auto;
   }
 }

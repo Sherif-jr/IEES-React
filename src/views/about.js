@@ -272,7 +272,7 @@ const About = (props) => {
           features and wants to be up to date with our latest news and offers.
           you are a click away from what you need.
         </h2>
-        <button className="about-button2 button">Learn More</button>
+        <button className="about-button2 button">Get in touch</button>
       </div>
       <FooterGray></FooterGray>
     </div>

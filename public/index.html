@@ -43,6 +43,22 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
       data-tag="font"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <style>
       html * {
           -webkit-font-smoothing: antialiased;
@@ -50,6 +66,7 @@
       input::placeholder, textarea::placeholder {
          color: #d2d6da;
       }
+      /*custom code*/
       @keyframes textClip {
         to {
           background-position: 200% center;
@@ -78,5 +95,43 @@
   <body>
     <div id="app"></div>
     <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+    <script>
+      const detailsButtons= document.querySelectorAll('.details-button');
+
+      detailsButtons.forEach((button, index) =>{
+          button.id = `button${index+1}`;
+      });
+
+
+      document.addEventListener('click', (e)=>{
+        if (e.target.classList.contains("details-button")){
+          const detailsSection = document.querySelector(`#project-details${e.target.id[6]}`);
+
+          if (detailsSection.classList.contains("custom-hide")){
+            e.target.textContent= "Hide Details";
+            detailsSection.classList.remove("custom-hide");
+            detailsSection.classList.remove("animate__fadeInUp");
+            detailsSection.classList.add("animate__fadeInDown");
+          } else{
+            e.target.textContent= "Show Details";
+            detailsSection.classList.add("animate__fadeInUp");
+            detailsSection.classList.remove("animate__fadeInDown");
+            detailsSection.classList.add("custom-hide");
+          }
+        }
+      });
+    </script>
   </body>
 </html>

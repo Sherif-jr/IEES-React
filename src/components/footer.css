@@ -127,8 +127,14 @@
 .footer-root-class-name {
   background-image: linear-gradient(350deg,#82bb27,#005d63);
 }
+.footer-root-class-name1 {
+  background-image: linear-gradient(350deg,#82bb27,#005d63);
+}
 @media(max-width: 1200px) {
   .footer-root-class-name {
+    background-image: linear-gradient(350deg,#82bb27,#005d63);
+  }
+  .footer-root-class-name1 {
     background-image: linear-gradient(350deg,#82bb27,#005d63);
   }
 }
@@ -137,6 +143,9 @@
     padding: var(--dl-space-space-doubleunit);
   }
   .footer-root-class-name {
+    background-image: linear-gradient(350deg,#82bb27,#005d63);
+  }
+  .footer-root-class-name1 {
     background-image: linear-gradient(350deg,#82bb27,#005d63);
   }
 }
@@ -157,12 +166,18 @@
   .footer-root-class-name {
     background-image: linear-gradient(210deg,#005d63,#82bb27);
   }
+  .footer-root-class-name1 {
+    background-image: linear-gradient(210deg,#005d63,#82bb27);
+  }
 }
 @media(max-width: 479px) {
   .footer-text {
     font-size: 0.6rem;
   }
   .footer-root-class-name {
+    background-image: linear-gradient(210deg,#005d63,#82bb27);
+  }
+  .footer-root-class-name1 {
     background-image: linear-gradient(210deg,#005d63,#82bb27);
   }
 }

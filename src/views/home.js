@@ -29,15 +29,18 @@ const Home = (props) => {
             <span className="home-text02">
               Start now with our all-in-one solution for construction projects
               and MEP services or you can pick the service you need and enjoy a
-              free headache, discipline and professional workflow for your
+              headache-free, discipline and professional workflow for your
               project.
             </span>
             <div className="home-container02">
               <div className="home-container03">
-                <PrimaryGreenButton
-                  button="contact us"
-                  rootClassName="primary-green-button-root-class-name"
-                ></PrimaryGreenButton>
+                <Link to="/contact-us" className="home-navlink">
+                  <PrimaryGreenButton
+                    button="contact us"
+                    rootClassName="primary-green-button-root-class-name"
+                    className="home-component01"
+                  ></PrimaryGreenButton>
+                </Link>
               </div>
               <OutlineGrayButton button="read more"></OutlineGrayButton>
             </div>
@@ -59,7 +62,7 @@ const Home = (props) => {
           Whether you are a project owner, a contractor, or a consultant. You
           can rely on one or more of our services. An engineering back office,
           project manager, or a maintenance manager. we deliver the best in
-          market one solution.
+          market solutions.
         </span>
         <div className="home-services-cards">
           <div className="home-container04">
@@ -85,7 +88,7 @@ const Home = (props) => {
                 following up on the implementation of this scenario.
               </p>
               <div className="home-container06">
-                <Link to="/project-management" className="home-navlink">
+                <Link to="/project-management" className="home-navlink1">
                   <OutlineGrayButton
                     button="read more"
                     rootClassName="outline-gray-button-root-class-name"
@@ -354,7 +357,7 @@ const Home = (props) => {
                 <span>Relax and leave all the hard work to us.</span>
               </p>
               <div className="home-container36">
-                <Link to="/contact-us" className="home-navlink1">
+                <Link to="/contact-us" className="home-navlink2">
                   <OutlineBlackButton
                     button="Contact Us"
                     rootClassName="outline-black-button-root-class-name"
