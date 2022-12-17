@@ -533,39 +533,36 @@
   background-size: cover;
   justify-content: center;
 }
-.about-navlink {
-  display: contents;
-}
-.about-component1 {
-  text-decoration: none;
-}
-.about-navlink1 {
-  display: contents;
-}
-.about-component2 {
-  text-decoration: none;
-}
-.about-navlink2 {
-  display: contents;
-}
-.about-component3 {
-  text-decoration: none;
-}
-.about-banner {
+.about-projects {
   width: 100%;
   display: flex;
   padding: var(--dl-space-space-tripleunit);
-  min-height: 40vh;
+  min-height: 50vh;
   align-items: center;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
 }
 .about-container28 {
   flex: 0 0 auto;
-  width: auto;
-  height: DoubleUnit;
   display: flex;
   align-items: flex-start;
+  flex-direction: column;
+}
+.about-container29 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-tripleunit);
+}
+.about-container30 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-tripleunit);
+  flex-direction: column;
   justify-content: center;
 }
 .about-icon10 {
@@ -575,10 +572,14 @@
 }
 .about-text26 {
   font-size: 2rem;
+  margin-top: var(--dl-space-space-unitandahalfunit);
   text-align: center;
   text-transform: uppercase;
 }
-.about-button1 {
+.about-text27 {
+  margin-bottom: var(--dl-space-space-doubleunit);
+}
+.about-navlink {
   fill: var(--dl-color-secondary-400);
   display: flex;
   transition: 0.3s;
@@ -587,8 +588,9 @@
   padding-right: 32px;
   flex-direction: row;
   padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.about-button1:hover {
+.about-navlink:hover {
   fill: var(--dl-color-gray-white);
   color: var(--dl-color-gray-white);
   cursor: pointer;
@@ -599,7 +601,7 @@
   width: 24px;
   height: 24px;
 }
-.about-banner1 {
+.about-banner {
   width: 100%;
   display: flex;
   padding: 48px;
@@ -630,14 +632,15 @@
   font-weight: 400;
   margin-bottom: 32px;
 }
-.about-button2 {
+.about-navlink1 {
   transition: 0.3s;
   padding-top: var(--dl-space-space-unit);
   padding-left: 48px;
   padding-right: 48px;
   padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.about-button2:hover {
+.about-navlink1:hover {
   color: var(--dl-color-gray-white);
   background-color: var(--dl-color-gray-black);
 }
@@ -666,21 +669,18 @@
     font-size: 3rem;
     text-transform: uppercase;
   }
-  .about-banner {
+  .about-projects {
     min-height: 70vh;
     justify-content: center;
-  }
-  .about-text26 {
-    margin-bottom: var(--dl-space-space-tripleunit);
   }
   .about-text27 {
     margin-bottom: var(--dl-space-space-doubleunit);
   }
-  .about-button1 {
+  .about-navlink {
     align-items: center;
     justify-content: center;
   }
-  .about-text32 {
+  .about-text31 {
     margin-right: var(--dl-space-space-halfunit);
   }
   .about-icon12 {
@@ -830,11 +830,15 @@
     padding-left: 32px;
     padding-right: 32px;
   }
-  .about-banner {
+  .about-projects {
     padding-left: 32px;
     padding-right: 32px;
   }
-  .about-banner1 {
+  .about-text27 {
+    max-width: 70%;
+    text-align: center;
+  }
+  .about-banner {
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -982,6 +986,10 @@
     text-transform: none;
     text-decoration: none;
   }
+  .about-text22 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   .about-mission {
     padding-top: 32px;
     padding-left: var(--dl-space-space-unit);
@@ -1001,6 +1009,10 @@
     text-transform: none;
     text-decoration: none;
   }
+  .about-text25 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   .about-container26 {
     display: none;
   }
@@ -1010,13 +1022,13 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: 32px;
   }
-  .about-banner {
+  .about-projects {
     padding-top: 32px;
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
     padding-bottom: 32px;
   }
-  .about-banner1 {
+  .about-banner {
     padding-top: 32px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);

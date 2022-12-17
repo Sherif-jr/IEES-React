@@ -1,10 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
 import Header from '../components/header'
 import AppComponent from '../components/component'
 import IconListItemDark from '../components/icon-list-item-dark'
+import ServiceCard from '../components/service-card'
 import FooterGray from '../components/footer-gray'
 import './project-management.css'
 
@@ -17,41 +19,48 @@ const ProjectManagement = (props) => {
       </Helmet>
       <Header></Header>
       <div className="project-management-hero">
-        <h1 className="project-management-text">PROJECT MANAGEMENT</h1>
-        <span className="project-management-text01">
-          <span>
-            A balance between the engineering view and the business view will
-            help you solve most common problems and overcome a lot of obstacles
-            saving a lot of time and maintaining the best quality with an eye on
-            the financial side and the other on the practical engineering side.
-          </span>
-          <br className="project-management-text03"></br>
-          <br className="project-management-text04"></br>
-          <br></br>
-          <span>
-            To help you understand what we do and how can we help you manage
-            your project efficiently and effectively, we designed a journey for
-            you where you will learn about your project stages and what we do
-            for you in every single stage.
-          </span>
-        </span>
-        <div className="project-management-btn-group">
-          <a href="#section1" className="project-management-link">
-            <AppComponent
-              rootClassName="app-component-root-class-name"
-              className="project-management-get-started-button"
-            ></AppComponent>
-          </a>
-          <button className="project-management-button button">
+        <div className="project-management-container01">
+          <h1 className="project-management-text animate__fadeInUp animate__animated">
+            PROJECT MANAGEMENT
+          </h1>
+          <span className="project-management-text01 animate__fadeIn animate__animated">
             <span>
-              <span className="project-management-text08">oTHER SERVICES</span>
-              <br></br>
+              A balance between the engineering view and the business view will
+              help you solve most common problems and overcome a lot of
+              obstacles saving a lot of time and maintaining the best quality
+              with an eye on the financial side and the other on the practical
+              engineering side.
             </span>
-          </button>
+            <br className="project-management-text03"></br>
+            <br className="project-management-text04"></br>
+            <br></br>
+            <span>
+              To help you understand what we do and how can we help you manage
+              your project efficiently and effectively, we designed a journey
+              for you where you will learn about your project stages and what we
+              do for you in every single stage.
+            </span>
+          </span>
+          <div className="project-management-btn-group">
+            <a href="#section1" className="project-management-link">
+              <AppComponent
+                rootClassName="app-component-root-class-name"
+                className="project-management-get-started-button"
+              ></AppComponent>
+            </a>
+            <button className="project-management-button button animate__fadeInDown animate__animated">
+              <span>
+                <span className="project-management-text08">
+                  oTHER SERVICES
+                </span>
+                <br></br>
+              </span>
+            </button>
+          </div>
         </div>
       </div>
       <div id="section1" className="project-management-section1">
-        <div className="project-management-container01">
+        <div className="project-management-container02">
           <h1 className="project-management-text10">
             <span>1.</span>
             <br></br>
@@ -70,10 +79,10 @@ const ProjectManagement = (props) => {
             </span>
           </p>
         </div>
-        <div className="project-management-container02">
+        <div className="project-management-container03">
           <div className="project-management-problems1">
             <div className="project-management-card">
-              <div className="project-management-container03">
+              <div className="project-management-container04">
                 <h3 className="project-management-text18">
                   <span>Common Problems</span>
                   <br></br>
@@ -119,13 +128,13 @@ const ProjectManagement = (props) => {
           </div>
           <div className="project-management-solutions1">
             <div className="project-management-card1">
-              <div className="project-management-container04">
+              <div className="project-management-container05">
                 <h3 className="project-management-text27">
                   <span>IEES Solutions</span>
                   <br></br>
                 </h3>
               </div>
-              <div className="project-management-container05 list">
+              <div className="project-management-container06 list">
                 <IconListItemDark
                   text="Review project designs."
                   rootClassName="icon-list-item-dark-root-class-name"
@@ -152,7 +161,7 @@ const ProjectManagement = (props) => {
         </div>
       </div>
       <div id="section2" className="project-management-section2">
-        <div className="project-management-container06">
+        <div className="project-management-container07">
           <h1 className="project-management-text30">
             <span>2.</span>
             <br></br>
@@ -169,10 +178,10 @@ const ProjectManagement = (props) => {
             </span>
           </p>
         </div>
-        <div className="project-management-container07">
+        <div className="project-management-container08">
           <div className="project-management-problems11">
             <div className="project-management-card2">
-              <div className="project-management-container08">
+              <div className="project-management-container09">
                 <h3 className="project-management-text37">
                   <span>Common Problems</span>
                   <br></br>
@@ -208,13 +217,13 @@ const ProjectManagement = (props) => {
           </div>
           <div className="project-management-solutions11">
             <div className="project-management-card3">
-              <div className="project-management-container09">
+              <div className="project-management-container10">
                 <h3 className="project-management-text44">
                   <span>IEES Solutions</span>
                   <br></br>
                 </h3>
               </div>
-              <div className="project-management-container10 list">
+              <div className="project-management-container11 list">
                 <IconListItemDark
                   text="Review the BOQ as per standards keeping the real world needs and conditions in mind."
                   rootClassName="icon-list-item-dark-root-class-name5"
@@ -236,8 +245,8 @@ const ProjectManagement = (props) => {
           </div>
         </div>
       </div>
-      <div id="section2" className="project-management-section21">
-        <div className="project-management-container11">
+      <div id="section3" className="project-management-section21">
+        <div className="project-management-container12">
           <h1 className="project-management-text47">
             <span>3.</span>
             <br></br>
@@ -250,10 +259,10 @@ const ProjectManagement = (props) => {
             manage to avoid and overcome them.
           </p>
         </div>
-        <div className="project-management-container12">
+        <div className="project-management-container13">
           <div className="project-management-problems12">
             <div className="project-management-card4">
-              <div className="project-management-container13">
+              <div className="project-management-container14">
                 <h3 className="project-management-text52">
                   <span>Common Problems</span>
                   <br></br>
@@ -282,13 +291,13 @@ const ProjectManagement = (props) => {
           </div>
           <div className="project-management-solutions12">
             <div className="project-management-card5">
-              <div className="project-management-container14">
+              <div className="project-management-container15">
                 <h3 className="project-management-text58">
                   <span>IEES Solutions</span>
                   <br></br>
                 </h3>
               </div>
-              <div className="project-management-container15 list">
+              <div className="project-management-container16 list">
                 <IconListItemDark
                   text="Select the appropriate contractor based on both technical and financial sides."
                   rootClassName="icon-list-item-dark-root-class-name9"
@@ -310,8 +319,8 @@ const ProjectManagement = (props) => {
           </div>
         </div>
       </div>
-      <div id="section2" className="project-management-section22">
-        <div className="project-management-container16">
+      <div id="section4" className="project-management-section22">
+        <div className="project-management-container17">
           <h1 className="project-management-text61">
             <span>4.</span>
             <br></br>
@@ -324,10 +333,10 @@ const ProjectManagement = (props) => {
             overcome them.
           </p>
         </div>
-        <div className="project-management-container17">
+        <div className="project-management-container18">
           <div className="project-management-problems13">
             <div className="project-management-card6">
-              <div className="project-management-container18">
+              <div className="project-management-container19">
                 <h3 className="project-management-text66">
                   <span>Common Problems</span>
                   <br></br>
@@ -361,13 +370,13 @@ const ProjectManagement = (props) => {
           </div>
           <div className="project-management-solutions13">
             <div className="project-management-card7">
-              <div className="project-management-container19">
+              <div className="project-management-container20">
                 <h3 className="project-management-text73">
                   <span>IEES Solutions</span>
                   <br></br>
                 </h3>
               </div>
-              <div className="project-management-container20 list">
+              <div className="project-management-container21 list">
                 <IconListItemDark
                   text="Review contractor's plan and time schedule to maintain the shortest and most efficient path."
                   rootClassName="icon-list-item-dark-root-class-name13"
@@ -394,6 +403,49 @@ const ProjectManagement = (props) => {
                 ></IconListItemDark>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="project-management-container22">
+        <div className="project-management-container23">
+          <h4 className="project-management-text76">Other Services</h4>
+          <div className="project-management-container24">
+            <Link
+              to="/project-management"
+              className="project-management-navlink"
+            >
+              <ServiceCard
+                Title="PROJECT MANAGEMENT"
+                link_button="/project-management"
+                rootClassName="service-card-root-class-name5"
+                descriptionArea="We support clients to achieve the best lifetime for their assets and equipment by proposing the optimum maintenance scenario and following up on the implementation of this scenario."
+                className="project-management-component20"
+              ></ServiceCard>
+            </Link>
+            <Link
+              to="/project-management"
+              className="project-management-navlink1"
+            >
+              <ServiceCard
+                Title="MAINTENANCE MANAGEMENT"
+                link_button="/project-management"
+                rootClassName="service-card-root-class-name6"
+                descriptionArea="Providing the best scenario for managing MEP projects by optimizing the dilemma between Scope, time, quality, and budget. Using our experience in managing MEP projects and through our specialization in MEP systems."
+                className="project-management-component21"
+              ></ServiceCard>
+            </Link>
+            <Link
+              to="/project-management"
+              className="project-management-navlink2"
+            >
+              <ServiceCard
+                Title="ENERGY MANAGEMENT"
+                link_button="/project-management"
+                rootClassName="service-card-root-class-name7"
+                descriptionArea="Developing optimized Mechanical, Electrical, and Plumbing (MEP) designs as per client requirements. we design, select, and optimize best-fit MEP systems that facilitate operations and fulfill client requirements as per international standards with considering the best life cycle cost."
+                className="project-management-component22"
+              ></ServiceCard>
+            </Link>
           </div>
         </div>
       </div>

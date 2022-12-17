@@ -9,8 +9,7 @@ const AppComponent = (props) => {
     <div className={`component-container ${props.rootClassName} `}>
       <a
         href="#section1"
-        onClick={props.hideSideNav}
-        className="component-link button"
+        className="component-link button animate__fadeInDown animate__animated"
       >
         {props.button}
       </a>
