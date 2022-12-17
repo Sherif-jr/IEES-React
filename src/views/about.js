@@ -20,20 +20,20 @@ const About = (props) => {
         <h1 className="about-text">
           This is why we existed, That is what we achieve.
         </h1>
+        <span className="about-text01">
+          We provide you the best in market engineering services. No more
+          headaches or delays. Our services are tailored for your needs. Pay
+          only for what you need and expand even more at any time.
+        </span>
         <div className="about-container01">
           <div className="about-container02">
-            <span className="about-text01">
-              We provide you the best in market engineering services. No more
-              headaches or delays. Our services are tailored for your needs. Pay
-              only for what you need and expand even more at any time.
-            </span>
             <div className="about-container03">
               <div className="about-container04">
                 <div className="about-container05">
                   <li className="about-li list-item">
                     <div className="about-container06">
                       <svg viewBox="0 0 1024 1024" className="about-icon">
-                        <path d="M896 0h-768c-70.4 0-128 57.6-128 128v768c0 70.4 57.6 128 128 128h768c70.4 0 128-57.6 128-128v-768c0-70.4-57.6-128-128-128zM448 794.51l-237.254-237.256 90.51-90.508 146.744 146.744 306.746-306.746 90.508 90.51-397.254 397.256z"></path>
+                        <path d="M426.667 853.333c-34.219 0-66.347-13.312-90.539-37.504-24.149-24.149-37.461-56.32-37.461-90.496s13.312-66.347 37.504-90.539l122.795-122.795-122.795-122.837c-24.192-24.149-37.504-56.32-37.504-90.496s13.312-66.347 37.504-90.539c48.341-48.299 132.651-48.341 181.035 0.043l303.829 303.829-303.872 303.829c-24.149 24.192-56.277 37.504-90.496 37.504zM426.667 256c-11.435 0-22.101 4.437-30.165 12.459-8.064 8.107-12.501 18.816-12.501 30.208s4.437 22.101 12.501 30.165l183.125 183.168-183.125 183.168c-8.064 8.064-12.501 18.731-12.501 30.165s4.437 22.101 12.501 30.165c16.128 16.171 44.245 16.128 60.331 0.043l243.541-243.541-243.541-243.499c-8.064-8.064-18.731-12.501-30.165-12.501z"></path>
                       </svg>
                       <p className="about-text02">Latest technology</p>
                     </div>
@@ -43,7 +43,7 @@ const About = (props) => {
                   <li className="about-li1 list-item">
                     <div className="about-container08">
                       <svg viewBox="0 0 1024 1024" className="about-icon02">
-                        <path d="M896 0h-768c-70.4 0-128 57.6-128 128v768c0 70.4 57.6 128 128 128h768c70.4 0 128-57.6 128-128v-768c0-70.4-57.6-128-128-128zM448 794.51l-237.254-237.256 90.51-90.508 146.744 146.744 306.746-306.746 90.508 90.51-397.254 397.256z"></path>
+                        <path d="M426.667 853.333c-34.219 0-66.347-13.312-90.539-37.504-24.149-24.149-37.461-56.32-37.461-90.496s13.312-66.347 37.504-90.539l122.795-122.795-122.795-122.837c-24.192-24.149-37.504-56.32-37.504-90.496s13.312-66.347 37.504-90.539c48.341-48.299 132.651-48.341 181.035 0.043l303.829 303.829-303.872 303.829c-24.149 24.192-56.277 37.504-90.496 37.504zM426.667 256c-11.435 0-22.101 4.437-30.165 12.459-8.064 8.107-12.501 18.816-12.501 30.208s4.437 22.101 12.501 30.165l183.125 183.168-183.125 183.168c-8.064 8.064-12.501 18.731-12.501 30.165s4.437 22.101 12.501 30.165c16.128 16.171 44.245 16.128 60.331 0.043l243.541-243.541-243.541-243.499c-8.064-8.064-18.731-12.501-30.165-12.501z"></path>
                       </svg>
                       <p className="about-text03">
                         Efficient project management
@@ -55,7 +55,7 @@ const About = (props) => {
                   <li className="about-li2 list-item">
                     <div className="about-container10">
                       <svg viewBox="0 0 1024 1024" className="about-icon04">
-                        <path d="M896 0h-768c-70.4 0-128 57.6-128 128v768c0 70.4 57.6 128 128 128h768c70.4 0 128-57.6 128-128v-768c0-70.4-57.6-128-128-128zM448 794.51l-237.254-237.256 90.51-90.508 146.744 146.744 306.746-306.746 90.508 90.51-397.254 397.256z"></path>
+                        <path d="M426.667 853.333c-34.219 0-66.347-13.312-90.539-37.504-24.149-24.149-37.461-56.32-37.461-90.496s13.312-66.347 37.504-90.539l122.795-122.795-122.795-122.837c-24.192-24.149-37.504-56.32-37.504-90.496s13.312-66.347 37.504-90.539c48.341-48.299 132.651-48.341 181.035 0.043l303.829 303.829-303.872 303.829c-24.149 24.192-56.277 37.504-90.496 37.504zM426.667 256c-11.435 0-22.101 4.437-30.165 12.459-8.064 8.107-12.501 18.816-12.501 30.208s4.437 22.101 12.501 30.165l183.125 183.168-183.125 183.168c-8.064 8.064-12.501 18.731-12.501 30.165s4.437 22.101 12.501 30.165c16.128 16.171 44.245 16.128 60.331 0.043l243.541-243.541-243.541-243.499c-8.064-8.064-18.731-12.501-30.165-12.501z"></path>
                       </svg>
                       <p className="about-text04">
                         Optimized engineering designs
@@ -67,7 +67,7 @@ const About = (props) => {
                   <li className="about-li3 list-item">
                     <div className="about-container12">
                       <svg viewBox="0 0 1024 1024" className="about-icon06">
-                        <path d="M896 0h-768c-70.4 0-128 57.6-128 128v768c0 70.4 57.6 128 128 128h768c70.4 0 128-57.6 128-128v-768c0-70.4-57.6-128-128-128zM448 794.51l-237.254-237.256 90.51-90.508 146.744 146.744 306.746-306.746 90.508 90.51-397.254 397.256z"></path>
+                        <path d="M426.667 853.333c-34.219 0-66.347-13.312-90.539-37.504-24.149-24.149-37.461-56.32-37.461-90.496s13.312-66.347 37.504-90.539l122.795-122.795-122.795-122.837c-24.192-24.149-37.504-56.32-37.504-90.496s13.312-66.347 37.504-90.539c48.341-48.299 132.651-48.341 181.035 0.043l303.829 303.829-303.872 303.829c-24.149 24.192-56.277 37.504-90.496 37.504zM426.667 256c-11.435 0-22.101 4.437-30.165 12.459-8.064 8.107-12.501 18.816-12.501 30.208s4.437 22.101 12.501 30.165l183.125 183.168-183.125 183.168c-8.064 8.064-12.501 18.731-12.501 30.165s4.437 22.101 12.501 30.165c16.128 16.171 44.245 16.128 60.331 0.043l243.541-243.541-243.541-243.499c-8.064-8.064-18.731-12.501-30.165-12.501z"></path>
                       </svg>
                       <p className="about-text05">Less energy consumption</p>
                     </div>
@@ -77,7 +77,7 @@ const About = (props) => {
                   <li className="about-li4 list-item">
                     <div className="about-container14">
                       <svg viewBox="0 0 1024 1024" className="about-icon08">
-                        <path d="M896 0h-768c-70.4 0-128 57.6-128 128v768c0 70.4 57.6 128 128 128h768c70.4 0 128-57.6 128-128v-768c0-70.4-57.6-128-128-128zM448 794.51l-237.254-237.256 90.51-90.508 146.744 146.744 306.746-306.746 90.508 90.51-397.254 397.256z"></path>
+                        <path d="M426.667 853.333c-34.219 0-66.347-13.312-90.539-37.504-24.149-24.149-37.461-56.32-37.461-90.496s13.312-66.347 37.504-90.539l122.795-122.795-122.795-122.837c-24.192-24.149-37.504-56.32-37.504-90.496s13.312-66.347 37.504-90.539c48.341-48.299 132.651-48.341 181.035 0.043l303.829 303.829-303.872 303.829c-24.149 24.192-56.277 37.504-90.496 37.504zM426.667 256c-11.435 0-22.101 4.437-30.165 12.459-8.064 8.107-12.501 18.816-12.501 30.208s4.437 22.101 12.501 30.165l183.125 183.168-183.125 183.168c-8.064 8.064-12.501 18.731-12.501 30.165s4.437 22.101 12.501 30.165c16.128 16.171 44.245 16.128 60.331 0.043l243.541-243.541-243.541-243.499c-8.064-8.064-18.731-12.501-30.165-12.501z"></path>
                       </svg>
                       <p className="about-text06">Greener environment</p>
                     </div>
@@ -86,13 +86,16 @@ const About = (props) => {
               </div>
             </div>
             <div className="about-container15">
-              <button className="about-button button">Learn More</button>
+              <a href="#services-section" className="about-link button">
+                Learn More
+              </a>
             </div>
           </div>
           <div className="about-container16">
             <img
               alt="image"
               src="/playground_assets/yoga-officeasset%201-700w.png"
+              loading="eager"
               className="about-image"
             />
           </div>
@@ -216,7 +219,7 @@ const About = (props) => {
           </div>
         </div>
       </div>
-      <div className="about-pricing">
+      <section id="services-section" className="about-services">
         <div className="about-container27">
           <ServiceCard
             Title="PROJECT MANAGEMENT"
@@ -237,7 +240,7 @@ const About = (props) => {
             descriptionArea="Developing optimized Mechanical, Electrical, and Plumbing (MEP) designs as per client requirements. we design, select, and optimize best-fit MEP systems that facilitate operations and fulfill client requirements as per international standards with considering the best life cycle cost."
           ></ServiceCard>
         </div>
-      </div>
+      </section>
       <div className="about-projects">
         <div className="about-container28">
           <div className="about-container29">

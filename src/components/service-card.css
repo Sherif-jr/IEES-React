@@ -105,12 +105,24 @@
 }
 .service-card-root-class-name5 {
   height: 450px;
+  background-size: cover;
+  background-color: transparent;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.7) 0.00%,rgba(255, 255, 255, 0.7) 98.00%),url('https://res.cloudinary.com/dhdonsil5/image/upload/v1671262004/IEES/Img/services/pm-1_yeyjkp.jpg');
 }
 .service-card-root-class-name6 {
   height: 450px;
+  background-size: cover;
+  background-color: transparent;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.7) 0.00%,rgba(255, 255, 255, 0.7) 98.00%),url('https://images.unsplash.com/photo-1558358235-a0a93f68a52c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fGh2YWN8ZW58MHx8fHwxNjcxMjY3OTE3&ixlib=rb-4.0.3&w=1400');
+  background-position: top left,center;
 }
 .service-card-root-class-name7 {
   height: 450px;
+  background-size: cover;
+  background-color: transparent;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.7) 0.00%,rgba(255, 255, 255, 0.7) 98.00%),url('https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEzfHxjaGFydHxlbnwwfHx8fDE2NzEyNjgwMTE&ixlib=rb-4.0.3&w=1400');
+  background-repeat: repeat,no-repeat;
+  background-position: top left,center;
 }
 @media(max-width: 1200px) {
   .service-card-text1 {
