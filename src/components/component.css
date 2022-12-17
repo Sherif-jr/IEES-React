@@ -11,7 +11,7 @@
   padding-right: 32px;
   padding-bottom: var(--dl-space-space-unit);
   text-transform: uppercase;
-  animation-delay: .5s;
+  animation-delay: .4s;
   text-decoration: none;
 }
 .component-link:hover {

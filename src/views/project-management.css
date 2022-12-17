@@ -34,13 +34,14 @@
   color: var(--dl-color-gray-white);
   font-size: 3rem;
   margin-bottom: var(--dl-space-space-tripleunit);
+  animation-delay: .4s;
 }
 .project-management-text01 {
   color: var(--dl-color-gray-white);
   max-width: 80%;
   margin-top: var(--dl-space-space-doubleunit);
   margin-bottom: var(--dl-space-space-tripleunit);
-  animation-delay: .3s;
+  animation-delay: .6s;
 }
 .project-management-btn-group {
   display: flex;
@@ -916,6 +917,10 @@
     padding-left: var(--dl-space-space-unitandahalfunit);
     padding-right: var(--dl-space-space-unitandahalfunit);
   }
+  .project-management-container24 {
+    width: auto;
+    flex-direction: column;
+  }
 }
 @media(max-width: 991px) {
   .project-management-hero {
@@ -1028,6 +1033,9 @@
   }
   .project-management-text73 {
     font-size: 1rem;
+  }
+  .project-management-container24 {
+    flex-direction: column;
   }
 }
 @media(max-width: 767px) {

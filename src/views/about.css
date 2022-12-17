@@ -695,6 +695,9 @@
     font-size: 3rem;
     text-transform: uppercase;
   }
+  .about-container27 {
+    flex-direction: column;
+  }
   .about-projects {
     min-height: 70vh;
     justify-content: center;
@@ -793,6 +796,9 @@
   }
   .about-text24 {
     font-size: 2rem;
+  }
+  .about-container27 {
+    flex-flow: column;
   }
   .about-heading {
     text-align: center;

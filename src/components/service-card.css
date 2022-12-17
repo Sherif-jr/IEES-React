@@ -90,13 +90,17 @@
   background-color: var(--dl-color-gray-black);
 }
 .service-card-root-class-name {
+  width: 400px;
   height: 450px;
+  max-width: auto;
   background-size: cover;
   background-color: transparent;
   background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.7) 0.00%,rgba(255, 255, 255, 0.7) 98.00%),url('https://res.cloudinary.com/dhdonsil5/image/upload/v1671262004/IEES/Img/services/pm-1_yeyjkp.jpg');
 }
 .service-card-root-class-name1 {
+  width: 400px;
   height: 450px;
+  max-width: auto;
   background-size: cover;
   background-color: transparent;
   background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.7) 0.00%,rgba(255, 255, 255, 0.7) 98.00%),url("https://images.unsplash.com/photo-1558358235-a0a93f68a52c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fGh2YWN8ZW58MHx8fHwxNjcxMjY3OTE3&ixlib=rb-4.0.3&w=1400");
@@ -104,7 +108,9 @@
   background-position: center;
 }
 .service-card-root-class-name2 {
+  width: 400px;
   height: 450px;
+  max-width: 400px;
   background-size: cover;
   background-color: transparent;
   background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.7) 0.00%,rgba(255, 255, 255, 0.7) 98.00%),url("https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEzfHxjaGFydHxlbnwwfHx8fDE2NzEyNjgwMTE&ixlib=rb-4.0.3&w=1400");
@@ -117,20 +123,26 @@
   height: 450px;
 }
 .service-card-root-class-name5 {
+  width: 550px;
   height: 450px;
+  max-width: auto;
   background-size: cover;
   background-color: transparent;
   background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.7) 0.00%,rgba(255, 255, 255, 0.7) 98.00%),url('https://res.cloudinary.com/dhdonsil5/image/upload/v1671262004/IEES/Img/services/pm-1_yeyjkp.jpg');
 }
 .service-card-root-class-name6 {
+  width: 550px;
   height: 450px;
+  max-width: auto;
   background-size: cover;
   background-color: transparent;
   background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.7) 0.00%,rgba(255, 255, 255, 0.7) 98.00%),url('https://images.unsplash.com/photo-1558358235-a0a93f68a52c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fGh2YWN8ZW58MHx8fHwxNjcxMjY3OTE3&ixlib=rb-4.0.3&w=1400');
   background-position: top left,center;
 }
 .service-card-root-class-name7 {
+  width: 550px;
   height: 450px;
+  max-width: auto;
   background-size: cover;
   background-color: transparent;
   background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.7) 0.00%,rgba(255, 255, 255, 0.7) 98.00%),url('https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEzfHxjaGFydHxlbnwwfHx8fDE2NzEyNjgwMTE&ixlib=rb-4.0.3&w=1400');
@@ -142,6 +154,51 @@
     line-height: 1.8;
     letter-spacing: 1.1px;
   }
+  .service-card-root-class-name {
+    width: 500px;
+    height: 550px;
+    max-width: 500px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-doubleunit);
+  }
+  .service-card-root-class-name1 {
+    width: 500px;
+    height: 550px;
+    max-width: 500px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-doubleunit);
+  }
+  .service-card-root-class-name2 {
+    width: 500px;
+    height: 550px;
+    max-width: 500px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-doubleunit);
+  }
+  .service-card-root-class-name5 {
+    width: 450px;
+    height: 550px;
+    max-width: 450px;
+    min-height: 550px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-doubleunit);
+  }
+  .service-card-root-class-name6 {
+    width: 450px;
+    height: 550px;
+    max-width: 450px;
+    min-height: 550px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-doubleunit);
+  }
+  .service-card-root-class-name7 {
+    width: 450px;
+    height: 550px;
+    max-width: 450px;
+    min-height: 550px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-doubleunit);
+  }
 }
 @media(max-width: 991px) {
   .service-card-pricing-card {
@@ -149,6 +206,45 @@
     padding: 32px;
     max-width: 100%;
     align-items: center;
+  }
+  .service-card-root-class-name {
+    max-width: 500px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-doubleunit);
+  }
+  .service-card-root-class-name1 {
+    max-width: 500px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-doubleunit);
+  }
+  .service-card-root-class-name2 {
+    max-width: 500px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-doubleunit);
+  }
+  .service-card-root-class-name5 {
+    width: 500px;
+    height: 550px;
+    max-width: 500px;
+    min-height: 550px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-doubleunit);
+  }
+  .service-card-root-class-name6 {
+    width: 500px;
+    height: 550px;
+    max-width: 500px;
+    min-height: 550px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-doubleunit);
+  }
+  .service-card-root-class-name7 {
+    width: 500px;
+    height: 550px;
+    max-width: 500px;
+    min-height: 550px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-doubleunit);
   }
 }
 @media(max-width: 767px) {
@@ -159,15 +255,74 @@
     margin-right: 0px;
     margin-bottom: 32px;
   }
+  .service-card-root-class-name {
+    width: 500px;
+    max-width: 500px;
+  }
+  .service-card-root-class-name1 {
+    width: 500px;
+    max-width: 500px;
+  }
+  .service-card-root-class-name2 {
+    width: 500px;
+    max-width: 500px;
+  }
+  .service-card-root-class-name5 {
+    width: 500px;
+    height: 550px;
+    max-width: 500px;
+    min-height: 550px;
+  }
+  .service-card-root-class-name6 {
+    width: 500px;
+    height: 550px;
+    max-width: 500px;
+    min-height: 550px;
+  }
+  .service-card-root-class-name7 {
+    width: 500px;
+    height: 550px;
+    max-width: 500px;
+    min-height: 550px;
+  }
 }
 @media(max-width: 479px) {
   .service-card-root-class-name {
+    width: 400px;
+    height: 450px;
+    max-width: 400px;
     background-color: transparent;
   }
+  .service-card-root-class-name1 {
+    width: 400px;
+    height: 450px;
+    max-width: 400px;
+  }
+  .service-card-root-class-name2 {
+    width: 400px;
+    height: 450px;
+    max-width: 400px;
+  }
   .service-card-root-class-name5 {
+    width: 400px;
+    height: 450px;
+    max-width: 400px;
+    min-height: 450px;
     background-size: cover;
     background-color: transparent;
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.52) 0.00%,rgba(0, 0, 0, 0.73) 99.00%),url('https://res.cloudinary.com/dhdonsil5/image/upload/v1671262004/IEES/Img/services/pm-1_yeyjkp.jpg');
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.7) 0.00%,rgba(255, 255, 255, 0.7) 98.00%),url('https://res.cloudinary.com/dhdonsil5/image/upload/v1671262004/IEES/Img/services/pm-1_yeyjkp.jpg');
     background-repeat: repeat;
+  }
+  .service-card-root-class-name6 {
+    width: 400px;
+    height: 450px;
+    max-width: 400px;
+    min-height: 450px;
+  }
+  .service-card-root-class-name7 {
+    width: 400px;
+    height: 450px;
+    max-width: 400px;
+    min-height: 450px;
   }
 }
