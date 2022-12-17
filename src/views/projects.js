@@ -70,7 +70,7 @@ const Projects = (props) => {
             >
               <div className="projects-container11">
                 <div className="projects-details">
-                  <div className="projects-div">
+                  <div className="projects-code-embed">
                     <DangerousHTML
                       html={`<style>
   .accordion-button:not(.collapsed){
@@ -382,12 +382,12 @@ const Projects = (props) => {
               </div>
             </div>
             <div
-              id="project-details1"
+              id="project-details2"
               className="projects-project-details1 animate__faster animate__fadeInDown animate__animated custom-hide"
             >
               <div className="projects-container20">
                 <div className="projects-details1">
-                  <div className="projects-div1">
+                  <div className="projects-div">
                     <DangerousHTML
                       html={`<style>
   .accordion-button:not(.collapsed){
@@ -699,12 +699,12 @@ const Projects = (props) => {
               </div>
             </div>
             <div
-              id="project-details1"
+              id="project-details3"
               className="projects-project-details2 animate__faster animate__fadeInDown animate__animated custom-hide"
             >
               <div className="projects-container29">
                 <div className="projects-details2">
-                  <div className="projects-div2">
+                  <div className="projects-div1">
                     <DangerousHTML
                       html={`<style>
   .accordion-button:not(.collapsed){
@@ -1016,12 +1016,12 @@ const Projects = (props) => {
               </div>
             </div>
             <div
-              id="project-details1"
+              id="project-details4"
               className="projects-project-details3 animate__faster animate__fadeInDown animate__animated custom-hide"
             >
               <div className="projects-container38">
                 <div className="projects-details3">
-                  <div className="projects-div3">
+                  <div className="projects-div2">
                     <DangerousHTML
                       html={`<style>
   .accordion-button:not(.collapsed){
@@ -1333,12 +1333,12 @@ const Projects = (props) => {
               </div>
             </div>
             <div
-              id="project-details1"
+              id="project-details5"
               className="projects-project-details4 animate__faster animate__fadeInDown animate__animated custom-hide"
             >
               <div className="projects-container47">
                 <div className="projects-details4">
-                  <div className="projects-div4">
+                  <div className="projects-div3">
                     <DangerousHTML
                       html={`<style>
   .accordion-button:not(.collapsed){

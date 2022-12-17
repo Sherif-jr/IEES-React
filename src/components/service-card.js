@@ -18,10 +18,14 @@ const ServiceCard = (props) => {
         {props.Title}
       </h3>
       <div id="folder" className="service-card-container">
-        <span className="service-card-text1">{props.descriptionArea}</span>
-        <a href={props.link_button} className="service-card-link button">
-          {props.buttontext}
-        </a>
+        <div className="service-card-container1">
+          <span className="service-card-text1">{props.descriptionArea}</span>
+        </div>
+        <div className="service-card-container2">
+          <a href={props.link_button} className="service-card-link button">
+            {props.buttontext}
+          </a>
+        </div>
       </div>
       <div className="">
         <DangerousHTML

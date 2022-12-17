@@ -81,7 +81,6 @@
   padding: var(--dl-space-space-tripleunit);
   z-index: 2;
   box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
-  margin-top: var(--dl-space-space-tripleunit);
   align-items: center;
   border-radius: var(--dl-radius-radius-radius1);
   flex-direction: column;
@@ -239,7 +238,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.projects-div {
+.projects-code-embed {
   width: 100%;
 }
 .projects-container12 {
@@ -248,7 +247,6 @@
   display: flex;
   padding: var(--dl-space-space-tripleunit);
   z-index: 2;
-  margin-top: var(--dl-space-space-tripleunit);
   align-items: center;
   border-radius: var(--dl-radius-radius-radius1);
   flex-direction: column;
@@ -261,7 +259,6 @@
   padding: var(--dl-space-space-tripleunit);
   z-index: 2;
   box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
-  margin-top: var(--dl-space-space-tripleunit);
   align-items: center;
   border-radius: var(--dl-radius-radius-radius1);
   flex-direction: column;
@@ -419,7 +416,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.projects-div1 {
+.projects-div {
   width: 100%;
 }
 .projects-container21 {
@@ -428,7 +425,6 @@
   display: flex;
   padding: var(--dl-space-space-tripleunit);
   z-index: 2;
-  margin-top: var(--dl-space-space-tripleunit);
   align-items: center;
   border-radius: var(--dl-radius-radius-radius1);
   flex-direction: column;
@@ -441,7 +437,6 @@
   padding: var(--dl-space-space-tripleunit);
   z-index: 2;
   box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
-  margin-top: var(--dl-space-space-tripleunit);
   align-items: center;
   border-radius: var(--dl-radius-radius-radius1);
   flex-direction: column;
@@ -599,7 +594,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.projects-div2 {
+.projects-div1 {
   width: 100%;
 }
 .projects-container30 {
@@ -608,7 +603,6 @@
   display: flex;
   padding: var(--dl-space-space-tripleunit);
   z-index: 2;
-  margin-top: var(--dl-space-space-tripleunit);
   align-items: center;
   border-radius: var(--dl-radius-radius-radius1);
   flex-direction: column;
@@ -621,7 +615,6 @@
   padding: var(--dl-space-space-tripleunit);
   z-index: 2;
   box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
-  margin-top: var(--dl-space-space-tripleunit);
   align-items: center;
   border-radius: var(--dl-radius-radius-radius1);
   flex-direction: column;
@@ -779,7 +772,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.projects-div3 {
+.projects-div2 {
   width: 100%;
 }
 .projects-container39 {
@@ -788,7 +781,6 @@
   display: flex;
   padding: var(--dl-space-space-tripleunit);
   z-index: 2;
-  margin-top: var(--dl-space-space-tripleunit);
   align-items: center;
   border-radius: var(--dl-radius-radius-radius1);
   flex-direction: column;
@@ -801,7 +793,6 @@
   padding: var(--dl-space-space-tripleunit);
   z-index: 2;
   box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
-  margin-top: var(--dl-space-space-tripleunit);
   align-items: center;
   border-radius: var(--dl-radius-radius-radius1);
   flex-direction: column;
@@ -959,7 +950,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.projects-div4 {
+.projects-div3 {
   width: 100%;
 }
 @media(max-width: 1200px) {
@@ -1351,7 +1342,7 @@
   .projects-card {
     width: 100%;
     padding: var(--dl-space-space-doubleunit);
-    margin-top: var(--dl-space-space-sixunits);
+    margin-top: var(--dl-space-space-fourunits);
   }
   .projects-text04 {
     font-size: 1.7rem;
@@ -1394,7 +1385,7 @@
   .projects-card1 {
     width: 100%;
     padding: var(--dl-space-space-doubleunit);
-    margin-top: var(--dl-space-space-sixunits);
+    margin-top: var(--dl-space-space-fourunits);
   }
   .projects-text08 {
     font-size: 1.7rem;
@@ -1437,7 +1428,7 @@
   .projects-card2 {
     width: 100%;
     padding: var(--dl-space-space-doubleunit);
-    margin-top: var(--dl-space-space-sixunits);
+    margin-top: var(--dl-space-space-fourunits);
   }
   .projects-text12 {
     font-size: 1.7rem;
@@ -1480,7 +1471,7 @@
   .projects-card3 {
     width: 100%;
     padding: var(--dl-space-space-doubleunit);
-    margin-top: var(--dl-space-space-sixunits);
+    margin-top: var(--dl-space-space-fourunits);
   }
   .projects-text16 {
     font-size: 1.7rem;
@@ -1523,7 +1514,7 @@
   .projects-card4 {
     width: 100%;
     padding: var(--dl-space-space-doubleunit);
-    margin-top: var(--dl-space-space-sixunits);
+    margin-top: var(--dl-space-space-fourunits);
   }
   .projects-text20 {
     font-size: 1.7rem;
