@@ -577,6 +577,7 @@
   text-transform: uppercase;
 }
 .about-text27 {
+  font-size: 1.3rem;
   margin-bottom: var(--dl-space-space-doubleunit);
 }
 .about-navlink {
@@ -617,15 +618,22 @@
   color: var(--dl-color-gray-white);
   width: auto;
   height: auto;
+  font-size: 3rem;
   text-align: center;
   font-weight: 600;
+  margin-bottom: 32px;
+}
+.about-text32 {
+  width: auto;
+  height: auto;
+  text-align: center;
   margin-bottom: 32px;
 }
 .about-heading1 {
   color: var(--dl-color-gray-white);
   width: auto;
   height: auto;
-  font-size: 0.7rem;
+  font-size: 1.3rem;
   max-width: 50%;
   font-style: normal;
   text-align: center;
@@ -758,6 +766,9 @@
     font-size: 2rem;
   }
   .about-heading {
+    text-align: center;
+  }
+  .about-text32 {
     text-align: center;
   }
   .about-heading1 {
@@ -1028,10 +1039,26 @@
     padding-right: var(--dl-space-space-doubleunit);
     padding-bottom: 32px;
   }
+  .about-text27 {
+    font-size: 1rem;
+  }
   .about-banner {
     padding-top: 32px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: 32px;
+  }
+  .about-heading {
+    color: var(--dl-color-gray-white);
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin-bottom: var(--dl-space-space-tripleunit);
+  }
+  .about-text32 {
+    margin-bottom: var(--dl-space-space-tripleunit);
+  }
+  .about-heading1 {
+    font-size: 1rem;
+    max-width: 90%;
   }
 }

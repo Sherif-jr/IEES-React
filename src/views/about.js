@@ -267,7 +267,10 @@ const About = (props) => {
         </div>
       </div>
       <div className="about-banner">
-        <h2 className="about-heading">We&apos;d love to hear form you..</h2>
+        <h4 className="about-heading">
+          <span className="about-text32">We&apos;d love to hear from you!</span>
+          <br></br>
+        </h4>
         <h2 className="about-heading1">
           Whether you are an existing customer who needs help, a new customer
           who wishes to know more, or you&apos;re just curious about the
