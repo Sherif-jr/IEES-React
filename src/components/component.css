@@ -18,12 +18,16 @@
   transform: scale(1.02);
 }
 
+
 @media(max-width: 479px) {
   .component-link {
     width: 100%;
     text-align: center;
   }
   .component-root-class-name {
+    width: 100%;
+  }
+  .component-root-class-name1 {
     width: 100%;
   }
 }

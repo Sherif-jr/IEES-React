@@ -140,11 +140,12 @@
   display: inline-flex;
   transition: 0.3s;
   align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
+  padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-unit);
   border-radius: 4px;
   padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .header-dropdown-toggle1:hover {
   fill: #fff;
@@ -157,8 +158,8 @@
   display: flex;
   font-size: 14px;
   font-style: normal;
+  transition: all .3s ease-out;
   font-weight: 500;
-  text-decoration: none;
 }
 .header-dropdown1 {
   cursor: pointer;
@@ -173,25 +174,25 @@
   display: inline-flex;
   transition: 0.3s;
   align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
+  padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-unit);
   border-radius: 4px;
   padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .header-dropdown-toggle2:hover {
   fill: #fff;
   color: #fff;
   background-color: #595959;
 }
-.header-navlink2 {
+.header-text2 {
   width: 100%;
   cursor: pointer;
   display: flex;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  text-decoration: none;
 }
 .header-dropdown2 {
   cursor: pointer;
@@ -206,25 +207,25 @@
   display: inline-flex;
   transition: 0.3s;
   align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
+  padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-unit);
   border-radius: 4px;
   padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .header-dropdown-toggle3:hover {
   fill: #fff;
   color: #fff;
   background-color: #595959;
 }
-.header-navlink3 {
+.header-text3 {
   width: 100%;
   cursor: pointer;
   display: flex;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  text-decoration: none;
 }
 .header-dropdown3 {
   cursor: pointer;
@@ -239,35 +240,24 @@
   display: inline-flex;
   transition: 0.3s;
   align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
+  padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-unit);
   border-radius: 4px;
   padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-unit);
 }
 .header-dropdown-toggle4:hover {
   fill: #fff;
   color: #fff;
   background-color: #595959;
 }
-.header-text2 {
+.header-text4 {
   width: 100%;
   cursor: pointer;
   display: flex;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-}
-.header-navlink4 {
-  margin-top: var(--dl-space-space-halfunit);
-  transition: 0.3s;
-  margin-left: var(--dl-space-space-unit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: var(--dl-space-space-halfunit);
-  text-decoration: none;
-}
-.header-navlink4:hover {
-  color: var(--dl-color-gray-500);
 }
 .header-navlink5 {
   margin-top: var(--dl-space-space-halfunit);
@@ -278,6 +268,17 @@
   text-decoration: none;
 }
 .header-navlink5:hover {
+  color: var(--dl-color-gray-500);
+}
+.header-navlink6 {
+  margin-top: var(--dl-space-space-halfunit);
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.header-navlink6:hover {
   color: var(--dl-color-gray-500);
 }
 .header-container2 {
@@ -292,7 +293,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.header-navlink6 {
+.header-navlink7 {
   display: contents;
 }
 .header-component {
@@ -336,7 +337,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.header-navlink7 {
+.header-navlink8 {
   color: var(--dl-color-secondary-700);
   font-weight: 600;
   text-decoration: none;
@@ -487,7 +488,7 @@
     align-items: center;
     justify-content: center;
   }
-  .header-navlink7 {
+  .header-navlink8 {
     color: var(--dl-color-secondary-700);
     font-weight: 600;
     text-decoration: none;

@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 
 import Header from '../components/header'
-import ServiceCard from '../components/service-card'
 import FooterGray from '../components/footer-gray'
 import './about.css'
 
@@ -221,47 +220,94 @@ const About = (props) => {
       </div>
       <section id="services-section" className="about-services">
         <div className="about-container27">
-          <ServiceCard
-            Title="PROJECT MANAGEMENT"
-            link_button="/project-management"
-            rootClassName="service-card-root-class-name"
-            descriptionArea="We support clients to achieve the best lifetime for their assets and equipment by proposing the optimum maintenance scenario and following up on the implementation of this scenario."
-          ></ServiceCard>
-          <ServiceCard
-            Title="MAINTENANCE MANAGEMENT"
-            link_button="/project-management"
-            rootClassName="service-card-root-class-name1"
-            descriptionArea="Providing the best scenario for managing MEP projects by optimizing the dilemma between Scope, time, quality, and budget. Using our experience in managing MEP projects and through our specialization in MEP systems."
-          ></ServiceCard>
-          <ServiceCard
-            Title="ENERGY MANAGEMENT"
-            link_button="/project-management"
-            rootClassName="service-card-root-class-name2"
-            descriptionArea="Developing optimized Mechanical, Electrical, and Plumbing (MEP) designs as per client requirements. we design, select, and optimize best-fit MEP systems that facilitate operations and fulfill client requirements as per international standards with considering the best life cycle cost."
-          ></ServiceCard>
+          <div className="about-pricing-card Card">
+            <h3 className="about-text26 title transition">
+              PROJECT MANAGEMENT
+            </h3>
+            <div className="folder">
+              <div className="about-container29">
+                <span className="about-text27">
+                  We support clients to achieve the best lifetime for their
+                  assets and equipment by proposing the optimum maintenance
+                  scenario and following up on the implementation of this
+                  scenario.
+                </span>
+              </div>
+              <div className="about-container30">
+                <a href="/project-management" className="about-link1 button">
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="about-pricing-card1 Card">
+            <h3 className="about-text28 title transition">
+              MAINTENANCE MANAGEMENT
+            </h3>
+            <div className="about-container31 folder">
+              <div className="about-container32">
+                <span className="about-text29">
+                  Providing the best scenario for managing MEP projects by
+                  optimizing the dilemma between Scope, time, quality, and
+                  budget. Using our experience in managing MEP projects and
+                  through our specialization in MEP systems.
+                </span>
+              </div>
+              <div className="about-container33">
+                <Link
+                  to="/maintenance-management"
+                  className="about-navlink button"
+                >
+                  Learn More
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="about-pricing-card2 Card">
+            <h3 className="about-text30 title transition">ENERGY MANAGEMENT</h3>
+            <div className="about-container34 folder">
+              <div className="about-container35">
+                <span className="about-text31">
+                  Developing optimized Mechanical, Electrical, and Plumbing
+                  (MEP) designs as per client requirements. we design, select,
+                  and optimize best-fit MEP systems that facilitate operations
+                  and fulfill client requirements as per international standards
+                  with considering the best life cycle cost.
+                </span>
+              </div>
+              <div className="about-container36">
+                <Link
+                  to="/project-management"
+                  className="about-navlink1 button"
+                >
+                  Learn More
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <div className="about-projects">
-        <div className="about-container28">
-          <div className="about-container29">
-            <div className="about-container30">
+        <div className="about-container37">
+          <div className="about-container38">
+            <div className="about-container39">
               <svg
                 viewBox="0 0 1090.8525714285713 1024"
                 className="about-icon10"
               >
                 <path d="M1017.714 532c0-16-17.714-20-30.286-20h-621.714c-30.286 0-70.286 18.857-89.714 42.286l-168 207.429c-5.143 6.857-10.286 14.286-10.286 22.857 0 16 17.714 20 30.286 20h621.714c30.286 0 70.286-18.857 89.714-42.857l168-207.429c5.143-6.286 10.286-13.714 10.286-22.286zM365.714 438.857h438.857v-91.429c0-30.286-24.571-54.857-54.857-54.857h-329.143c-30.286 0-54.857-24.571-54.857-54.857v-36.571c0-30.286-24.571-54.857-54.857-54.857h-182.857c-30.286 0-54.857 24.571-54.857 54.857v487.429l146.286-180c33.143-40.571 94.286-69.714 146.286-69.714zM1090.857 532c0 25.143-10.857 49.143-26.286 68.571l-168.571 207.429c-32.571 40-94.857 69.714-146.286 69.714h-621.714c-70.286 0-128-57.714-128-128v-548.571c0-70.286 57.714-128 128-128h182.857c70.286 0 128 57.714 128 128v18.286h310.857c70.286 0 128 57.714 128 128v91.429h109.714c38.857 0 77.714 17.714 94.857 54.286 5.714 12 8.571 25.143 8.571 38.857z"></path>
               </svg>
-              <h1 className="about-text26">Our portfolio</h1>
+              <h1 className="about-text32">Our portfolio</h1>
             </div>
-            <span className="about-text27">
+            <span className="about-text33">
               <span>
                 Well documented projects are waiting for you to explore. 
               </span>
               <span>Take a look at our portfolio from the button below.</span>
               <br></br>
             </span>
-            <Link to="/projects" className="about-navlink button">
-              <span className="about-text31">Explore Projects</span>
+            <Link to="/projects" className="about-navlink2 button">
+              <span className="about-text37">Explore Projects</span>
               <svg viewBox="0 0 1024 1024" className="about-icon12">
                 <path d="M981.333 512c0-129.579-52.565-246.997-137.472-331.861s-202.283-137.472-331.861-137.472-246.997 52.565-331.861 137.472-137.472 202.283-137.472 331.861 52.565 246.997 137.472 331.861 202.283 137.472 331.861 137.472 246.997-52.565 331.861-137.472 137.472-202.283 137.472-331.861zM896 512c0 106.069-42.923 201.984-112.469 271.531s-165.461 112.469-271.531 112.469-201.984-42.923-271.531-112.469-112.469-165.461-112.469-271.531 42.923-201.984 112.469-271.531 165.461-112.469 271.531-112.469 201.984 42.923 271.531 112.469 112.469 165.461 112.469 271.531zM341.333 554.667h238.336l-97.835 97.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l170.667-170.667c3.925-3.925 7.083-8.619 9.259-13.824 4.309-10.453 4.309-22.229 0-32.683-2.091-5.035-5.163-9.728-9.259-13.824l-170.667-170.667c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l97.835 97.835h-238.336c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
               </svg>
@@ -271,7 +317,7 @@ const About = (props) => {
       </div>
       <div className="about-banner">
         <h4 className="about-heading">
-          <span className="about-text32">We&apos;d love to hear from you!</span>
+          <span className="about-text38">We&apos;d love to hear from you!</span>
           <br></br>
         </h4>
         <h2 className="about-heading1">
@@ -280,7 +326,7 @@ const About = (props) => {
           features and wants to be up to date with our latest news and offers.
           you are a click away from what you need.
         </h2>
-        <Link to="/contact-us" className="about-navlink1 button">
+        <Link to="/contact-us" className="about-navlink3 button">
           Get in touch
         </Link>
       </div>

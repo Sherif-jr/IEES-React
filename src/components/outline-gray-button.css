@@ -12,7 +12,7 @@
   font-size: .78rem;
   font-style: normal;
   text-align: center;
-  transition: all .15s ease-in;
+  transition: 0.3s;
   font-family: Open Sans;
   font-weight: 700;
   line-height: 1.4;
@@ -24,6 +24,10 @@
   letter-spacing: -0.025rem;
   padding-bottom: var(--dl-space-space-triplequarterunit);
   text-transform: uppercase;
+}
+.outline-gray-button-button:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-primary-500);
 }
 .outline-gray-button-root-class-name {
   align-self: center;

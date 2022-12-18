@@ -6,7 +6,7 @@ import './primary-blue-button.css'
 
 const PrimaryBlueButton = (props) => {
   return (
-    <div className="primary-blue-button-container">
+    <div className={`primary-blue-button-container ${props.rootClassName} `}>
       <button type="submit" className="primary-blue-button-button">
         {props.button}
       </button>
@@ -15,10 +15,12 @@ const PrimaryBlueButton = (props) => {
 }
 
 PrimaryBlueButton.defaultProps = {
+  rootClassName: '',
   button: 'Button',
 }
 
 PrimaryBlueButton.propTypes = {
+  rootClassName: PropTypes.string,
   button: PropTypes.string,
 }
 

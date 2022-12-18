@@ -48,43 +48,42 @@ const Header = (props) => {
                   data-thq="thq-dropdown"
                   className="header-dropdown list-item"
                 >
-                  <div
-                    data-thq="thq-dropdown-toggle"
-                    className="header-dropdown-toggle1"
-                  >
-                    <Link
-                      to="/project-management"
-                      className="header-project-management hover:translate-x-4"
+                  <Link to="/project-management">
+                    <div
+                      data-thq="thq-dropdown-toggle"
+                      className="header-dropdown-toggle1"
                     >
-                      {props.first_item}
-                    </Link>
-                  </div>
+                      <span className="header-project-management">
+                        {props.first_item}
+                      </span>
+                    </div>
+                  </Link>
                 </li>
                 <li
                   data-thq="thq-dropdown"
                   className="header-dropdown1 list-item"
                 >
-                  <div
-                    data-thq="thq-dropdown-toggle"
-                    className="header-dropdown-toggle2"
-                  >
-                    <Link to="/project-management" className="header-navlink2">
-                      {props.second_item}
-                    </Link>
-                  </div>
+                  <Link to="/maintenance-management">
+                    <div
+                      data-thq="thq-dropdown-toggle"
+                      className="header-dropdown-toggle2"
+                    >
+                      <span className="header-text2">{props.second_item}</span>
+                    </div>
+                  </Link>
                 </li>
                 <li
                   data-thq="thq-dropdown"
                   className="header-dropdown2 list-item"
                 >
-                  <div
-                    data-thq="thq-dropdown-toggle"
-                    className="header-dropdown-toggle3"
-                  >
-                    <Link to="/project-management" className="header-navlink3">
-                      {props.third_item}
-                    </Link>
-                  </div>
+                  <Link to="/maintenance-management">
+                    <div
+                      data-thq="thq-dropdown-toggle"
+                      className="header-dropdown-toggle3"
+                    >
+                      <span className="header-text3">{props.third_item}</span>
+                    </div>
+                  </Link>
                 </li>
                 <li
                   data-thq="thq-dropdown"
@@ -94,21 +93,21 @@ const Header = (props) => {
                     data-thq="thq-dropdown-toggle"
                     className="header-dropdown-toggle4"
                   >
-                    <span className="header-text2">{props.forth_item}</span>
+                    <span className="header-text4">{props.forth_item}</span>
                   </div>
                 </li>
               </ul>
             </div>
-            <Link to="/projects" className="header-navlink4 Large">
+            <Link to="/projects" className="header-navlink5 Large">
               Projects
             </Link>
-            <Link to="/about" className="header-navlink5 Large">
+            <Link to="/about" className="header-navlink6 Large">
               About
             </Link>
           </div>
           <div className="header-container2">
             <div className="header-container3">
-              <Link to="/contact-us" className="header-navlink6">
+              <Link to="/contact-us" className="header-navlink7">
                 <HeaderGreenButton
                   button="CONTACT US"
                   rootClassName="header-green-button-root-class-name"
@@ -128,7 +127,7 @@ const Header = (props) => {
         <div className="header-top">
           <Link
             to="/"
-            className="header-navlink7 animate__fadeIn animate__animated"
+            className="header-navlink8 animate__fadeIn animate__animated"
           >
             IEES
           </Link>

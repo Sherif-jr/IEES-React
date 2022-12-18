@@ -53,7 +53,7 @@ const Home = (props) => {
         loading="eager"
         className="home-image"
       />
-      <div className="home-services">
+      <div id="services" className="home-services">
         <h2 className="home-text03 HeadingOne animate-gradient">
           <span>SERVICES</span>
           <br></br>
@@ -66,7 +66,7 @@ const Home = (props) => {
         </span>
         <div className="home-services-cards">
           <div className="home-container04">
-            <div className="home-card1">
+            <div className="home-services-card">
               <div className="home-container05">
                 <Player
                   src="https://res.cloudinary.com/dhdonsil5/raw/upload/v1671147966/IEES/Project_u2gzea.json"
@@ -88,7 +88,7 @@ const Home = (props) => {
                 following up on the implementation of this scenario.
               </p>
               <div className="home-container06">
-                <Link to="/project-management" className="home-navlink1">
+                <Link to="/project-management" className="home-navlink01">
                   <OutlineGrayButton
                     button="read more"
                     rootClassName="outline-gray-button-root-class-name"
@@ -99,7 +99,7 @@ const Home = (props) => {
             </div>
           </div>
           <div className="home-container07">
-            <div className="home-card2">
+            <div className="home-services-card home-card2">
               <div className="home-container08">
                 <Player
                   src="https://res.cloudinary.com/dhdonsil5/raw/upload/v1671147976/IEES/maintenance_w7givi.json"
@@ -123,15 +123,18 @@ const Home = (props) => {
                 specialization in MEP systems.
               </p>
               <div className="home-container09">
-                <OutlineGrayButton
-                  button="read more"
-                  rootClassName="outline-gray-button-root-class-name1"
-                ></OutlineGrayButton>
+                <Link to="/maintenance-management" className="home-navlink02">
+                  <OutlineGrayButton
+                    button="read more"
+                    rootClassName="outline-gray-button-root-class-name1"
+                    className="home-component04"
+                  ></OutlineGrayButton>
+                </Link>
               </div>
             </div>
           </div>
           <div className="home-container10">
-            <div className="home-card3">
+            <div className="home-services-card home-card3">
               <div className="home-container11">
                 <Player
                   src="https://res.cloudinary.com/dhdonsil5/raw/upload/v1671147982/IEES/Design_cxwgtw.json"
@@ -156,10 +159,13 @@ const Home = (props) => {
                 considering the best life cycle cost.
               </p>
               <div className="home-container12">
-                <OutlineGrayButton
-                  button="read more"
-                  rootClassName="outline-gray-button-root-class-name2"
-                ></OutlineGrayButton>
+                <Link to="/energy-management" className="home-navlink03">
+                  <OutlineGrayButton
+                    button="read more"
+                    rootClassName="outline-gray-button-root-class-name2"
+                    className="home-component05"
+                  ></OutlineGrayButton>
+                </Link>
               </div>
             </div>
           </div>
@@ -238,7 +244,12 @@ const Home = (props) => {
                   <span>Main Electrical Network</span>
                 </li>
               </ul>
-              <OutlineBlackButton button="Explore"></OutlineBlackButton>
+              <Link to="/projects" className="home-navlink04">
+                <OutlineBlackButton
+                  button="Explore"
+                  className="home-component09"
+                ></OutlineBlackButton>
+              </Link>
             </div>
           </div>
           <div className="home-container21">
@@ -259,7 +270,12 @@ const Home = (props) => {
                   <span>Project Management</span>
                 </li>
               </ul>
-              <OutlineBlackButton button="Explore"></OutlineBlackButton>
+              <Link to="/projects" className="home-navlink05">
+                <OutlineBlackButton
+                  button="Explore"
+                  className="home-component10"
+                ></OutlineBlackButton>
+              </Link>
             </div>
           </div>
           <div className="home-container24">
@@ -279,7 +295,12 @@ const Home = (props) => {
                   <span>Maintenance Supervision</span>
                 </li>
               </ul>
-              <OutlineBlackButton button="Explore"></OutlineBlackButton>
+              <Link to="/projects" className="home-navlink06">
+                <OutlineBlackButton
+                  button="Explore"
+                  className="home-component11"
+                ></OutlineBlackButton>
+              </Link>
             </div>
           </div>
           <div className="home-container27">
@@ -302,7 +323,12 @@ const Home = (props) => {
                   <span>Maintenance Supervision</span>
                 </li>
               </ul>
-              <OutlineBlackButton button="Explore"></OutlineBlackButton>
+              <Link to="/projects" className="home-navlink07">
+                <OutlineBlackButton
+                  button="Explore"
+                  className="home-component12"
+                ></OutlineBlackButton>
+              </Link>
             </div>
           </div>
           <div className="home-container30">
@@ -326,7 +352,12 @@ const Home = (props) => {
                   <span>Maintenance Supervision</span>
                 </li>
               </ul>
-              <OutlineBlackButton button="Explore"></OutlineBlackButton>
+              <Link to="/projects" className="home-navlink08">
+                <OutlineBlackButton
+                  button="Explore"
+                  className="home-component13"
+                ></OutlineBlackButton>
+              </Link>
             </div>
           </div>
         </div>
@@ -357,7 +388,7 @@ const Home = (props) => {
                 <span>Relax and leave all the hard work to us.</span>
               </p>
               <div className="home-container36">
-                <Link to="/contact-us" className="home-navlink2">
+                <Link to="/contact-us" className="home-navlink09">
                   <OutlineBlackButton
                     button="Contact Us"
                     rootClassName="outline-black-button-root-class-name"

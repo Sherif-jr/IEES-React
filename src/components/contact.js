@@ -2,7 +2,6 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-import PrimaryBlueButton from './primary-blue-button'
 import './contact.css'
 
 const Contact = (props) => {
@@ -12,19 +11,32 @@ const Contact = (props) => {
         <div className="contact-form">
           <h2 className="contact-text">Just a few fields to fill...</h2>
           <span className="contact-text01 Lead">{props.text}</span>
-          <form className="contact-form1">
-            <label className="contact-text02 Label">{props.text1}</label>
+          <form
+            action="https://formsubmit.co/abdelrhman.sh.ahmed@gmial.com"
+            method="POST"
+            enctype="application/x-www-form-urlencoded"
+            autoComplete="off"
+            className="contact-form1"
+          >
+            <label htmlFor="first-naame" className="contact-text02 Label">
+              {props.text1}
+            </label>
             <input
               type="text"
+              name="client-name"
               required
               placeholder={props.textinput_placeholder}
+              id="first-naame"
               className="contact-textinput Small input"
             />
-            <label className="contact-text03 Label">{props.text8}</label>
+            <label htmlFor="phonne" className="contact-text03 Label">
+              {props.text8}
+            </label>
             <input
-              type="text"
+              type="tel"
               required
               placeholder={props.textinput_placeholder11}
+              id="phonne"
               className="contact-textinput1 Small input"
             />
             <label className="contact-text04 Label">{props.text2}</label>
@@ -34,18 +46,22 @@ const Contact = (props) => {
               placeholder={props.textinput_placeholder1}
               className="contact-textinput2 Small input"
             />
-            <label className="contact-text05 Label">{props.text3}</label>
+            <label htmlFor="phonne" className="contact-text05 Label">
+              {props.text3}
+            </label>
+            <div className="contact-container01">
+              <div className="contact-container02"></div>
+            </div>
             <textarea
               rows="4"
               placeholder={props.textarea_placeholder}
+              id="text-areaa"
               className="contact-textarea textarea Small"
             ></textarea>
+            <button type="submit" className="contact-button">
+              {props.button}
+            </button>
           </form>
-          <div className="contact-container01">
-            <div className="contact-container02">
-              <PrimaryBlueButton button="Submit"></PrimaryBlueButton>
-            </div>
-          </div>
         </div>
         <div className="contact-info">
           <div className="contact-container03">
@@ -145,6 +161,7 @@ Contact.defaultProps = {
   text8: 'Phone number',
   text5: '(+40) 772 100 200',
   image_alt: 'image',
+  button: 'Button',
 }
 
 Contact.propTypes = {
@@ -163,6 +180,7 @@ Contact.propTypes = {
   text8: PropTypes.string,
   text5: PropTypes.string,
   image_alt: PropTypes.string,
+  button: PropTypes.string,
 }
 
 export default Contact

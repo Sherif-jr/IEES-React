@@ -50,8 +50,85 @@
 
 
 
+
+.icon-list-item-dark-root-class-name20 {
+  max-width: auto;
+}
+
+
+
+
+.icon-list-item-dark-root-class-name25 {
+  max-width: auto;
+}
+
+
+
+.icon-list-item-dark-root-class-name29 {
+  max-width: auto;
+}
+
+
+
+
+.icon-list-item-dark-root-class-name34 {
+  max-width: auto;
+}
+
+.icon-list-item-dark-root-class-name36 {
+  max-width: auto;
+}
+
+.icon-list-item-dark-root-class-name38 {
+  max-width: auto;
+}
+
+
+.icon-list-item-dark-root-class-name41 {
+  max-width: auto;
+}
+
+
+
+.icon-list-item-dark-root-class-name45 {
+  max-width: auto;
+}
+
+
+
+.icon-list-item-dark-root-class-name49 {
+  max-width: auto;
+}
+
+.icon-list-item-dark-root-class-name51 {
+  max-width: auto;
+}
+.icon-list-item-dark-root-class-name52 {
+  max-width: auto;
+}
+
+
+.icon-list-item-dark-root-class-name55 {
+  max-width: auto;
+}
+.icon-list-item-dark-root-class-name56 {
+  max-width: auto;
+}
+.icon-list-item-dark-root-class-name57 {
+  max-width: auto;
+}
 @media(max-width: 991px) {
   .icon-list-item-dark-text {
     font-size: 0.8rem;
+  }
+}
+@media(max-width: 767px) {
+  .icon-list-item-dark-icon {
+    width: var(--dl-size-size-unit);
+    height: var(--dl-size-size-unit);
+    margin-right: .25rem;
+  }
+  .icon-list-item-dark-text {
+    font-size: .9rem;
   }
 }

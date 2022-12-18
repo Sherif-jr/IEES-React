@@ -1,4 +1,4 @@
-.project-management-container {
+.energy-management-container {
   width: 100%;
   height: auto;
   display: flex;
@@ -8,7 +8,7 @@
   justify-content: flex-start;
   background-color: var(--dl-color-gray-900);
 }
-.project-management-hero {
+.energy-management-hero {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -19,82 +19,68 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: linear-gradient(113deg, rgba(0, 54, 57, 0.7) 8.00%,rgba(50, 74, 10, 0.8) 94.00%),url('https://res.cloudinary.com/dhdonsil5/image/upload/v1671262004/IEES/Img/services/pm-1_yeyjkp.jpg');
-  background-repeat: center,top left;
-  background-position: top left,center;
+  background-image: linear-gradient(113deg, rgba(0, 54, 57, 0.7) 8.00%,rgba(50, 74, 10, 0.8) 94.00%),url('https://images.unsplash.com/photo-1603335730747-ca17baa3aac2?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fGFpciUyMGNvbmRpdGlvbmVyfGVufDB8fHx8MTY3MTI5NTcwNg&ixlib=rb-4.0.3&w=1500');
+  background-repeat: center,no-repeat;
+  background-position: top left,left;
 }
-.project-management-container01 {
+.energy-management-container01 {
   flex: 0 0 auto;
   display: flex;
   max-width: 1350px;
   align-items: center;
   flex-direction: column;
 }
-.project-management-text {
+.energy-management-text {
   color: var(--dl-color-gray-white);
   font-size: 3rem;
   margin-bottom: var(--dl-space-space-tripleunit);
   animation-delay: .4s;
 }
-.project-management-text01 {
+.energy-management-text001 {
   color: var(--dl-color-applegreen-main);
 }
-.project-management-text03 {
+.energy-management-text003 {
   color: var(--dl-color-applegreen-main);
 }
-.project-management-text05 {
+.energy-management-text005 {
   color: var(--dl-color-gray-white);
   max-width: 80%;
   margin-top: var(--dl-space-space-doubleunit);
   margin-bottom: var(--dl-space-space-tripleunit);
   animation-delay: .6s;
 }
-.project-management-btn-group {
+.energy-management-btn-group {
   display: flex;
+  align-items: center;
   flex-direction: row;
 }
-.project-management-container02 {
-  display: flex;
-  position: relative;
-  animation-delay: .4s;
+.energy-management-link {
+  display: contents;
 }
-.project-management-link {
-  color: var(--dl-color-primary-500);
-  font-size: 0.75rem;
-  padding-top: var(--dl-space-space-unit);
-  border-width: 0px;
-  padding-left: 45px;
-  padding-right: 45px;
-  padding-bottom: var(--dl-space-space-unit);
-  text-transform: uppercase;
-  animation-delay: .4s;
+.energy-management-get-started-button {
   text-decoration: none;
 }
-.project-management-link:hover {
-  color: var(--dl-color-gray-white);
-  background-color: var(--dl-color-primary-500);
-}
-.project-management-button {
+.energy-management-button {
   color: var(--dl-color-gray-white);
   font-size: 0.75rem;
   transition: 0.3s;
   margin-left: var(--dl-space-space-unit);
   padding-top: var(--dl-space-space-unit);
   border-color: var(--dl-color-gray-white);
-  padding-left: var(--dl-space-space-doubleunit);
-  padding-right: var(--dl-space-space-doubleunit);
+  padding-left: 32px;
+  padding-right: 32px;
   padding-bottom: var(--dl-space-space-unit);
   text-transform: uppercase;
   animation-delay: .7s;
   background-color: transparent;
 }
-.project-management-button:hover {
+.energy-management-button:hover {
   transform: scale(1.02);
 }
-.project-management-text12:hover {
+.energy-management-text012:hover {
   transform: scale(1.02);
 }
-.project-management-section1 {
+.energy-management-section1 {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -107,9 +93,9 @@
   padding-bottom: var(--dl-space-space-fourunits);
   background-size: cover;
   justify-content: flex-start;
-  background-image: linear-gradient(113deg, rgba(0, 46, 49, 0.8) 8.00%,rgba(64, 91, 21, 0.8) 94.00%),url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHx3b3JrJTIwbGFwdG9wfGVufDB8fHx8MTYyNjE3NjkzMA&ixlib=rb-1.2.1&w=1500');
+  background-image: linear-gradient(113deg, rgba(0, 46, 49, 0.8) 8.00%,rgba(64, 91, 21, 0.8) 94.00%),url('https://images.unsplash.com/photo-1543617080-0db79d35e926?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE3fHxtZWFzdXJlfGVufDB8fHx8MTY3MTMwMDczNg&ixlib=rb-4.0.3&w=1500');
 }
-.project-management-container03 {
+.energy-management-container02 {
   flex: 0 0 auto;
   width: auto;
   display: flex;
@@ -117,18 +103,18 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.project-management-text14 {
+.energy-management-text014 {
   color: var(--dl-color-gray-white);
   width: fit-content;
   font-size: 2rem;
 }
-.project-management-text18 {
+.energy-management-text018 {
   color: var(--dl-color-gray-white);
   margin-top: 32px;
   text-align: left;
-  margin-bottom: var(--dl-space-space-unitandahalfunit);
+  margin-bottom: 32px;
 }
-.project-management-problems1 {
+.energy-management-problems1 {
   flex: 0 0 auto;
   width: 50%;
   height: 100%;
@@ -137,7 +123,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.project-management-container05 {
+.energy-management-container04 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -145,9 +131,8 @@
   align-items: center;
   justify-content: center;
 }
-.project-management-text22 {
+.energy-management-text019 {
   width: 100%;
-  position: relative;
   font-size: 1.25rem;
   text-align: center;
   text-shadow: 1px 1px rgba(0, 0, 0, .1);
@@ -156,34 +141,24 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.project-management-text25 {
+.energy-management-text022 {
   color: var(--dl-color-gray-white);
 }
-.project-management-text26 {
+.energy-management-text023 {
   color: var(--dl-color-gray-white);
 }
-.project-management-text27 {
+.energy-management-text024 {
   color: var(--dl-color-gray-white);
 }
-.project-management-text28 {
-  color: var(--dl-color-gray-white);
-}
-.project-management-text29 {
-  color: var(--dl-color-gray-white);
-}
-.project-management-text30 {
-  color: var(--dl-color-gray-white);
-}
-.project-management-solutions1 {
+.energy-management-solutions1 {
   flex: 0 0 auto;
   width: 50%;
   display: flex;
-  min-height: 45vh;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.project-management-container07 {
+.energy-management-container06 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -191,7 +166,7 @@
   align-items: center;
   justify-content: center;
 }
-.project-management-text31 {
+.energy-management-text027 {
   width: 100%;
   font-size: 1.25rem;
   text-align: center;
@@ -201,7 +176,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.project-management-container08 {
+.energy-management-container07 {
   gap: var(--dl-space-space-halfunit);
   width: 100%;
   height: max-content;
@@ -212,7 +187,7 @@
   justify-content: flex-start;
   list-style-image: url();
 }
-.project-management-section2 {
+.energy-management-section2 {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -229,7 +204,7 @@
   background-repeat: no-repeat;
   background-position: top left,center;
 }
-.project-management-container10 {
+.energy-management-container09 {
   flex: 0 0 auto;
   width: auto;
   display: flex;
@@ -237,18 +212,18 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.project-management-text34 {
+.energy-management-text030 {
   color: var(--dl-color-gray-white);
   width: fit-content;
   font-size: 2rem;
 }
-.project-management-text38 {
+.energy-management-text034 {
   color: var(--dl-color-gray-white);
   margin-top: 32px;
   text-align: left;
   margin-bottom: 32px;
 }
-.project-management-problems11 {
+.energy-management-problems11 {
   flex: 0 0 auto;
   width: 50%;
   height: 100%;
@@ -257,7 +232,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.project-management-container12 {
+.energy-management-container11 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -265,7 +240,7 @@
   align-items: center;
   justify-content: center;
 }
-.project-management-text41 {
+.energy-management-text037 {
   width: 100%;
   font-size: 1.25rem;
   text-align: center;
@@ -275,19 +250,24 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.project-management-text44 {
+.energy-management-text040 {
   color: var(--dl-color-gray-white);
 }
-.project-management-text45 {
+.energy-management-ul1 {
+  font-size: .8rem;
+  margin-top: var(--dl-space-space-halfunit);
+  list-style-type: square;
+}
+.energy-management-text041 {
   color: var(--dl-color-gray-white);
 }
-.project-management-text46 {
+.energy-management-text042 {
   color: var(--dl-color-gray-white);
 }
-.project-management-text47 {
+.energy-management-text045 {
   color: var(--dl-color-gray-white);
 }
-.project-management-solutions11 {
+.energy-management-solutions11 {
   flex: 0 0 auto;
   width: 50%;
   display: flex;
@@ -295,7 +275,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.project-management-container14 {
+.energy-management-container13 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -303,7 +283,7 @@
   align-items: center;
   justify-content: center;
 }
-.project-management-text48 {
+.energy-management-text048 {
   width: 100%;
   font-size: 1.25rem;
   text-align: center;
@@ -313,7 +293,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.project-management-container15 {
+.energy-management-container14 {
   gap: var(--dl-space-space-halfunit);
   width: 100%;
   height: max-content;
@@ -324,9 +304,9 @@
   justify-content: flex-start;
   list-style-image: url();
 }
-.project-management-section21 {
+.energy-management-section3 {
   width: 100%;
-  height: auto;
+  height: 100vh;
   display: flex;
   position: relative;
   align-items: flex-start;
@@ -337,11 +317,11 @@
   padding-bottom: var(--dl-space-space-fourunits);
   background-size: cover;
   justify-content: flex-start;
-  background-image: linear-gradient(113deg, rgba(0, 46, 49, 0.8) 8.00%,rgba(64, 91, 21, 0.8) 94.00%),url('https://res.cloudinary.com/dhdonsil5/image/upload/v1671262005/IEES/Img/services/pm-4_grqsk7.jpg');
+  background-image: linear-gradient(113deg, rgba(0, 46, 49, 0.8) 8.00%,rgba(64, 91, 21, 0.8) 94.00%),url('https://images.unsplash.com/photo-1586281380117-5a60ae2050cc?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHxwcm9qZWN0fGVufDB8fHx8MTY3MTMwNDU0MA&ixlib=rb-4.0.3&w=1500');
   background-repeat: no-repeat;
   background-position: top left,bottom;
 }
-.project-management-container17 {
+.energy-management-container16 {
   flex: 0 0 auto;
   width: auto;
   display: flex;
@@ -349,18 +329,18 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.project-management-text51 {
+.energy-management-text051 {
   color: var(--dl-color-gray-white);
   width: fit-content;
   font-size: 2rem;
 }
-.project-management-text55 {
+.energy-management-text056 {
   color: var(--dl-color-gray-white);
   margin-top: 32px;
   text-align: left;
   margin-bottom: 32px;
 }
-.project-management-problems12 {
+.energy-management-problems12 {
   flex: 0 0 auto;
   width: 50%;
   height: 100%;
@@ -369,7 +349,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.project-management-container19 {
+.energy-management-container18 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -377,25 +357,26 @@
   align-items: center;
   justify-content: center;
 }
-.project-management-text56 {
+.energy-management-text057 {
   width: 100%;
   font-size: 1.25rem;
   text-align: center;
+  text-shadow: 1px 1px rgba(0, 0, 0, .1);
   text-transform: uppercase;
   background-image: linear-gradient(315deg, rgb(30, 177, 187) 3.00%,rgba(130, 187, 39, 0.92) 99.00%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.project-management-text59 {
+.energy-management-text060 {
   color: var(--dl-color-gray-white);
 }
-.project-management-text60 {
+.energy-management-text063 {
   color: var(--dl-color-gray-white);
 }
-.project-management-text61 {
+.energy-management-text064 {
   color: var(--dl-color-gray-white);
 }
-.project-management-solutions12 {
+.energy-management-solutions12 {
   flex: 0 0 auto;
   width: 50%;
   display: flex;
@@ -403,7 +384,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.project-management-container21 {
+.energy-management-container20 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -411,7 +392,7 @@
   align-items: center;
   justify-content: center;
 }
-.project-management-text62 {
+.energy-management-text065 {
   width: 100%;
   font-size: 1.25rem;
   text-align: center;
@@ -421,7 +402,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.project-management-container22 {
+.energy-management-container21 {
   gap: var(--dl-space-space-halfunit);
   width: 100%;
   height: max-content;
@@ -432,7 +413,7 @@
   justify-content: flex-start;
   list-style-image: url();
 }
-.project-management-section22 {
+.energy-management-section4 {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -447,7 +428,7 @@
   justify-content: flex-start;
   background-image: linear-gradient(113deg, rgba(53, 133, 138, 0.8) 8.00%,rgba(136, 176, 71, 0.8) 94.00%),url('https://res.cloudinary.com/dhdonsil5/image/upload/v1671262007/IEES/Img/services/pm-5_uwjauo.jpg');
 }
-.project-management-container24 {
+.energy-management-container23 {
   flex: 0 0 auto;
   width: auto;
   display: flex;
@@ -455,18 +436,18 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.project-management-text65 {
+.energy-management-text068 {
   color: var(--dl-color-gray-white);
   width: fit-content;
   font-size: 2rem;
 }
-.project-management-text69 {
+.energy-management-text073 {
   color: var(--dl-color-gray-white);
   margin-top: 32px;
   text-align: left;
   margin-bottom: 32px;
 }
-.project-management-problems13 {
+.energy-management-problems13 {
   flex: 0 0 auto;
   width: 50%;
   height: 100%;
@@ -475,7 +456,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.project-management-container26 {
+.energy-management-container25 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -483,33 +464,26 @@
   align-items: center;
   justify-content: center;
 }
-.project-management-text70 {
+.energy-management-text074 {
   width: 100%;
   font-size: 1.25rem;
   text-align: center;
+  text-shadow: 1px 1px rgba(0, 0, 0, .1);
   text-transform: uppercase;
   background-image: linear-gradient(315deg, rgba(0, 0, 0, 0.72) 4.00%,rgba(43, 66, 6, 0.92) 99.00%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.project-management-text73 {
+.energy-management-text077 {
   color: var(--dl-color-gray-white);
 }
-.project-management-ul4 {
-  font-size: .8rem;
-  margin-top: var(--dl-space-space-halfunit);
-  list-style-type: square;
-}
-.project-management-text74 {
+.energy-management-text078 {
   color: var(--dl-color-gray-white);
 }
-.project-management-text75 {
+.energy-management-text079 {
   color: var(--dl-color-gray-white);
 }
-.project-management-text76 {
-  color: var(--dl-color-gray-white);
-}
-.project-management-solutions13 {
+.energy-management-solutions13 {
   flex: 0 0 auto;
   width: 50%;
   display: flex;
@@ -517,7 +491,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.project-management-container28 {
+.energy-management-container27 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -525,7 +499,7 @@
   align-items: center;
   justify-content: center;
 }
-.project-management-text77 {
+.energy-management-text080 {
   width: 100%;
   font-size: 1.25rem;
   text-align: center;
@@ -535,7 +509,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.project-management-container29 {
+.energy-management-container28 {
   gap: var(--dl-space-space-halfunit);
   width: 100%;
   height: max-content;
@@ -546,7 +520,220 @@
   justify-content: flex-start;
   list-style-image: url();
 }
-.project-management-container30 {
+.energy-management-container29 {
+  width: 100%;
+  height: auto;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.energy-management-container30 {
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+}
+.energy-management-icon {
+  fill: var(--dl-color-primary-700);
+  width: var(--dl-size-size-triplequarterunit);
+  height: var(--dl-size-size-triplequarterunit);
+  margin-top: 0px;
+  margin-right: var(--dl-space-space-halfunit);
+  margin-bottom: 0px;
+}
+.energy-management-text083 {
+  color: var(--dl-color-primary-700);
+  width: 100%;
+  font-size: .9rem;
+  text-align: left;
+}
+.energy-management-container31 {
+  width: 100%;
+  height: auto;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.energy-management-container32 {
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+}
+.energy-management-icon02 {
+  fill: var(--dl-color-primary-700);
+  width: var(--dl-size-size-triplequarterunit);
+  height: var(--dl-size-size-triplequarterunit);
+  margin-top: 0px;
+  margin-right: var(--dl-space-space-halfunit);
+  margin-bottom: 0px;
+}
+.energy-management-text084 {
+  color: var(--dl-color-primary-700);
+  width: 100%;
+  font-size: .9rem;
+  text-align: left;
+}
+.energy-management-container33 {
+  width: 100%;
+  height: auto;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.energy-management-container34 {
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+}
+.energy-management-icon04 {
+  fill: var(--dl-color-primary-700);
+  width: var(--dl-size-size-triplequarterunit);
+  height: var(--dl-size-size-triplequarterunit);
+  margin-top: 0px;
+  margin-right: var(--dl-space-space-halfunit);
+  margin-bottom: 0px;
+}
+.energy-management-text085 {
+  color: var(--dl-color-primary-700);
+  width: 100%;
+  font-size: .9rem;
+  text-align: left;
+}
+.energy-management-container35 {
+  width: 100%;
+  height: auto;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.energy-management-container36 {
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+}
+.energy-management-icon06 {
+  fill: var(--dl-color-primary-700);
+  width: var(--dl-size-size-triplequarterunit);
+  height: var(--dl-size-size-triplequarterunit);
+  margin-top: 0px;
+  margin-right: var(--dl-space-space-halfunit);
+  margin-bottom: 0px;
+}
+.energy-management-text086 {
+  color: var(--dl-color-primary-700);
+  width: 100%;
+  font-size: .9rem;
+  text-align: left;
+}
+.energy-management-section7 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: linear-gradient(113deg, rgba(83, 141, 144, 0.75) 8.00%,rgba(83, 164, 61, 0.76) 94.00%),url('https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHxNQU5VQUwlMjBCT09LfGVufDB8fHx8MTY3MTMzNjE4MA&ixlib=rb-4.0.3&w=1500');
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.energy-management-container37 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.energy-management-text087 {
+  color: var(--dl-color-gray-white);
+  width: fit-content;
+  font-size: 2rem;
+}
+.energy-management-text092 {
+  color: var(--dl-color-gray-white);
+  margin-top: 32px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+.energy-management-problems14 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.energy-management-container39 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.energy-management-text093 {
+  width: 100%;
+  font-size: 1.25rem;
+  text-align: center;
+  text-shadow: 1px 1px rgba(0, 0, 0, .1);
+  text-transform: uppercase;
+  background-image: linear-gradient(315deg, rgb(30, 177, 187) 3.00%,rgba(130, 187, 39, 0.92) 99.00%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.energy-management-text096 {
+  color: var(--dl-color-gray-white);
+}
+.energy-management-text099 {
+  color: var(--dl-color-gray-white);
+}
+.energy-management-text100 {
+  color: var(--dl-color-gray-white);
+}
+.energy-management-solutions14 {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.energy-management-container41 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.energy-management-text101 {
+  width: 100%;
+  font-size: 1.25rem;
+  text-align: center;
+  text-shadow: 1px 1px rgba(0, 0, 0, .1);
+  text-transform: uppercase;
+  background-image: linear-gradient(315deg, rgb(0, 93, 99) 3.00%,rgba(130, 187, 39, 0.92) 99.00%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.energy-management-container42 {
+  gap: var(--dl-space-space-halfunit);
+  width: 100%;
+  height: max-content;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style-image: url();
+}
+.energy-management-container44 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -556,17 +743,17 @@
   padding-bottom: var(--dl-space-space-sixunits);
   justify-content: center;
 }
-.project-management-container31 {
+.energy-management-container45 {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.project-management-text80 {
+.energy-management-text104 {
   font-size: 3rem;
 }
-.project-management-container32 {
+.energy-management-container46 {
   width: 100%;
   display: flex;
   padding: 48px;
@@ -575,13 +762,13 @@
   background-size: cover;
   justify-content: center;
 }
-.project-management-pricing-card {
+.energy-management-pricing-card {
   background-size: cover;
   background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.7) 0.00%,rgba(255, 255, 255, 0.7) 98.00%),url('https://res.cloudinary.com/dhdonsil5/image/upload/v1671262004/IEES/Img/services/pm-1_yeyjkp.jpg');
   background-repeat: repeat,no-repeat;
   background-position: top left,center;
 }
-.project-management-text81 {
+.energy-management-text105 {
   color: var(--dl-color-primary-700);
   font-size: 2rem;
   transform: translateY(200%);
@@ -594,7 +781,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.project-management-container34 {
+.energy-management-container48 {
   flex: 0 0 auto;
   width: 100%;
   height: 70%;
@@ -602,11 +789,11 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.project-management-text82 {
+.energy-management-text106 {
   text-align: left;
   font-weight: 300;
 }
-.project-management-container35 {
+.energy-management-container49 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -614,7 +801,7 @@
   align-items: flex-end;
   justify-content: center;
 }
-.project-management-link1 {
+.energy-management-link1 {
   color: var(--dl-color-gray-white);
   align-self: center;
   margin-top: auto;
@@ -626,17 +813,17 @@
   padding-bottom: var(--dl-space-space-unit);
   background-color: var(--dl-color-gray-black);
 }
-.project-management-link1:hover {
+.energy-management-link1:hover {
   background-color: var(--dl-color-applegreen-main);
 }
-.project-management-pricing-card1 {
+.energy-management-pricing-card1 {
   background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.7) 0.00%,rgba(255, 255, 255, 0.7) 98.00%),url('https://images.unsplash.com/photo-1558358235-a0a93f68a52c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fGh2YWN8ZW58MHx8fHwxNjcxMjY3OTE3&ixlib=rb-4.0.3&w=500');
   background-position: top left,center;
 }
-.project-management-pricing-card1:hover {
+.energy-management-pricing-card1:hover {
   transform: scale(1.02);
 }
-.project-management-text83 {
+.energy-management-text107 {
   color: var(--dl-color-primary-700);
   font-size: 2rem;
   transform: translateY(200%);
@@ -649,7 +836,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.project-management-container36 {
+.energy-management-container50 {
   width: 100%;
   bottom: 0;
   height: 60%;
@@ -671,7 +858,7 @@
   background-color: rgba(255, 255, 255, 0.8);
   animation-duration: 200ms;
 }
-.project-management-container37 {
+.energy-management-container51 {
   flex: 0 0 auto;
   width: 100%;
   height: 70%;
@@ -679,11 +866,11 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.project-management-text84 {
+.energy-management-text108 {
   text-align: left;
   font-weight: 300;
 }
-.project-management-container38 {
+.energy-management-container52 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -691,7 +878,7 @@
   align-items: flex-end;
   justify-content: center;
 }
-.project-management-navlink {
+.energy-management-navlink {
   color: var(--dl-color-gray-white);
   align-self: center;
   margin-top: auto;
@@ -704,17 +891,17 @@
   text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
-.project-management-navlink:hover {
+.energy-management-navlink:hover {
   background-color: var(--dl-color-applegreen-main);
 }
-.project-management-pricing-card2 {
+.energy-management-pricing-card2 {
   background-size: cover;
   background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.7) 0.00%,rgba(255, 255, 255, 0.7) 98.00%),url('https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEzfHxjaGFydHxlbnwwfHx8fDE2NzEyNjgwMTE&ixlib=rb-4.0.3&w=500');
 }
-.project-management-pricing-card2:hover {
+.energy-management-pricing-card2:hover {
   transform: scale(1.02);
 }
-.project-management-text85 {
+.energy-management-text109 {
   color: var(--dl-color-primary-700);
   font-size: 2rem;
   transform: translateY(200%);
@@ -727,7 +914,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.project-management-container39 {
+.energy-management-container53 {
   width: 100%;
   bottom: 0;
   height: 60%;
@@ -749,7 +936,7 @@
   background-color: rgba(255, 255, 255, 0.8);
   animation-duration: 200ms;
 }
-.project-management-container40 {
+.energy-management-container54 {
   flex: 0 0 auto;
   width: 100%;
   height: 70%;
@@ -757,11 +944,11 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.project-management-text86 {
+.energy-management-text110 {
   text-align: left;
   font-weight: 300;
 }
-.project-management-container41 {
+.energy-management-container55 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -769,7 +956,7 @@
   align-items: flex-end;
   justify-content: center;
 }
-.project-management-navlink1 {
+.energy-management-navlink1 {
   color: var(--dl-color-gray-white);
   align-self: center;
   margin-top: auto;
@@ -782,10 +969,10 @@
   text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
-.project-management-navlink1:hover {
+.energy-management-navlink1:hover {
   background-color: var(--dl-color-applegreen-main);
 }
-.project-management-up {
+.energy-management-up {
   top: 48px;
   flex: 0 0 auto;
   left: 739px;
@@ -796,11 +983,11 @@
   align-items: center;
   justify-content: center;
 }
-.project-management-icon {
+.energy-management-icon08 {
   width: 50px;
   height: 50px;
 }
-.project-management-down {
+.energy-management-down {
   top: 935px;
   flex: 0 0 auto;
   left: 752px;
@@ -811,320 +998,377 @@
   align-items: center;
   justify-content: center;
 }
-.project-management-icon2 {
+.energy-management-icon10 {
   width: 50px;
   height: 50px;
 }
 @media(max-width: 1200px) {
-  .project-management-section1 {
+  .energy-management-section1 {
     padding-top: var(--dl-space-space-fourunits);
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
     padding-bottom: var(--dl-space-space-doubleunit);
   }
-  .project-management-problems1 {
+  .energy-management-problems1 {
     width: 48%;
   }
-  .project-management-solutions1 {
+  .energy-management-solutions1 {
     width: 48%;
   }
-  .project-management-section2 {
+  .energy-management-section2 {
     padding-top: var(--dl-space-space-fourunits);
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
     padding-bottom: var(--dl-space-space-doubleunit);
   }
-  .project-management-problems11 {
+  .energy-management-problems11 {
     width: 48%;
   }
-  .project-management-solutions11 {
+  .energy-management-solutions11 {
     width: 48%;
   }
-  .project-management-section21 {
+  .energy-management-section3 {
     padding-top: var(--dl-space-space-fourunits);
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
     padding-bottom: var(--dl-space-space-doubleunit);
   }
-  .project-management-problems12 {
+  .energy-management-problems12 {
     width: 48%;
   }
-  .project-management-solutions12 {
+  .energy-management-solutions12 {
     width: 48%;
   }
-  .project-management-section22 {
+  .energy-management-section4 {
     padding-top: var(--dl-space-space-fourunits);
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
     padding-bottom: var(--dl-space-space-doubleunit);
   }
-  .project-management-problems13 {
+  .energy-management-problems13 {
     width: 48%;
   }
-  .project-management-solutions13 {
+  .energy-management-solutions13 {
     width: 48%;
   }
-  .project-management-container32 {
+  .energy-management-section7 {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+    padding-bottom: var(--dl-space-space-doubleunit);
+  }
+  .energy-management-problems14 {
+    width: 48%;
+  }
+  .energy-management-solutions14 {
+    width: 48%;
+  }
+  .energy-management-container46 {
     width: auto;
     flex-direction: column;
   }
-  .project-management-text82 {
+  .energy-management-text106 {
     line-height: 1.8;
     letter-spacing: 1.1px;
   }
-  .project-management-text84 {
+  .energy-management-text108 {
     line-height: 1.8;
     letter-spacing: 1.1px;
   }
-  .project-management-text86 {
+  .energy-management-text110 {
     line-height: 1.8;
     letter-spacing: 1.1px;
   }
 }
 @media(max-width: 991px) {
-  .project-management-hero {
+  .energy-management-hero {
     flex-direction: column;
   }
-  .project-management-text {
+  .energy-management-text {
     text-align: center;
   }
-  .project-management-text05 {
+  .energy-management-text005 {
     text-align: center;
   }
-  .project-management-section1 {
+  .energy-management-text006 {
+    text-align: center;
+  }
+  .energy-management-section1 {
     padding-left: var(--dl-space-space-doubleunit);
     flex-direction: column;
   }
-  .project-management-text22 {
+  .energy-management-text019 {
     font-size: 1rem;
   }
-  .project-management-text31 {
+  .energy-management-text027 {
     font-size: 1rem;
   }
-  .project-management-section2 {
+  .energy-management-section2 {
     padding-left: var(--dl-space-space-doubleunit);
     flex-direction: column;
   }
-  .project-management-text41 {
+  .energy-management-text037 {
     font-size: 1rem;
   }
-  .project-management-text48 {
-    font-size: 1rem;
-  }
-  .project-management-section21 {
-    padding-left: var(--dl-space-space-doubleunit);
-    flex-direction: column;
-  }
-  .project-management-text56 {
-    font-size: 1rem;
-  }
-  .project-management-text62 {
-    font-size: 1rem;
-  }
-  .project-management-section22 {
-    padding-left: var(--dl-space-space-doubleunit);
-    flex-direction: column;
-  }
-  .project-management-text70 {
-    font-size: 1rem;
-  }
-  .project-management-ul4 {
+  .energy-management-ul1 {
     font-size: .7rem;
   }
-  .project-management-text77 {
+  .energy-management-text048 {
     font-size: 1rem;
   }
-  .project-management-container32 {
+  .energy-management-section3 {
+    padding-left: var(--dl-space-space-doubleunit);
+    flex-direction: column;
+  }
+  .energy-management-text057 {
+    font-size: 1rem;
+  }
+  .energy-management-text065 {
+    font-size: 1rem;
+  }
+  .energy-management-section4 {
+    padding-left: var(--dl-space-space-doubleunit);
+    flex-direction: column;
+  }
+  .energy-management-text074 {
+    font-size: 1rem;
+  }
+  .energy-management-text080 {
+    font-size: 1rem;
+  }
+  .energy-management-text083 {
+    font-size: 0.8rem;
+  }
+  .energy-management-text084 {
+    font-size: 0.8rem;
+  }
+  .energy-management-text085 {
+    font-size: 0.8rem;
+  }
+  .energy-management-text086 {
+    font-size: 0.8rem;
+  }
+  .energy-management-section7 {
+    padding-left: var(--dl-space-space-doubleunit);
+    flex-direction: column;
+  }
+  .energy-management-text093 {
+    font-size: 1rem;
+  }
+  .energy-management-text101 {
+    font-size: 1rem;
+  }
+  .energy-management-container46 {
     flex-direction: column;
   }
 }
 @media(max-width: 767px) {
-  .project-management-hero {
+  .energy-management-hero {
     padding-left: 32px;
     padding-right: 32px;
+    background-image: linear-gradient(113deg, rgba(0, 54, 57, 0.7) 8.00%,rgba(50, 74, 10, 0.8) 94.00%),url('https://images.unsplash.com/photo-1603335730747-ca17baa3aac2?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fGFpciUyMGNvbmRpdGlvbmVyfGVufDB8fHx8MTY3MTI5NTcwNg&ixlib=rb-4.0.3&w=1500');
   }
-  .project-management-text05 {
+  .energy-management-text005 {
     width: 70%;
   }
-  .project-management-section1 {
+  .energy-management-text006 {
+    width: 70%;
+  }
+  .energy-management-section1 {
     height: auto;
     min-height: 100vh;
     padding-top: var(--dl-space-space-tripleunit);
     padding-bottom: var(--dl-space-space-tripleunit);
   }
-  .project-management-problems1 {
+  .energy-management-problems1 {
     width: 90%;
     height: auto;
     justify-content: flex-start;
   }
-  .project-management-solutions1 {
+  .energy-management-solutions1 {
     width: 90%;
     height: auto;
-    min-height: auto;
     justify-content: flex-start;
   }
-  .project-management-container08 {
-    margin-bottom: 0;
-  }
-  .project-management-section2 {
+  .energy-management-section2 {
     height: auto;
     min-height: 100vh;
     padding-top: var(--dl-space-space-tripleunit);
     padding-bottom: var(--dl-space-space-tripleunit);
   }
-  .project-management-problems11 {
+  .energy-management-problems11 {
     width: 90%;
     height: auto;
     justify-content: flex-start;
   }
-  .project-management-solutions11 {
+  .energy-management-solutions11 {
     width: 90%;
     height: auto;
     justify-content: flex-start;
   }
-  .project-management-section21 {
+  .energy-management-section3 {
     height: auto;
     min-height: 100vh;
     padding-top: var(--dl-space-space-tripleunit);
     padding-bottom: var(--dl-space-space-tripleunit);
   }
-  .project-management-problems12 {
+  .energy-management-problems12 {
     width: 90%;
     height: auto;
     justify-content: flex-start;
   }
-  .project-management-solutions12 {
+  .energy-management-solutions12 {
     width: 90%;
     height: auto;
     justify-content: flex-start;
   }
-  .project-management-section22 {
+  .energy-management-section4 {
     height: auto;
     min-height: 100vh;
     padding-top: var(--dl-space-space-tripleunit);
     padding-bottom: var(--dl-space-space-tripleunit);
   }
-  .project-management-problems13 {
+  .energy-management-problems13 {
     width: 90%;
     height: auto;
     justify-content: flex-start;
   }
-  .project-management-solutions13 {
+  .energy-management-solutions13 {
     width: 90%;
     height: auto;
     justify-content: flex-start;
   }
-  .project-management-container32 {
+  .energy-management-section7 {
+    height: auto;
+    min-height: 100vh;
+    padding-top: var(--dl-space-space-tripleunit);
+    padding-bottom: var(--dl-space-space-tripleunit);
+  }
+  .energy-management-problems14 {
+    width: 90%;
+    height: auto;
+    justify-content: flex-start;
+  }
+  .energy-management-solutions14 {
+    width: 90%;
+    height: auto;
+    justify-content: flex-start;
+  }
+  .energy-management-container46 {
     flex-flow: column;
     padding-left: 32px;
     padding-right: 32px;
   }
 }
 @media(max-width: 479px) {
-  .project-management-hero {
+  .energy-management-hero {
     width: 100%;
     padding-top: 32px;
     padding-left: var(--dl-space-space-unitandahalfunit);
     padding-right: var(--dl-space-space-unitandahalfunit);
     padding-bottom: 32px;
   }
-  .project-management-container01 {
+  .energy-management-container01 {
     margin-top: var(--dl-space-space-doubleunit);
     padding-top: var(--dl-space-space-doubleunit);
     padding-bottom: var(--dl-space-space-doubleunit);
   }
-  .project-management-text {
+  .energy-management-text {
     font-size: 2.4rem;
   }
-  .project-management-text05 {
+  .energy-management-text005 {
     color: var(--dl-color-gray-white);
     width: auto;
     font-size: 0.8rem;
     max-width: 100%;
   }
-  .project-management-text07 {
+  .energy-management-text006 {
     color: var(--dl-color-gray-white);
+    width: auto;
+    font-size: 0.8rem;
+    max-width: 100%;
   }
-  .project-management-text08 {
-    color: var(--dl-color-gray-white);
-  }
-  .project-management-btn-group {
+  .energy-management-btn-group {
     flex-direction: column;
   }
-  .project-management-link {
-    color: var(--dl-color-primary-500);
-    width: 100%;
-    text-align: center;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-  .project-management-button {
+  .energy-management-button {
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
   }
-  .project-management-text12 {
+  .energy-management-text012 {
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
   }
-  .project-management-section1 {
-    height: auto;
+  .energy-management-section1 {
     padding-top: var(--dl-space-space-fourunits);
     padding-left: 32px;
     padding-right: 32px;
     padding-bottom: var(--dl-space-space-fourunits);
   }
-  .project-management-container03 {
+  .energy-management-container02 {
     margin-bottom: 0px;
   }
-  .project-management-text18 {
+  .energy-management-text018 {
     font-size: 0.8rem;
   }
-  .project-management-problems1 {
+  .energy-management-problems1 {
     width: 100%;
   }
-  .project-management-solutions1 {
+  .energy-management-solutions1 {
     width: 100%;
   }
-  .project-management-section2 {
+  .energy-management-section2 {
     padding-top: var(--dl-space-space-fourunits);
     padding-left: 32px;
     padding-right: 32px;
     padding-bottom: var(--dl-space-space-fourunits);
   }
-  .project-management-problems11 {
+  .energy-management-problems11 {
     width: 100%;
   }
-  .project-management-solutions11 {
+  .energy-management-solutions11 {
     width: 100%;
   }
-  .project-management-section21 {
+  .energy-management-section3 {
     padding-top: var(--dl-space-space-fourunits);
     padding-left: 32px;
     padding-right: 32px;
     padding-bottom: var(--dl-space-space-fourunits);
   }
-  .project-management-problems12 {
+  .energy-management-problems12 {
     width: 100%;
   }
-  .project-management-solutions12 {
+  .energy-management-solutions12 {
     width: 100%;
   }
-  .project-management-section22 {
+  .energy-management-section4 {
     padding-top: var(--dl-space-space-fourunits);
     padding-left: 32px;
     padding-right: 32px;
     padding-bottom: var(--dl-space-space-fourunits);
   }
-  .project-management-problems13 {
+  .energy-management-problems13 {
     width: 100%;
   }
-  .project-management-solutions13 {
+  .energy-management-solutions13 {
     width: 100%;
   }
-  .project-management-text80 {
+  .energy-management-section7 {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .energy-management-problems14 {
+    width: 100%;
+  }
+  .energy-management-solutions14 {
+    width: 100%;
+  }
+  .energy-management-text104 {
     font-size: 2rem;
   }
-  .project-management-container32 {
+  .energy-management-container46 {
     padding-top: 32px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);

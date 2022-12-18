@@ -14,7 +14,7 @@ const ContactUs = (props) => {
         <title>ContactUs - IEES</title>
         <meta property="og:title" content="ContactUs - IEES" />
       </Helmet>
-      <HeaderFull></HeaderFull>
+      <HeaderFull rootClassName="header-full-root-class-name"></HeaderFull>
       <Contact
         text1="Name"
         text2="Company"

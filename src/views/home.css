@@ -137,27 +137,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-card1 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 450px;
-  display: flex;
-  padding: var(--dl-space-space-doubleunit);
-  z-index: 1;
-  align-self: center;
-  box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
-  margin-top: var(--dl-space-space-tripleunit);
-  transition: 0.3s;
-  align-items: center;
-  border-radius: var(--dl-radius-radius-radius1);
-  flex-direction: column;
-  backdrop-filter: saturate(200%) blur(30px);
-  justify-content: space-between;
-  background-color: hsla(0,0%,100%,.8);
-}
-.home-card1:hover {
-  transform: translateY(7px);
-}
 .home-container05 {
   flex: 0 0 auto;
   width: 100%;
@@ -168,8 +147,8 @@
   justify-content: center;
 }
 .home-lottie-node {
-  width: 50%;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 .home-text07 {
   width: 100%;
@@ -199,7 +178,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.home-navlink1 {
+.home-navlink01 {
   display: contents;
 }
 .home-component03 {
@@ -211,24 +190,6 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-}
-.home-card2 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 450px;
-  display: flex;
-  padding: var(--dl-space-space-doubleunit);
-  z-index: 1;
-  align-self: center;
-  box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
-  margin-top: var(--dl-space-space-tripleunit);
-  transition: 0.3s;
-  align-items: center;
-  border-radius: var(--dl-radius-radius-radius1);
-  flex-direction: column;
-  backdrop-filter: saturate(200%) blur(30px);
-  justify-content: space-between;
-  background-color: hsla(0,0%,100%,.8);
 }
 .home-card2:hover {
   transform: translateY(7px);
@@ -243,8 +204,8 @@
   justify-content: center;
 }
 .home-lottie-node1 {
-  width: 50%;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 .home-text11 {
   width: 100%;
@@ -275,30 +236,18 @@
   flex-direction: row;
   justify-content: center;
 }
+.home-navlink02 {
+  display: contents;
+}
+.home-component04 {
+  text-decoration: none;
+}
 .home-container10 {
   flex: 0 0 auto;
   width: 30%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-}
-.home-card3 {
-  flex: 0 0 auto;
-  width: 100%;
-  height: 450px;
-  display: flex;
-  padding: var(--dl-space-space-doubleunit);
-  z-index: 1;
-  align-self: center;
-  box-shadow: 0 8px 26px -4px hsla(0,0%,8%,.15),0 8px 9px -5px hsla(0,0%,8%,.06)!important;
-  margin-top: var(--dl-space-space-tripleunit);
-  transition: 0.3s;
-  align-items: center;
-  border-radius: var(--dl-radius-radius-radius1);
-  flex-direction: column;
-  backdrop-filter: saturate(200%) blur(30px);
-  justify-content: space-between;
-  background-color: hsla(0,0%,100%,.8);
 }
 .home-card3:hover {
   transform: translateY(7px);
@@ -313,8 +262,8 @@
   justify-content: center;
 }
 .home-lottie-node2 {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 .home-text16 {
   width: 100%;
@@ -344,6 +293,12 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: row;
   justify-content: center;
+}
+.home-navlink03 {
+  display: contents;
+}
+.home-component05 {
+  text-decoration: none;
 }
 .home-energy {
   flex: 0 0 auto;
@@ -559,6 +514,12 @@
   margin-bottom: var(--dl-space-space-unit);
   text-transform: uppercase;
 }
+.home-navlink04 {
+  display: contents;
+}
+.home-component09 {
+  text-decoration: none;
+}
 .home-container21 {
   width: 30%;
   height: 25rem;
@@ -617,6 +578,12 @@
   text-align: center;
   margin-bottom: var(--dl-space-space-unit);
   text-transform: uppercase;
+}
+.home-navlink05 {
+  display: contents;
+}
+.home-component10 {
+  text-decoration: none;
 }
 .home-container24 {
   width: 30%;
@@ -678,6 +645,12 @@
   margin-bottom: var(--dl-space-space-unit);
   text-transform: uppercase;
 }
+.home-navlink06 {
+  display: contents;
+}
+.home-component11 {
+  text-decoration: none;
+}
 .home-container27 {
   width: 30%;
   height: 25rem;
@@ -737,6 +710,12 @@
   margin-bottom: var(--dl-space-space-unit);
   text-transform: uppercase;
 }
+.home-navlink07 {
+  display: contents;
+}
+.home-component12 {
+  text-decoration: none;
+}
 .home-container30 {
   width: 30%;
   height: 25rem;
@@ -795,6 +774,12 @@
   text-align: center;
   margin-bottom: var(--dl-space-space-unit);
   text-transform: uppercase;
+}
+.home-navlink08 {
+  display: contents;
+}
+.home-component13 {
+  text-decoration: none;
 }
 .home-contact-us {
   flex: 0 0 auto;
@@ -863,7 +848,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-navlink2 {
+.home-navlink09 {
   display: contents;
 }
 .home-component14 {
@@ -989,17 +974,8 @@
   .home-services-cards {
     margin-top: var(--dl-space-space-unit);
   }
-  .home-card1 {
-    max-height: 60vh;
-  }
-  .home-card2 {
-    max-height: 60vh;
-  }
   .home-container10 {
     max-height: 600px;
-  }
-  .home-card3 {
-    max-height: 60vh;
   }
   .home-project-cards {
     margin-top: var(--dl-space-space-unit);
@@ -1061,20 +1037,11 @@
   .home-container04 {
     width: 45%;
   }
-  .home-card1 {
-    width: 100%;
-  }
   .home-container07 {
     width: 45%;
   }
-  .home-card2 {
-    width: 100%;
-  }
   .home-container10 {
     width: 45%;
-  }
-  .home-card3 {
-    width: 100%;
   }
   .home-container13 {
     padding-left: var(--dl-space-space-doubleunit);
@@ -1177,15 +1144,6 @@
     top: var(--dl-space-space-fourunits);
     width: 100%;
     object-position: center;
-  }
-  .home-card1 {
-    align-items: center;
-  }
-  .home-card2 {
-    align-items: center;
-  }
-  .home-card3 {
-    align-items: center;
   }
   .home-container13 {
     padding-top: 12rem;
@@ -1290,9 +1248,6 @@
   .home-container04 {
     width: 100%;
   }
-  .home-card1 {
-    padding: var(--dl-space-space-unit);
-  }
   .home-container06 {
     align-items: center;
     flex-direction: column;
@@ -1300,18 +1255,12 @@
   .home-container07 {
     width: 100%;
   }
-  .home-card2 {
-    padding: var(--dl-space-space-unit);
-  }
   .home-container09 {
     align-items: center;
     flex-direction: column;
   }
   .home-container10 {
     width: 100%;
-  }
-  .home-card3 {
-    padding: var(--dl-space-space-unit);
   }
   .home-container12 {
     align-items: center;
