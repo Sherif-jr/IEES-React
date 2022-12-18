@@ -11,8 +11,22 @@ const Contact = (props) => {
         <div className="contact-form">
           <h2 className="contact-text">Just a few fields to fill...</h2>
           <span className="contact-text01 Lead">{props.text}</span>
+          <input
+            type="hidden"
+            placeholder={props.textinput_placeholder2}
+            name="_captcha"
+            value="false"
+            className="input"
+          />
+          <input
+            type="hidden"
+            placeholder={props.textinput_placeholder3}
+            name="_next"
+            value="iees.teleporthq.app/thank-you"
+            className="input"
+          />
           <form
-            action="https://formsubmit.co/abdelrhman.sh.ahmed@gmial.com"
+            action="https://formsubmit.co/abdelrhman.sh.ahmed@gmail.com"
             method="POST"
             enctype="application/x-www-form-urlencoded"
             autoComplete="off"
@@ -23,28 +37,30 @@ const Contact = (props) => {
             </label>
             <input
               type="text"
+              id="first-naame"
               name="client-name"
               required
               placeholder={props.textinput_placeholder}
-              id="first-naame"
-              className="contact-textinput Small input"
+              className="contact-textinput2 Small input"
             />
             <label htmlFor="phonne" className="contact-text03 Label">
               {props.text8}
             </label>
             <input
               type="tel"
+              id="phonne"
               required
               placeholder={props.textinput_placeholder11}
-              id="phonne"
-              className="contact-textinput1 Small input"
+              name="phone number"
+              className="contact-textinput3 Small input"
             />
             <label className="contact-text04 Label">{props.text2}</label>
             <input
               type="text"
               required
               placeholder={props.textinput_placeholder1}
-              className="contact-textinput2 Small input"
+              name="company name"
+              className="contact-textinput4 Small input"
             />
             <label htmlFor="phonne" className="contact-text05 Label">
               {props.text3}
@@ -53,9 +69,10 @@ const Contact = (props) => {
               <div className="contact-container02"></div>
             </div>
             <textarea
+              id="text-areaaa"
               rows="4"
               placeholder={props.textarea_placeholder}
-              id="text-areaa"
+              name="message"
               className="contact-textarea textarea Small"
             ></textarea>
             <button type="submit" className="contact-button">
@@ -152,6 +169,7 @@ Contact.defaultProps = {
     'Tell us more about your company and what services you need...',
   textinput_placeholder: 'Full Name',
   text4: 'Fill up the form and our Team will get back to you within 24 hours.',
+  button: 'Button',
   text1: 'My name is',
   text: 'Setting up the most suitable services for you.',
   text3: 'More',
@@ -161,7 +179,8 @@ Contact.defaultProps = {
   text8: 'Phone number',
   text5: '(+40) 772 100 200',
   image_alt: 'image',
-  button: 'Button',
+  textinput_placeholder2: 'placeholder',
+  textinput_placeholder3: 'placeholder',
 }
 
 Contact.propTypes = {
@@ -171,6 +190,7 @@ Contact.propTypes = {
   textarea_placeholder: PropTypes.string,
   textinput_placeholder: PropTypes.string,
   text4: PropTypes.string,
+  button: PropTypes.string,
   text1: PropTypes.string,
   text: PropTypes.string,
   text3: PropTypes.string,
@@ -180,7 +200,8 @@ Contact.propTypes = {
   text8: PropTypes.string,
   text5: PropTypes.string,
   image_alt: PropTypes.string,
-  button: PropTypes.string,
+  textinput_placeholder2: PropTypes.string,
+  textinput_placeholder3: PropTypes.string,
 }
 
 export default Contact
