@@ -450,6 +450,7 @@
   padding-bottom: var(--dl-space-space-triplequarterunit);
   text-transform: uppercase;
 }
+
 @media(max-width: 1200px) {
   .header-nav {
     align-items: center;

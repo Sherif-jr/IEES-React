@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
-import HeaderFull from '../components/header-full'
+import Header from '../components/header'
 import Contact from '../components/contact'
 import Footer from '../components/footer'
 import './contact-us.css'
@@ -14,7 +14,7 @@ const ContactUs = (props) => {
         <title>ContactUs - IEES</title>
         <meta property="og:title" content="ContactUs - IEES" />
       </Helmet>
-      <HeaderFull rootClassName="header-full-root-class-name"></HeaderFull>
+      <Header rootClassName="header-root-class-name"></Header>
       <Contact
         text1="Name"
         text2="Company"

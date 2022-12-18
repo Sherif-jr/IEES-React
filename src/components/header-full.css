@@ -260,7 +260,6 @@
   padding-bottom: var(--dl-space-space-triplequarterunit);
   text-transform: uppercase;
 }
-
 @media(max-width: 991px) {
   .header-full-nav {
     max-width: 960px;
@@ -275,9 +274,6 @@
   }
   .header-full-button {
     font-size: .6rem;
-  }
-  .header-full-root-class-name {
-    display: none;
   }
 }
 @media(max-width: 479px) {

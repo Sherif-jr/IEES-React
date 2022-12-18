@@ -43,10 +43,7 @@ const HeaderFull = (props) => {
             </div>
             <div data-role="BurgerMenu" className="header-full-burger-menu">
               <svg viewBox="0 0 1024 1024" className="header-full-icon">
-                <path
-                  d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
-                  className=""
-                ></path>
+                <path d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"></path>
               </svg>
             </div>
           </div>
@@ -68,10 +65,7 @@ const HeaderFull = (props) => {
               viewBox="0 0 1024 1024"
               className="header-full-icon2 animate__fadeIn animate__animated"
             >
-              <path
-                d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
-                className=""
-              ></path>
+              <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
             </svg>
           </div>
         </div>

@@ -8,7 +8,7 @@ import './header.css'
 
 const Header = (props) => {
   return (
-    <div data-role="Header" className="header-header">
+    <div data-role="Header" className={`header-header ${props.rootClassName} `}>
       <nav className="header-nav animate__fadeInDown animate__animated">
         <div className="header-container">
           <Link to="/" className="header-navlink">
@@ -39,7 +39,7 @@ const Header = (props) => {
                   className="header-dropdown-arrow"
                 >
                   <svg viewBox="0 0 1024 1024" className="header-icon">
-                    <path d="M426 726v-428l214 214z"></path>
+                    <path d="M426 726v-428l214 214z" className=""></path>
                   </svg>
                 </div>
               </div>
@@ -48,7 +48,7 @@ const Header = (props) => {
                   data-thq="thq-dropdown"
                   className="header-dropdown list-item"
                 >
-                  <Link to="/project-management">
+                  <Link to="/project-management" className="">
                     <div
                       data-thq="thq-dropdown-toggle"
                       className="header-dropdown-toggle1"
@@ -63,7 +63,7 @@ const Header = (props) => {
                   data-thq="thq-dropdown"
                   className="header-dropdown1 list-item"
                 >
-                  <Link to="/maintenance-management">
+                  <Link to="/maintenance-management" className="">
                     <div
                       data-thq="thq-dropdown-toggle"
                       className="header-dropdown-toggle2"
@@ -76,7 +76,7 @@ const Header = (props) => {
                   data-thq="thq-dropdown"
                   className="header-dropdown2 list-item"
                 >
-                  <Link to="/maintenance-management">
+                  <Link to="/maintenance-management" className="">
                     <div
                       data-thq="thq-dropdown-toggle"
                       className="header-dropdown-toggle3"
@@ -117,7 +117,10 @@ const Header = (props) => {
             </div>
             <div data-role="BurgerMenu" className="header-burger-menu">
               <svg viewBox="0 0 1024 1024" className="header-icon2">
-                <path d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"></path>
+                <path
+                  d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+                  className=""
+                ></path>
               </svg>
             </div>
           </div>
@@ -139,7 +142,10 @@ const Header = (props) => {
               viewBox="0 0 1024 1024"
               className="header-icon4 animate__fadeIn animate__animated"
             >
-              <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
+              <path
+                d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                className=""
+              ></path>
             </svg>
           </div>
         </div>
