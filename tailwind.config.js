@@ -72,6 +72,6 @@ module.exports = {
   },
   "plugins": [],
   "content": [
-    "./src/**/*.{js,ts,jsx,tsx}"
+    "./src/**/*.{vue,js,ts,jsx,tsx}"
   ]
 }
