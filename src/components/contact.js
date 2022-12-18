@@ -13,16 +13,16 @@ const Contact = (props) => {
           <span className="contact-text01 Lead">{props.text}</span>
           <input
             type="hidden"
-            placeholder={props.textinput_placeholder2}
             name="_captcha"
             value="false"
+            placeholder={props.textinput_placeholder2}
             className="input"
           />
           <input
             type="hidden"
-            placeholder={props.textinput_placeholder3}
             name="_next"
             value="iees.teleporthq.app/thank-you"
+            placeholder={props.textinput_placeholder3}
             className="input"
           />
           <form
@@ -49,17 +49,17 @@ const Contact = (props) => {
             <input
               type="tel"
               id="phonne"
+              name="phone number"
               required
               placeholder={props.textinput_placeholder11}
-              name="phone number"
               className="contact-textinput3 Small input"
             />
             <label className="contact-text04 Label">{props.text2}</label>
             <input
               type="text"
+              name="company name"
               required
               placeholder={props.textinput_placeholder1}
-              name="company name"
               className="contact-textinput4 Small input"
             />
             <label htmlFor="phonne" className="contact-text05 Label">
@@ -70,9 +70,9 @@ const Contact = (props) => {
             </div>
             <textarea
               id="text-areaaa"
+              name="message"
               rows="4"
               placeholder={props.textarea_placeholder}
-              name="message"
               className="contact-textarea textarea Small"
             ></textarea>
             <button type="submit" className="contact-button">
@@ -164,6 +164,7 @@ Contact.defaultProps = {
   text7:
     '18 St. Zahrah Al Madaen, Joseph Tito, Second floor, Al Nozha, Cairo, Egypt',
   textinput_placeholder11: '+000000000',
+  textinput_placeholder2: 'placeholder',
   image_src: '/playground_assets/wave-1.svg',
   textarea_placeholder:
     'Tell us more about your company and what services you need...',
@@ -174,18 +175,18 @@ Contact.defaultProps = {
   text: 'Setting up the most suitable services for you.',
   text3: 'More',
   text2: "I'm looking for",
+  textinput_placeholder3: 'placeholder',
   textinput_placeholder1: 'Company Name',
   text6: 'sales@iees-co.com',
   text8: 'Phone number',
   text5: '(+40) 772 100 200',
   image_alt: 'image',
-  textinput_placeholder2: 'placeholder',
-  textinput_placeholder3: 'placeholder',
 }
 
 Contact.propTypes = {
   text7: PropTypes.string,
   textinput_placeholder11: PropTypes.string,
+  textinput_placeholder2: PropTypes.string,
   image_src: PropTypes.string,
   textarea_placeholder: PropTypes.string,
   textinput_placeholder: PropTypes.string,
@@ -195,13 +196,12 @@ Contact.propTypes = {
   text: PropTypes.string,
   text3: PropTypes.string,
   text2: PropTypes.string,
+  textinput_placeholder3: PropTypes.string,
   textinput_placeholder1: PropTypes.string,
   text6: PropTypes.string,
   text8: PropTypes.string,
   text5: PropTypes.string,
   image_alt: PropTypes.string,
-  textinput_placeholder2: PropTypes.string,
-  textinput_placeholder3: PropTypes.string,
 }
 
 export default Contact

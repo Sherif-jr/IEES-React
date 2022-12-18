@@ -83,14 +83,10 @@
   width: 16px;
   margin-right: var(--dl-space-space-unit);
 }
-.footer-gray-link {
-  display: contents;
-}
 .footer-gray-icon2 {
   fill: var(--dl-color-secondary-400);
   width: 16px;
   margin-right: var(--dl-space-space-unit);
-  text-decoration: none;
 }
 .footer-gray-icon4 {
   fill: var(--dl-color-secondary-400);

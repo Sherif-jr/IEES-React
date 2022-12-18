@@ -42,7 +42,12 @@ const Home = (props) => {
                   ></PrimaryGreenButton>
                 </Link>
               </div>
-              <OutlineGrayButton button="read more"></OutlineGrayButton>
+              <a href="#services" className="home-link">
+                <OutlineGrayButton
+                  button="read more"
+                  className="home-component02"
+                ></OutlineGrayButton>
+              </a>
             </div>
           </div>
         </div>
@@ -197,7 +202,9 @@ const Home = (props) => {
               ></IconListItemLight>
               <div className="home-container16">
                 <div className="home-container17">
-                  <button className="home-button">read more</button>
+                  <Link to="/energy-management" className="home-navlink04">
+                    read more
+                  </Link>
                 </div>
               </div>
             </div>
@@ -244,7 +251,7 @@ const Home = (props) => {
                   <span>Main Electrical Network</span>
                 </li>
               </ul>
-              <Link to="/projects" className="home-navlink04">
+              <Link to="/projects" className="home-navlink05">
                 <OutlineBlackButton
                   button="Explore"
                   className="home-component09"
@@ -270,7 +277,7 @@ const Home = (props) => {
                   <span>Project Management</span>
                 </li>
               </ul>
-              <Link to="/projects" className="home-navlink05">
+              <Link to="/projects" className="home-navlink06">
                 <OutlineBlackButton
                   button="Explore"
                   className="home-component10"
@@ -295,7 +302,7 @@ const Home = (props) => {
                   <span>Maintenance Supervision</span>
                 </li>
               </ul>
-              <Link to="/projects" className="home-navlink06">
+              <Link to="/projects" className="home-navlink07">
                 <OutlineBlackButton
                   button="Explore"
                   className="home-component11"
@@ -323,7 +330,7 @@ const Home = (props) => {
                   <span>Maintenance Supervision</span>
                 </li>
               </ul>
-              <Link to="/projects" className="home-navlink07">
+              <Link to="/projects" className="home-navlink08">
                 <OutlineBlackButton
                   button="Explore"
                   className="home-component12"
@@ -352,7 +359,7 @@ const Home = (props) => {
                   <span>Maintenance Supervision</span>
                 </li>
               </ul>
-              <Link to="/projects" className="home-navlink08">
+              <Link to="/projects" className="home-navlink09">
                 <OutlineBlackButton
                   button="Explore"
                   className="home-component13"
@@ -388,7 +395,7 @@ const Home = (props) => {
                 <span>Relax and leave all the hard work to us.</span>
               </p>
               <div className="home-container36">
-                <Link to="/contact-us" className="home-navlink09">
+                <Link to="/contact-us" className="home-navlink10">
                   <OutlineBlackButton
                     button="Contact Us"
                     rootClassName="outline-black-button-root-class-name"

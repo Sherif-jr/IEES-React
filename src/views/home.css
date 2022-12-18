@@ -86,6 +86,12 @@
 .home-component01 {
   text-decoration: none;
 }
+.home-link {
+  display: contents;
+}
+.home-component02 {
+  text-decoration: none;
+}
 .home-image {
   top: 40px;
   right: 0px;
@@ -379,7 +385,7 @@
   border-width: 1px;
   border-radius: var(--dl-radius-radius-radius40);
 }
-.home-button {
+.home-navlink04 {
   color: var(--dl-color-gray-900);
   outlinr: none;
   font-size: 0.78rem;
@@ -397,8 +403,9 @@
   letter-spacing: -0.025rem;
   padding-bottom: var(--dl-space-space-triplequarterunit);
   text-transform: uppercase;
+  text-decoration: none;
 }
-.home-button:hover {
+.home-navlink04:hover {
   cursor: pointer;
   background-color: var(--dl-color-primary-700);
 }
@@ -484,7 +491,7 @@
   padding-bottom: var(--dl-space-space-doubleunit);
   background-size: cover;
   justify-content: center;
-  background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg');
+  background-image: linear-gradient(90deg, rgba(44, 62, 80, 0.32) 1.00%,rgba(0, 93, 99, 0.45) 100.00%),url('https://res.cloudinary.com/dhdonsil5/image/upload/v1671186833/IEES/Img/projects/1.UofCanada/UoC01_lc2dun.jpg');
   background-position: center;
 }
 .home-container18:hover {
@@ -517,7 +524,7 @@
   margin-bottom: var(--dl-space-space-unit);
   text-transform: uppercase;
 }
-.home-navlink04 {
+.home-navlink05 {
   display: contents;
 }
 .home-component09 {
@@ -540,7 +547,7 @@
   padding-bottom: var(--dl-space-space-doubleunit);
   background-size: cover;
   justify-content: center;
-  background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg');
+  background-image: linear-gradient(90deg, rgba(44, 62, 80, 0.32) 1.00%,rgba(0, 93, 99, 0.45) 100.00%),url('https://images.unsplash.com/photo-1494949649109-ecfc3b8c35df?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEyfHxzY2hvb2x8ZW58MHx8fHwxNjcxMzY1MDcz&ixlib=rb-4.0.3&h=1500');
   background-position: center;
 }
 .home-container21:hover {
@@ -582,7 +589,7 @@
   margin-bottom: var(--dl-space-space-unit);
   text-transform: uppercase;
 }
-.home-navlink05 {
+.home-navlink06 {
   display: contents;
 }
 .home-component10 {
@@ -605,7 +612,7 @@
   padding-bottom: var(--dl-space-space-doubleunit);
   background-size: cover;
   justify-content: center;
-  background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg');
+  background-image: linear-gradient(90deg, rgba(44, 62, 80, 0.32) 1.00%,rgba(0, 93, 99, 0.45) 100.00%),url('https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDJ8fHNjaG9vbHxlbnwwfHx8fDE2NzEzNjUwNzM&ixlib=rb-4.0.3&h=1500');
   background-position: center;
 }
 .home-container24:hover {
@@ -648,7 +655,7 @@
   margin-bottom: var(--dl-space-space-unit);
   text-transform: uppercase;
 }
-.home-navlink06 {
+.home-navlink07 {
   display: contents;
 }
 .home-component11 {
@@ -671,7 +678,7 @@
   padding-bottom: var(--dl-space-space-doubleunit);
   background-size: cover;
   justify-content: center;
-  background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg');
+  background-image: linear-gradient(90deg, rgba(44, 62, 80, 0.32) 1.00%,rgba(0, 93, 99, 0.45) 100.00%),url('https://images.unsplash.com/photo-1510531704581-5b2870972060?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDUyfHxzY2hvb2x8ZW58MHx8fHwxNjcxMzY2MDQ3&ixlib=rb-4.0.3&h=1500');
   background-position: center;
 }
 .home-container27:hover {
@@ -713,7 +720,7 @@
   margin-bottom: var(--dl-space-space-unit);
   text-transform: uppercase;
 }
-.home-navlink07 {
+.home-navlink08 {
   display: contents;
 }
 .home-component12 {
@@ -736,7 +743,7 @@
   padding-bottom: var(--dl-space-space-doubleunit);
   background-size: cover;
   justify-content: center;
-  background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg');
+  background-image: linear-gradient(90deg, rgba(44, 62, 80, 0.32) 1.00%,rgba(0, 93, 99, 0.45) 100.00%),url('https://images.unsplash.com/photo-1631885661110-aa12f8b42b25?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEzNXx8c2Nob29sfGVufDB8fHx8MTY3MTM2NjM0Ng&ixlib=rb-4.0.3&h=1500');
   background-position: center;
 }
 .home-container30:hover {
@@ -778,7 +785,7 @@
   margin-bottom: var(--dl-space-space-unit);
   text-transform: uppercase;
 }
-.home-navlink08 {
+.home-navlink09 {
   display: contents;
 }
 .home-component13 {
@@ -851,7 +858,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-navlink09 {
+.home-navlink10 {
   display: contents;
 }
 .home-component14 {
@@ -1057,7 +1064,7 @@
   .home-container15 {
     margin-right: 0px;
   }
-  .home-button {
+  .home-navlink04 {
     font-size: 1rem;
   }
   .home-projects {
@@ -1280,7 +1287,7 @@
     width: 100%;
     height: auto;
   }
-  .home-button {
+  .home-navlink04 {
     font-size: 0.75rem;
   }
   .home-projects {
