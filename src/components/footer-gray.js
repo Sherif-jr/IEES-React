@@ -55,35 +55,50 @@ const FooterGray = (props) => {
               <span className="footer-gray-text03 animate-gradient Large">
                 Company
               </span>
-              <span className="footer-gray-text04 Large">About Us</span>
-              <span className="footer-gray-text05 Large">Contact Us</span>
-              <span className="footer-gray-text06 Large">FAQs</span>
+              <Link to="/about" className="footer-gray-navlink2 Large">
+                About Us
+              </Link>
+              <Link to="/contact-us" className="footer-gray-text04 Large">
+                Contact Us
+              </Link>
+              <span className="footer-gray-text05 Large">FAQs</span>
             </div>
             <div className="footer-gray-container7">
-              <span className="footer-gray-text07 Large animate-gradient">
+              <span className="footer-gray-text06 Large animate-gradient">
                 Services
               </span>
-              <span className="footer-gray-text08">Maintenance Management</span>
-              <span className="footer-gray-text09 Large">
+              <Link
+                to="/maintenance-management"
+                className="footer-gray-navlink3"
+              >
+                Maintenance Management
+              </Link>
+              <Link
+                to="/energy-management"
+                className="footer-gray-navlink4 Large"
+              >
                 Energy Management
-              </span>
-              <span className="footer-gray-text10 Large">
+              </Link>
+              <Link
+                to="/project-management"
+                className="footer-gray-navlink5 Large"
+              >
                 Project Management
-              </span>
+              </Link>
             </div>
             <div className="footer-gray-container8">
-              <span className="footer-gray-text11 Large animate-gradient">
+              <span className="footer-gray-text07 Large animate-gradient">
                 Legal
               </span>
-              <span className="footer-gray-text12 Large">
+              <span className="footer-gray-text08 Large">
                 Terms &amp; Conditions
               </span>
-              <span className="footer-gray-text13 Large">Privacy Policy</span>
-              <span className="footer-gray-text14 Large">Licenses</span>
+              <span className="footer-gray-text09 Large">Privacy Policy</span>
+              <span className="footer-gray-text10 Large">Licenses</span>
             </div>
           </div>
         </div>
-        <span className="footer-gray-text15 Small">
+        <span className="footer-gray-text11 Small">
           All rights reserved. Copyright © 2022 Integrated Energy and
           Engineering Services.
         </span>

@@ -114,16 +114,43 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.footer-gray-navlink2 {
+  margin-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
 .footer-gray-text04 {
   margin-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
 }
 .footer-gray-text05 {
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.footer-gray-text06 {
-  margin-bottom: var(--dl-space-space-halfunit);
-}
 .footer-gray-container7 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-sixunits);
+  flex-direction: column;
+}
+.footer-gray-text06 {
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-halfunit);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.footer-gray-navlink3 {
+  margin-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.footer-gray-navlink4 {
+  margin-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.footer-gray-navlink5 {
+  margin-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.footer-gray-container8 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
@@ -145,29 +172,7 @@
 .footer-gray-text10 {
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.footer-gray-container8 {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-sixunits);
-  flex-direction: column;
-}
 .footer-gray-text11 {
-  font-weight: 600;
-  margin-bottom: var(--dl-space-space-halfunit);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.footer-gray-text12 {
-  margin-bottom: var(--dl-space-space-halfunit);
-}
-.footer-gray-text13 {
-  margin-bottom: var(--dl-space-space-halfunit);
-}
-.footer-gray-text14 {
-  margin-bottom: var(--dl-space-space-halfunit);
-}
-.footer-gray-text15 {
   margin-top: var(--dl-space-space-unit);
   transition: 0.3s;
 }
@@ -207,7 +212,7 @@
   }
 }
 @media(max-width: 479px) {
-  .footer-gray-text08 {
+  .footer-gray-navlink3 {
     font-size: 14px;
     letter-spacing: -0.4px;
   }
