@@ -239,18 +239,22 @@ const Home = (props) => {
           <br></br>
         </span>
         <div className="home-project-cards">
-          <div className="home-container18">
+          <div className="home-container18 home-projects-card">
             <div className="home-container19"></div>
             <div className="home-container20">
               <h3 className="home-text30">Universities of Canada</h3>
-              <ul className="list list-with-bullets">
-                <li className="list-item">
-                  <span className="home-text31">Building “C” MEP Systems</span>
-                </li>
-                <li className="list-item">
-                  <span>Main Electrical Network</span>
-                </li>
-              </ul>
+              <div className="home-container21">
+                <ul className="list list-with-bullets">
+                  <li className="list-item">
+                    <span className="home-text31">
+                      Building “C” MEP Systems
+                    </span>
+                  </li>
+                  <li className="list-item">
+                    <span>Main Electrical Network</span>
+                  </li>
+                </ul>
+              </div>
               <Link to="/projects" className="home-navlink05">
                 <OutlineBlackButton
                   button="Explore"
@@ -259,24 +263,26 @@ const Home = (props) => {
               </Link>
             </div>
           </div>
-          <div className="home-container21">
-            <div className="home-container22"></div>
-            <div className="home-container23">
+          <div className="home-container22 home-projects-card">
+            <div className="home-container23"></div>
+            <div className="home-container24">
               <p className="home-text33">EGYGAB for Education Development</p>
               <h3 className="home-text34">
                 Egyptian Language School, Shorouk Project
               </h3>
-              <ul className="list list-with-bullets">
-                <li className="list-item">
-                  <span className="home-text35">
-                    <span className="home-text36">MEP design</span>
-                    <br></br>
-                  </span>
-                </li>
-                <li className="list-item">
-                  <span>Project Management</span>
-                </li>
-              </ul>
+              <div className="home-container25">
+                <ul className="list list-with-bullets">
+                  <li className="list-item">
+                    <span className="home-text35">
+                      <span className="home-text36">MEP design</span>
+                      <br></br>
+                    </span>
+                  </li>
+                  <li className="list-item">
+                    <span>Project Management</span>
+                  </li>
+                </ul>
+              </div>
               <Link to="/projects" className="home-navlink06">
                 <OutlineBlackButton
                   button="Explore"
@@ -285,51 +291,59 @@ const Home = (props) => {
               </Link>
             </div>
           </div>
-          <div className="home-container24">
-            <div className="home-container25"></div>
-            <div className="home-container26">
+          <div className="home-container26 home-projects-card">
+            <div className="home-container27"></div>
+            <div className="home-container28">
               <p className="home-text39">
                 Katameya Company for developing Education
               </p>
               <h3 className="home-text40">
                 Egyptian Language School New Cairo
               </h3>
-              <ul className="list list-with-bullets">
-                <li className="list-item">
-                  <span className="home-text41">Maintenance Management</span>
-                </li>
-                <li className="list-item">
-                  <span>Maintenance Supervision</span>
-                </li>
-              </ul>
-              <Link to="/projects" className="home-navlink07">
-                <OutlineBlackButton
-                  button="Explore"
-                  className="home-component11"
-                ></OutlineBlackButton>
-              </Link>
+              <div className="home-container29">
+                <ul className="list list-with-bullets">
+                  <li className="list-item">
+                    <span className="home-text41">Maintenance Management</span>
+                  </li>
+                  <li className="list-item">
+                    <span>Maintenance Supervision</span>
+                  </li>
+                </ul>
+              </div>
+              <div className="home-container30">
+                <Link to="/projects" className="home-navlink07">
+                  <OutlineBlackButton
+                    button="Explore"
+                    className="home-component11"
+                  ></OutlineBlackButton>
+                </Link>
+              </div>
             </div>
           </div>
-          <div className="home-container27">
-            <div className="home-container28"></div>
-            <div className="home-container29">
+          <div className="home-container31 home-projects-card">
+            <div className="home-container32"></div>
+            <div className="home-container33">
               <p className="home-text43">
                 6th October Company for developing Education
               </p>
               <h3 className="home-text44">
                 Egyptian Language School 6th October
               </h3>
-              <ul className="list list-with-bullets">
-                <li className="list-item">
-                  <span className="home-text45">
-                    <span className="home-text46">Maintenance Management</span>
-                    <br></br>
-                  </span>
-                </li>
-                <li className="list-item">
-                  <span>Maintenance Supervision</span>
-                </li>
-              </ul>
+              <div className="home-container34">
+                <ul className="list list-with-bullets">
+                  <li className="list-item">
+                    <span className="home-text45">
+                      <span className="home-text46">
+                        Maintenance Management
+                      </span>
+                      <br></br>
+                    </span>
+                  </li>
+                  <li className="list-item">
+                    <span>Maintenance Supervision</span>
+                  </li>
+                </ul>
+              </div>
               <Link to="/projects" className="home-navlink08">
                 <OutlineBlackButton
                   button="Explore"
@@ -338,9 +352,9 @@ const Home = (props) => {
               </Link>
             </div>
           </div>
-          <div className="home-container30">
-            <div className="home-container31"></div>
-            <div className="home-container32">
+          <div className="home-container35">
+            <div className="home-container36"></div>
+            <div className="home-container37">
               <p className="home-text49">
                 <span>Alexandria Company for developing Education</span>
                 <br></br>
@@ -348,17 +362,21 @@ const Home = (props) => {
               <h3 className="home-text52">
                 Egyptian Language School Alexandria
               </h3>
-              <ul className="list list-with-bullets">
-                <li className="list-item">
-                  <span className="home-text53">
-                    <span className="home-text54">Maintenance Management</span>
-                    <br></br>
-                  </span>
-                </li>
-                <li className="list-item">
-                  <span>Maintenance Supervision</span>
-                </li>
-              </ul>
+              <div className="home-container38">
+                <ul className="list list-with-bullets">
+                  <li className="list-item">
+                    <span className="home-text53">
+                      <span className="home-text54">
+                        Maintenance Management
+                      </span>
+                      <br></br>
+                    </span>
+                  </li>
+                  <li className="list-item">
+                    <span>Maintenance Supervision</span>
+                  </li>
+                </ul>
+              </div>
               <Link to="/projects" className="home-navlink09">
                 <OutlineBlackButton
                   button="Explore"
@@ -370,9 +388,9 @@ const Home = (props) => {
         </div>
       </div>
       <section className="home-contact-us">
-        <div className="home-container33">
-          <div className="home-container34">
-            <div className="home-container35">
+        <div className="home-container39">
+          <div className="home-container40">
+            <div className="home-container41">
               <p className="home-text57">Bargain Price, Premium Services</p>
               <h3 className="home-text58">
                 <span className="home-text59">Our mission is </span>
@@ -394,7 +412,7 @@ const Home = (props) => {
                 <br></br>
                 <span>Relax and leave all the hard work to us.</span>
               </p>
-              <div className="home-container36">
+              <div className="home-container42">
                 <Link to="/contact-us" className="home-navlink10">
                   <OutlineBlackButton
                     button="Contact Us"
@@ -405,7 +423,7 @@ const Home = (props) => {
               </div>
             </div>
           </div>
-          <div className="home-container37">
+          <div className="home-container43">
             <img
               alt="image"
               src="/playground_assets/servicesasset-1-1024x805-600w.png"
@@ -430,7 +448,7 @@ const Home = (props) => {
         />
       </section>
       <section className="home-partners">
-        <div className="home-container38">
+        <div className="home-container44">
           <h2 className="home-text68 animate-gradient">
             <span>Partners</span>
             <br></br>
@@ -440,7 +458,7 @@ const Home = (props) => {
             <br></br>
           </span>
         </div>
-        <div className="home-container39">
+        <div className="home-container45">
           <PartnerCarousel rootClassName="partner-carousel-root-class-name"></PartnerCarousel>
         </div>
       </section>

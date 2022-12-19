@@ -21,7 +21,7 @@ const Contact = (props) => {
           <input
             type="hidden"
             name="_next"
-            value="iees.teleporthq.app/thank-you"
+            value="iees.teleporthq.app/"
             placeholder={props.textinput_placeholder3}
             className="input"
           />
