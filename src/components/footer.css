@@ -5,7 +5,7 @@
   position: relative;
   align-items: center;
   flex-direction: column;
-  background-image: linear-gradient(310deg,#141727,#3a416f);
+  background-image: linear-gradient(270deg, rgba(1, 66, 70, 0.92) 1.00%,rgba(0, 93, 99, 0.92) 100.00%);
 }
 .footer-container {
   color: var(--dl-color-gray-white);
@@ -21,9 +21,13 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.footer-navlink {
+  display: contents;
+}
 .footer-image {
   width: 150px;
   object-fit: cover;
+  text-decoration: none;
 }
 .footer-text {
   font-size: .6rem;
@@ -38,32 +42,34 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.footer-text03 {
+.footer-text3 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.footer-text04 {
+.footer-navlink1 {
   color: var(--dl-color-gray-800);
   transition: 0.3s;
   margin-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
 }
-.footer-text04:hover {
+.footer-navlink1:hover {
   color: var(--dl-color-gray-white);
 }
-.footer-text05 {
+.footer-navlink2 {
   color: var(--dl-color-gray-800);
   transition: 0.3s;
   margin-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
 }
-.footer-text05:hover {
+.footer-navlink2:hover {
   color: var(--dl-color-gray-white);
 }
-.footer-text06 {
+.footer-text4 {
   color: var(--dl-color-gray-800);
   transition: 0.3s;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.footer-text06:hover {
+.footer-text4:hover {
   color: var(--dl-color-gray-white);
 }
 .footer-container4 {
@@ -73,32 +79,35 @@
   margin-left: var(--dl-space-space-sixunits);
   flex-direction: column;
 }
-.footer-text07 {
+.footer-text5 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.footer-text08 {
+.footer-navlink3 {
   color: var(--dl-color-gray-800);
   transition: 0.3s;
   margin-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
 }
-.footer-text08:hover {
+.footer-navlink3:hover {
   color: var(--dl-color-gray-white);
 }
-.footer-text09 {
+.footer-navlink4 {
   color: var(--dl-color-gray-800);
   transition: 0.3s;
   margin-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
 }
-.footer-text09:hover {
+.footer-navlink4:hover {
   color: var(--dl-color-gray-white);
 }
-.footer-text10 {
+.footer-navlink5 {
   color: var(--dl-color-gray-800);
   transition: 0.3s;
   margin-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
 }
-.footer-text10:hover {
+.footer-navlink5:hover {
   color: var(--dl-color-gray-white);
 }
 .footer-container5 {
@@ -125,7 +134,7 @@
   height: 24px;
 }
 .footer-root-class-name {
-  background-image: linear-gradient(350deg,#82bb27,#005d63);
+  background-image: linear-gradient(315deg, rgb(106, 153, 32) 0.00%,rgba(0, 106, 36, 0.92) 31.00%,rgba(0, 93, 99, 0.92) 100.00%);
 }
 .footer-root-class-name1 {
   background-image: linear-gradient(350deg,#82bb27,#005d63);

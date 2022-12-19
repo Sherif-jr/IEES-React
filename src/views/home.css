@@ -805,19 +805,13 @@
 }
 .home-text57 {
   color: var(--dl-color-gray-white);
-  opacity: 0.8;
-  font-size: 1rem;
-  font-family: Open Sans;
-  font-weight: 300;
-  line-height: 1.5;
-  margin-bottom: var(--dl-space-space-unit);
-  text-transform: none;
-  text-decoration: none;
-}
-.home-text58 {
-  color: var(--dl-color-gray-white);
+  font-size: larger;
+  font-weight: 700;
   margin-bottom: var(--dl-space-space-tripleunit);
   text-transform: uppercase;
+}
+.home-text58 {
+  color: var(--dl-color-primary-500);
 }
 .home-text62 {
   color: var(--dl-color-gray-white);
@@ -965,7 +959,7 @@
   .home-project-cards {
     margin-top: var(--dl-space-space-unit);
   }
-  .home-text58 {
+  .home-text57 {
     color: var(--dl-color-gray-white);
   }
   .home-container44 {
@@ -1407,22 +1401,16 @@
     padding-bottom: var(--dl-space-space-sixunits);
   }
   .home-text57 {
-    color: var(--dl-color-secondary-100);
-    font-size: 1rem;
-    font-style: normal;
-    font-family: Open Sans;
-    font-weight: 400;
-    line-height: 1.5;
-    text-transform: none;
-    text-decoration: none;
-  }
-  .home-text58 {
     color: var(--dl-color-gray-white);
     font-family: Open Sans;
     font-weight: 700;
     line-height: 1.375;
     text-transform: uppercase;
     text-decoration: none;
+  }
+  .home-text58 {
+    color: var(--dl-color-primary-700);
+    font-size: 1.2rem;
   }
   .home-text59 {
     color: var(--dl-color-primary-700);

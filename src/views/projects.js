@@ -57,6 +57,7 @@ const Projects = (props) => {
                 <div className="projects-container10">
                   <button
                     type="button"
+                    id="button1"
                     className="projects-button details-button"
                   >
                     Show DETAILS
@@ -133,7 +134,7 @@ const Projects = (props) => {
       </button>
     </h2>
     <div
-      id="collapseTwo"
+      id="collapseTwo-p1"
       class="accordion-collapse collapse"
       aria-labelledby="headingTwo-p1"
       data-bs-parent="accordion-p1"
@@ -209,7 +210,7 @@ const Projects = (props) => {
     <div
       id="collapseThree-p1"
       class="accordion-collapse collapse overflow-hidden"
-      aria-labelledby="headingThree"
+      aria-labelledby="headingThree-p1"
       data-bs-parent="accordion-p1"
     >
       <div class="accordion-body">
@@ -377,6 +378,7 @@ const Projects = (props) => {
                 <div className="projects-container19">
                   <button
                     type="button"
+                    id="button2"
                     className="projects-button1 details-button"
                   >
                     Show DETAILS
@@ -656,6 +658,7 @@ const Projects = (props) => {
                 <div className="projects-container28">
                   <button
                     type="button"
+                    id="button3"
                     className="projects-button2 details-button"
                   >
                     Show DETAILS
@@ -908,6 +911,7 @@ const Projects = (props) => {
                 <div className="projects-container37">
                   <button
                     type="button"
+                    id="button4"
                     className="projects-button3 details-button"
                   >
                     Show DETAILS
@@ -1160,6 +1164,7 @@ const Projects = (props) => {
                 <div className="projects-container46">
                   <button
                     type="button"
+                    id="button5"
                     className="projects-button4 details-button"
                   >
                     Show DETAILS

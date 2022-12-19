@@ -56,16 +56,20 @@ const FooterGray = (props) => {
                 Company
               </span>
               <span className="footer-gray-text04 Large">About Us</span>
-              <span className="footer-gray-text05">Products</span>
-              <span className="footer-gray-text06 Large">Services</span>
+              <span className="footer-gray-text05 Large">Contact Us</span>
+              <span className="footer-gray-text06 Large">FAQs</span>
             </div>
             <div className="footer-gray-container7">
               <span className="footer-gray-text07 Large animate-gradient">
-                Help &amp; Support
+                Services
               </span>
-              <span className="footer-gray-text08 Large">Contact Us</span>
-              <span className="footer-gray-text09 Large">Knowledge Center</span>
-              <span className="footer-gray-text10 Large">Sponsorships</span>
+              <span className="footer-gray-text08">Maintenance Management</span>
+              <span className="footer-gray-text09 Large">
+                Energy Management
+              </span>
+              <span className="footer-gray-text10 Large">
+                Project Management
+              </span>
             </div>
             <div className="footer-gray-container8">
               <span className="footer-gray-text11 Large animate-gradient">

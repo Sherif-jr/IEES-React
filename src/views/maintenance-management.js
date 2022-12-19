@@ -313,7 +313,29 @@ const MaintenanceManagement = (props) => {
                       <path d="M896 0h-768c-70.4 0-128 57.6-128 128v768c0 70.4 57.6 128 128 128h768c70.4 0 128-57.6 128-128v-768c0-70.4-57.6-128-128-128zM448 794.51l-237.254-237.256 90.51-90.508 146.744 146.744 306.746-306.746 90.508 90.51-397.254 397.256z"></path>
                     </svg>
                     <p className="maintenance-management-text073">
-                      Human resources management.
+                      Coordinate maintenance activities with operations.
+                    </p>
+                  </div>
+                  <div className="maintenance-management-container21">
+                    <svg
+                      viewBox="0 0 1024 1024"
+                      className="maintenance-management-icon06"
+                    >
+                      <path d="M896 0h-768c-70.4 0-128 57.6-128 128v768c0 70.4 57.6 128 128 128h768c70.4 0 128-57.6 128-128v-768c0-70.4-57.6-128-128-128zM448 794.51l-237.254-237.256 90.51-90.508 146.744 146.744 306.746-306.746 90.508 90.51-397.254 397.256z"></path>
+                    </svg>
+                    <p className="maintenance-management-text074">
+                      Plan the spare parts needs and estimate budget.
+                    </p>
+                  </div>
+                  <div className="maintenance-management-container22">
+                    <svg
+                      viewBox="0 0 1024 1024"
+                      className="maintenance-management-icon08"
+                    >
+                      <path d="M896 0h-768c-70.4 0-128 57.6-128 128v768c0 70.4 57.6 128 128 128h768c70.4 0 128-57.6 128-128v-768c0-70.4-57.6-128-128-128zM448 794.51l-237.254-237.256 90.51-90.508 146.744 146.744 306.746-306.746 90.508 90.51-397.254 397.256z"></path>
+                    </svg>
+                    <p className="maintenance-management-text075">
+                      Plan human resources of maintenance management.
                     </p>
                   </div>
                 </div>
@@ -327,14 +349,14 @@ const MaintenanceManagement = (props) => {
         id="section3"
         className="maintenance-management-section3 serv-section-full-section"
       >
-        <div className="maintenance-management-container22">
-          <h1 className="maintenance-management-text074">
+        <div className="maintenance-management-container24">
+          <h1 className="maintenance-management-text076">
             <span>3.</span>
             <br></br>
             <span>TRAINING</span>
             <br></br>
           </h1>
-          <p className="maintenance-management-text079">
+          <p className="maintenance-management-text081">
             We rely on our set of trained and equipped engineers to form the big
             picture about the maintenance management through charts of the
             gathered data. Developing the plan continues. Here are some of the
@@ -344,15 +366,15 @@ const MaintenanceManagement = (props) => {
         <div className="serv-section-container">
           <div className="maintenance-management-problems12">
             <div className="serv-section-problems">
-              <div className="maintenance-management-container24">
-                <h3 className="maintenance-management-text080">
+              <div className="maintenance-management-container26">
+                <h3 className="maintenance-management-text082">
                   <span>Common Problems</span>
                   <br></br>
                 </h3>
               </div>
               <ul className="list serv-section-problems-list">
                 <li className="list-item maintenance-management-li15">
-                  <span className="maintenance-management-text083">
+                  <span className="maintenance-management-text085">
                     <span>
                       Maintenance team has low level of experience in
                       prioritizing and planning.
@@ -361,12 +383,12 @@ const MaintenanceManagement = (props) => {
                   </span>
                 </li>
                 <li className="list-item">
-                  <span className="maintenance-management-text086">
+                  <span className="maintenance-management-text088">
                     Lack of early preventive procedures. 
                   </span>
                 </li>
                 <li className="list-item">
-                  <span className="maintenance-management-text087">
+                  <span className="maintenance-management-text089">
                     Lack of a maintenance system that everyone one in it has a
                     part while working and communicating properly with others.
                   </span>
@@ -377,13 +399,13 @@ const MaintenanceManagement = (props) => {
           </div>
           <div className="maintenance-management-solutions12">
             <div className="serv-section-solutions">
-              <div className="maintenance-management-container26">
-                <h3 className="maintenance-management-text088">
+              <div className="maintenance-management-container28">
+                <h3 className="maintenance-management-text090">
                   <span>IEES Solutions</span>
                   <br></br>
                 </h3>
               </div>
-              <div className="maintenance-management-container27 list">
+              <div className="maintenance-management-container29 list">
                 <IconListItemDark
                   text="Train the maintenance team on a disciplined but flexible system that guarantees good planning and smooth workflow."
                   rootClassName="icon-list-item-dark-root-class-name28"
@@ -402,14 +424,14 @@ const MaintenanceManagement = (props) => {
         id="section4"
         className="maintenance-management-section4 serv-section-full-section"
       >
-        <div className="maintenance-management-container29">
-          <h1 className="maintenance-management-text091">
+        <div className="maintenance-management-container31">
+          <h1 className="maintenance-management-text093">
             <span>4.</span>
             <br></br>
             <span>MEASURING PERFORMANCE</span>
             <br></br>
           </h1>
-          <p className="maintenance-management-text096">
+          <p className="maintenance-management-text098">
             Our team of qualified engineers and employees will help you in this
             stage to get the best financial evaluation without compromising the
             technical standards. Here are some of the common problems and how to
@@ -419,27 +441,27 @@ const MaintenanceManagement = (props) => {
         <div className="serv-section-container">
           <div className="maintenance-management-problems13">
             <div className="serv-section-problems">
-              <div className="maintenance-management-container31">
-                <h3 className="maintenance-management-text097">
+              <div className="maintenance-management-container33">
+                <h3 className="maintenance-management-text099">
                   <span>Common Problems</span>
                   <br></br>
                 </h3>
               </div>
               <ul className="list serv-section-problems-list">
                 <li className="list-item">
-                  <span className="maintenance-management-text100">
+                  <span className="maintenance-management-text102">
                     Lack of an evaluation about the current maintenance plans,
                     and how effective they are.
                   </span>
                 </li>
                 <li className="list-item">
-                  <span className="maintenance-management-text101">
+                  <span className="maintenance-management-text103">
                     Lack of an evaluation about the budget and resources
                     including human resources.
                   </span>
                 </li>
                 <li className="list-item">
-                  <span className="maintenance-management-text102">
+                  <span className="maintenance-management-text104">
                     Absence of any indication about the after-plan situation and
                     how well are we prepared. 
                   </span>
@@ -450,61 +472,61 @@ const MaintenanceManagement = (props) => {
           </div>
           <div className="maintenance-management-solutions13">
             <div className="serv-section-solutions">
-              <div className="maintenance-management-container33">
-                <h3 className="maintenance-management-text103">
+              <div className="maintenance-management-container35">
+                <h3 className="maintenance-management-text105">
                   <span>IEES Solutions</span>
                   <br></br>
                 </h3>
               </div>
-              <div className="maintenance-management-container34 list">
+              <div className="maintenance-management-container36 list">
                 <IconListItemDark
                   text="Define KPI's, Analyze on different measures and periods, and report with an up-to-date situation about the following:"
                   rootClassName="icon-list-item-dark-root-class-name32"
                 ></IconListItemDark>
-                <div className="maintenance-management-container35">
-                  <div className="maintenance-management-container36">
-                    <svg
-                      viewBox="0 0 1024 1024"
-                      className="maintenance-management-icon06"
-                    >
-                      <path d="M896 0h-768c-70.4 0-128 57.6-128 128v768c0 70.4 57.6 128 128 128h768c70.4 0 128-57.6 128-128v-768c0-70.4-57.6-128-128-128zM448 794.51l-237.254-237.256 90.51-90.508 146.744 146.744 306.746-306.746 90.508 90.51-397.254 397.256z"></path>
-                    </svg>
-                    <p className="maintenance-management-text106">Budget</p>
-                  </div>
-                </div>
                 <div className="maintenance-management-container37">
                   <div className="maintenance-management-container38">
-                    <svg
-                      viewBox="0 0 1024 1024"
-                      className="maintenance-management-icon08"
-                    >
-                      <path d="M896 0h-768c-70.4 0-128 57.6-128 128v768c0 70.4 57.6 128 128 128h768c70.4 0 128-57.6 128-128v-768c0-70.4-57.6-128-128-128zM448 794.51l-237.254-237.256 90.51-90.508 146.744 146.744 306.746-306.746 90.508 90.51-397.254 397.256z"></path>
-                    </svg>
-                    <p className="maintenance-management-text107">Operation</p>
-                  </div>
-                </div>
-                <div className="maintenance-management-container39">
-                  <div className="maintenance-management-container40">
                     <svg
                       viewBox="0 0 1024 1024"
                       className="maintenance-management-icon10"
                     >
                       <path d="M896 0h-768c-70.4 0-128 57.6-128 128v768c0 70.4 57.6 128 128 128h768c70.4 0 128-57.6 128-128v-768c0-70.4-57.6-128-128-128zM448 794.51l-237.254-237.256 90.51-90.508 146.744 146.744 306.746-306.746 90.508 90.51-397.254 397.256z"></path>
                     </svg>
-                    <p className="maintenance-management-text108">
-                      Equipment Condition
-                    </p>
+                    <p className="maintenance-management-text108">Budget</p>
                   </div>
                 </div>
-                <div className="maintenance-management-container41">
-                  <div className="maintenance-management-container42">
+                <div className="maintenance-management-container39">
+                  <div className="maintenance-management-container40">
                     <svg
                       viewBox="0 0 1024 1024"
                       className="maintenance-management-icon12"
                     >
                       <path d="M896 0h-768c-70.4 0-128 57.6-128 128v768c0 70.4 57.6 128 128 128h768c70.4 0 128-57.6 128-128v-768c0-70.4-57.6-128-128-128zM448 794.51l-237.254-237.256 90.51-90.508 146.744 146.744 306.746-306.746 90.508 90.51-397.254 397.256z"></path>
                     </svg>
-                    <p className="maintenance-management-text109">
+                    <p className="maintenance-management-text109">Operation</p>
+                  </div>
+                </div>
+                <div className="maintenance-management-container41">
+                  <div className="maintenance-management-container42">
+                    <svg
+                      viewBox="0 0 1024 1024"
+                      className="maintenance-management-icon14"
+                    >
+                      <path d="M896 0h-768c-70.4 0-128 57.6-128 128v768c0 70.4 57.6 128 128 128h768c70.4 0 128-57.6 128-128v-768c0-70.4-57.6-128-128-128zM448 794.51l-237.254-237.256 90.51-90.508 146.744 146.744 306.746-306.746 90.508 90.51-397.254 397.256z"></path>
+                    </svg>
+                    <p className="maintenance-management-text110">
+                      Equipment Condition
+                    </p>
+                  </div>
+                </div>
+                <div className="maintenance-management-container43">
+                  <div className="maintenance-management-container44">
+                    <svg
+                      viewBox="0 0 1024 1024"
+                      className="maintenance-management-icon16"
+                    >
+                      <path d="M896 0h-768c-70.4 0-128 57.6-128 128v768c0 70.4 57.6 128 128 128h768c70.4 0 128-57.6 128-128v-768c0-70.4-57.6-128-128-128zM448 794.51l-237.254-237.256 90.51-90.508 146.744 146.744 306.746-306.746 90.508 90.51-397.254 397.256z"></path>
+                    </svg>
+                    <p className="maintenance-management-text111">
                       Maintenance team activities.
                     </p>
                   </div>
@@ -522,14 +544,14 @@ const MaintenanceManagement = (props) => {
         id="section5"
         className="maintenance-management-section5 serv-section-full-section"
       >
-        <div className="maintenance-management-container43">
-          <h1 className="maintenance-management-text110">
+        <div className="maintenance-management-container45">
+          <h1 className="maintenance-management-text112">
             <span>5.</span>
             <br></br>
             <span>FACILITY DEVELOPMENT</span>
             <br></br>
           </h1>
-          <p className="maintenance-management-text115">
+          <p className="maintenance-management-text117">
             What&apos;s next? If you are planning to scale you business or grow
             your project, you are definitely going to need your assets to expand
             proportionally. These assets include for example equipment and human
@@ -542,42 +564,46 @@ const MaintenanceManagement = (props) => {
         <div className="serv-section-container">
           <div className="maintenance-management-problems14">
             <div className="serv-section-problems">
-              <div className="maintenance-management-container45">
-                <h3 className="maintenance-management-text116">
+              <div className="maintenance-management-container47">
+                <h3 className="maintenance-management-text118">
                   <span>Common Problems</span>
                   <br></br>
                 </h3>
               </div>
               <ul className="list serv-section-problems-list">
                 <li className="list-item">
-                  <span className="maintenance-management-text119">
+                  <span className="maintenance-management-text121">
                     Systems can&apos;t handle a higher scale usage due to:
                   </span>
                   <ul className="maintenance-management-ul08 list serv-section-problems-list-Inside">
-                    <li className="list-item"></li>
                     <li className="list-item">
-                      <span className="maintenance-management-text120">
-                        <span>Data loss.</span>
+                      <span className="maintenance-management-text122">
+                        <span>
+                          Limited Capabilities and complicated maintenance
+                          process especially for older equipment.
+                        </span>
                         <br></br>
                       </span>
                     </li>
                     <li className="list-item">
-                      <span className="maintenance-management-text123">
-                        <span>Frequent downtime.</span>
+                      <span className="maintenance-management-text125">
+                        <span>
+                          Lack of optimizations to the new added equipment.
+                        </span>
                         <br></br>
                       </span>
                     </li>
                   </ul>
                 </li>
                 <li className="list-item">
-                  <span className="maintenance-management-text126">
+                  <span className="maintenance-management-text128">
                     Lack of early preventive procedures. 
                   </span>
                 </li>
                 <li className="list-item">
-                  <span className="maintenance-management-text127">
-                    Lack of a maintenance system that everyone one in it has a
-                    part while working and communicating properly with others.
+                  <span className="maintenance-management-text129">
+                    Lack of a well-organized maintenance system that has a clear
+                    role for everyone and focused on teamwork and collaboration.
                   </span>
                 </li>
               </ul>
@@ -586,13 +612,13 @@ const MaintenanceManagement = (props) => {
           </div>
           <div className="maintenance-management-solutions14">
             <div className="serv-section-solutions">
-              <div className="maintenance-management-container47">
-                <h3 className="maintenance-management-text128">
+              <div className="maintenance-management-container49">
+                <h3 className="maintenance-management-text130">
                   <span>IEES Solutions</span>
                   <br></br>
                 </h3>
               </div>
-              <div className="maintenance-management-container48 list">
+              <div className="maintenance-management-container50 list">
                 <IconListItemDark
                   text="Train the maintenance team on a disciplined but flexible system that guarantees good planning and smooth workflow."
                   rootClassName="icon-list-item-dark-root-class-name33"
@@ -611,14 +637,14 @@ const MaintenanceManagement = (props) => {
         id="section6"
         className="maintenance-management-section7 serv-section-full-section"
       >
-        <div className="maintenance-management-container50">
-          <h1 className="maintenance-management-text131">
+        <div className="maintenance-management-container52">
+          <h1 className="maintenance-management-text133">
             <span>6.</span>
             <br></br>
             <span>MAINTENANCE MANAGEMENT MANUAL</span>
             <br></br>
           </h1>
-          <p className="maintenance-management-text136">
+          <p className="maintenance-management-text138">
             Imagine a system with an ability to identify its malfunctions,
             provide the proper way to fix it and even predict and prevent it
             before it happens. That is what a maintenance management manual can
@@ -629,15 +655,15 @@ const MaintenanceManagement = (props) => {
         <div className="serv-section-container">
           <div className="maintenance-management-problems15">
             <div className="serv-section-problems">
-              <div className="maintenance-management-container52">
-                <h3 className="maintenance-management-text137">
+              <div className="maintenance-management-container54">
+                <h3 className="maintenance-management-text139">
                   <span>Common Problems</span>
                   <br></br>
                 </h3>
               </div>
               <ul className="list serv-section-problems-list">
-                <li className="list-item maintenance-management-li27">
-                  <span className="maintenance-management-text140">
+                <li className="list-item maintenance-management-li26">
+                  <span className="maintenance-management-text142">
                     <span>
                       Unstable maintenance processes because of the staff
                       changes over the time.
@@ -646,14 +672,14 @@ const MaintenanceManagement = (props) => {
                   </span>
                 </li>
                 <li className="list-item">
-                  <span className="maintenance-management-text143">
+                  <span className="maintenance-management-text145">
                     Slower system development compared to the business scale
                     rate due to lack of accurate information about its
                     capabilities.
                   </span>
                 </li>
                 <li className="list-item">
-                  <span className="maintenance-management-text144">
+                  <span className="maintenance-management-text146">
                     Lack of sustainability.
                   </span>
                 </li>
@@ -663,13 +689,13 @@ const MaintenanceManagement = (props) => {
           </div>
           <div className="maintenance-management-solutions15">
             <div className="serv-section-solutions">
-              <div className="maintenance-management-container54">
-                <h3 className="maintenance-management-text145">
+              <div className="maintenance-management-container56">
+                <h3 className="maintenance-management-text147">
                   <span>IEES Solutions</span>
                   <br></br>
                 </h3>
               </div>
-              <div className="maintenance-management-container55 list">
+              <div className="maintenance-management-container57 list">
                 <IconListItemDark
                   text="Define system standards to make it independent, self-maintained and predicted."
                   rootClassName="icon-list-item-dark-root-class-name35"
@@ -688,24 +714,24 @@ const MaintenanceManagement = (props) => {
           </div>
         </div>
       </div>
-      <div className="maintenance-management-container57">
-        <div className="maintenance-management-container58">
-          <h4 className="maintenance-management-text148">Other Services</h4>
-          <div className="maintenance-management-container59">
+      <div className="maintenance-management-container59">
+        <div className="maintenance-management-container60">
+          <h4 className="maintenance-management-text150">Other Services</h4>
+          <div className="maintenance-management-container61">
             <div className="maintenance-management-pricing-card Card">
-              <h3 className="maintenance-management-text149 title transition">
+              <h3 className="maintenance-management-text151 title transition">
                 PROJECT MANAGEMENT
               </h3>
               <div className="folder">
-                <div className="maintenance-management-container61">
-                  <span className="maintenance-management-text150">
+                <div className="maintenance-management-container63">
+                  <span className="maintenance-management-text152">
                     We support clients to achieve the best lifetime for their
                     assets and equipment by proposing the optimum maintenance
                     scenario and following up on the implementation of this
                     scenario.
                   </span>
                 </div>
-                <div className="maintenance-management-container62">
+                <div className="maintenance-management-container64">
                   <a
                     href="/project-management"
                     className="maintenance-management-link1 button"
@@ -716,19 +742,19 @@ const MaintenanceManagement = (props) => {
               </div>
             </div>
             <div className="maintenance-management-pricing-card1 Card">
-              <h3 className="maintenance-management-text151 title transition">
+              <h3 className="maintenance-management-text153 title transition">
                 MAINTENANCE MANAGEMENT
               </h3>
-              <div className="maintenance-management-container63 folder">
-                <div className="maintenance-management-container64">
-                  <span className="maintenance-management-text152">
+              <div className="maintenance-management-container65 folder">
+                <div className="maintenance-management-container66">
+                  <span className="maintenance-management-text154">
                     Providing the best scenario for managing MEP projects by
                     optimizing the dilemma between Scope, time, quality, and
                     budget. Using our experience in managing MEP projects and
                     through our specialization in MEP systems.
                   </span>
                 </div>
-                <div className="maintenance-management-container65">
+                <div className="maintenance-management-container67">
                   <Link
                     to="/maintenance-management"
                     className="maintenance-management-navlink button"
@@ -739,12 +765,12 @@ const MaintenanceManagement = (props) => {
               </div>
             </div>
             <div className="maintenance-management-pricing-card2 Card">
-              <h3 className="maintenance-management-text153 title transition">
+              <h3 className="maintenance-management-text155 title transition">
                 ENERGY MANAGEMENT
               </h3>
-              <div className="maintenance-management-container66 folder">
-                <div className="maintenance-management-container67">
-                  <span className="maintenance-management-text154">
+              <div className="maintenance-management-container68 folder">
+                <div className="maintenance-management-container69">
+                  <span className="maintenance-management-text156">
                     Developing optimized Mechanical, Electrical, and Plumbing
                     (MEP) designs as per client requirements. we design, select,
                     and optimize best-fit MEP systems that facilitate operations
@@ -752,7 +778,7 @@ const MaintenanceManagement = (props) => {
                     standards with considering the best life cycle cost.
                   </span>
                 </div>
-                <div className="maintenance-management-container68">
+                <div className="maintenance-management-container70">
                   <Link
                     to="/project-management"
                     className="maintenance-management-navlink1 button"
@@ -768,7 +794,7 @@ const MaintenanceManagement = (props) => {
       <div className="maintenance-management-up">
         <svg
           viewBox="0 0 658.2857142857142 1024"
-          className="maintenance-management-icon14"
+          className="maintenance-management-icon18"
         >
           <path d="M614.286 749.714c0 4.571-2.286 9.714-5.714 13.143l-28.571 28.571c-3.429 3.429-8 5.714-13.143 5.714-4.571 0-9.714-2.286-13.143-5.714l-224.571-224.571-224.571 224.571c-3.429 3.429-8.571 5.714-13.143 5.714s-9.714-2.286-13.143-5.714l-28.571-28.571c-3.429-3.429-5.714-8.571-5.714-13.143s2.286-9.714 5.714-13.143l266.286-266.286c3.429-3.429 8.571-5.714 13.143-5.714s9.714 2.286 13.143 5.714l266.286 266.286c3.429 3.429 5.714 8.571 5.714 13.143zM614.286 530.286c0 4.571-2.286 9.714-5.714 13.143l-28.571 28.571c-3.429 3.429-8 5.714-13.143 5.714-4.571 0-9.714-2.286-13.143-5.714l-224.571-224.571-224.571 224.571c-3.429 3.429-8.571 5.714-13.143 5.714s-9.714-2.286-13.143-5.714l-28.571-28.571c-3.429-3.429-5.714-8.571-5.714-13.143s2.286-9.714 5.714-13.143l266.286-266.286c3.429-3.429 8.571-5.714 13.143-5.714s9.714 2.286 13.143 5.714l266.286 266.286c3.429 3.429 5.714 8.571 5.714 13.143z"></path>
         </svg>
@@ -776,7 +802,7 @@ const MaintenanceManagement = (props) => {
       <div className="maintenance-management-down">
         <svg
           viewBox="0 0 658.2857142857142 1024"
-          className="maintenance-management-icon16"
+          className="maintenance-management-icon20"
         >
           <path d="M614.286 493.714c0 4.571-2.286 9.714-5.714 13.143l-266.286 266.286c-3.429 3.429-8.571 5.714-13.143 5.714s-9.714-2.286-13.143-5.714l-266.286-266.286c-3.429-3.429-5.714-8.571-5.714-13.143s2.286-9.714 5.714-13.143l28.571-28.571c3.429-3.429 8-5.714 13.143-5.714 4.571 0 9.714 2.286 13.143 5.714l224.571 224.571 224.571-224.571c3.429-3.429 8.571-5.714 13.143-5.714s9.714 2.286 13.143 5.714l28.571 28.571c3.429 3.429 5.714 8.571 5.714 13.143zM614.286 274.286c0 4.571-2.286 9.714-5.714 13.143l-266.286 266.286c-3.429 3.429-8.571 5.714-13.143 5.714s-9.714-2.286-13.143-5.714l-266.286-266.286c-3.429-3.429-5.714-8.571-5.714-13.143s2.286-9.714 5.714-13.143l28.571-28.571c3.429-3.429 8-5.714 13.143-5.714 4.571 0 9.714 2.286 13.143 5.714l224.571 224.571 224.571-224.571c3.429-3.429 8.571-5.714 13.143-5.714s9.714 2.286 13.143 5.714l28.571 28.571c3.429 3.429 5.714 8.571 5.714 13.143z"></path>
         </svg>

@@ -108,17 +108,6 @@
   margin-top: var(--dl-space-space-unit);
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.contact-container01 {
-  display: flex;
-  align-self: flex-end;
-  margin-top: var(--dl-space-space-unit);
-  align-items: flex-start;
-  flex-direction: column;
-}
-.contact-container02 {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-}
 .contact-textarea {
   width: 100%;
   resize: none;
@@ -173,7 +162,7 @@
   border-top-right-radius: var(--dl-radius-radius-radius1);
   border-bottom-right-radius: var(--dl-radius-radius-radius1);
 }
-.contact-container03 {
+.contact-container1 {
   display: flex;
   padding: var(--dl-space-space-fourunits);
   z-index: 1;
@@ -183,7 +172,7 @@
 .contact-text09 {
   opacity: 0.8;
 }
-.contact-container04 {
+.contact-container2 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -192,7 +181,7 @@
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: column;
 }
-.contact-container05 {
+.contact-container3 {
   display: flex;
   margin-top: var(--dl-space-space-unit);
   align-items: flex-start;
@@ -209,7 +198,7 @@
   opacity: 0.8;
   text-decoration: none;
 }
-.contact-container06 {
+.contact-container4 {
   display: flex;
   margin-top: var(--dl-space-space-unit);
   align-items: flex-start;
@@ -226,7 +215,7 @@
   opacity: 0.8;
   text-decoration: none;
 }
-.contact-container07 {
+.contact-container5 {
   display: flex;
   margin-top: var(--dl-space-space-unit);
   align-items: flex-start;
@@ -242,7 +231,7 @@
 .contact-text10 {
   opacity: 0.8;
 }
-.contact-container08 {
+.contact-container6 {
   flex: 0 0 auto;
   width: 200px;
   display: flex;
@@ -267,12 +256,6 @@
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
 }
-.contact-icon12 {
-  fill: var(--dl-color-gray-white);
-  width: 24px;
-  height: 24px;
-  margin-right: var(--dl-space-space-doubleunit);
-}
 .contact-image {
   top: 0px;
   left: -1px;
@@ -282,7 +265,7 @@
   position: absolute;
   object-fit: cover;
 }
-.contact-container09 {
+.contact-container7 {
   top: auto;
   left: auto;
   right: 0px;

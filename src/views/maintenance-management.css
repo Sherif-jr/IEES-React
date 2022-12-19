@@ -420,6 +420,42 @@
   font-size: 0.9rem;
   text-align: left;
 }
+.maintenance-management-container21 {
+  display: flex;
+  align-items: center;
+}
+.maintenance-management-icon06 {
+  fill: var(--dl-color-primary-700);
+  width: var(--dl-size-size-triplequarterunit);
+  height: var(--dl-size-size-triplequarterunit);
+  margin-top: 0px;
+  margin-right: var(--dl-space-space-halfunit);
+  margin-bottom: 0px;
+}
+.maintenance-management-text074 {
+  color: var(--dl-color-primary-700);
+  width: 100%;
+  font-size: 0.9rem;
+  text-align: left;
+}
+.maintenance-management-container22 {
+  display: flex;
+  align-items: center;
+}
+.maintenance-management-icon08 {
+  fill: var(--dl-color-primary-700);
+  width: var(--dl-size-size-triplequarterunit);
+  height: var(--dl-size-size-triplequarterunit);
+  margin-top: 0px;
+  margin-right: var(--dl-space-space-halfunit);
+  margin-bottom: 0px;
+}
+.maintenance-management-text075 {
+  color: var(--dl-color-primary-700);
+  width: 100%;
+  font-size: 0.9rem;
+  text-align: left;
+}
 .maintenance-management-section3 {
   width: 100%;
   height: 100vh;
@@ -437,7 +473,7 @@
   background-repeat: no-repeat;
   background-position: top left,bottom;
 }
-.maintenance-management-container22 {
+.maintenance-management-container24 {
   flex: 0 0 auto;
   width: auto;
   display: flex;
@@ -445,12 +481,12 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.maintenance-management-text074 {
+.maintenance-management-text076 {
   color: var(--dl-color-gray-white);
   width: fit-content;
   font-size: 2rem;
 }
-.maintenance-management-text079 {
+.maintenance-management-text081 {
   color: var(--dl-color-gray-white);
   margin-top: 32px;
   text-align: left;
@@ -465,7 +501,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.maintenance-management-container24 {
+.maintenance-management-container26 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -473,7 +509,7 @@
   align-items: center;
   justify-content: center;
 }
-.maintenance-management-text080 {
+.maintenance-management-text082 {
   width: 100%;
   font-size: 1.25rem;
   text-align: center;
@@ -483,13 +519,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.maintenance-management-text083 {
+.maintenance-management-text085 {
   color: var(--dl-color-gray-white);
 }
-.maintenance-management-text086 {
+.maintenance-management-text088 {
   color: var(--dl-color-gray-white);
 }
-.maintenance-management-text087 {
+.maintenance-management-text089 {
   color: var(--dl-color-gray-white);
 }
 .maintenance-management-solutions12 {
@@ -500,7 +536,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.maintenance-management-container26 {
+.maintenance-management-container28 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -508,7 +544,7 @@
   align-items: center;
   justify-content: center;
 }
-.maintenance-management-text088 {
+.maintenance-management-text090 {
   width: 100%;
   font-size: 1.25rem;
   text-align: center;
@@ -518,7 +554,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.maintenance-management-container27 {
+.maintenance-management-container29 {
   gap: var(--dl-space-space-halfunit);
   width: 100%;
   height: max-content;
@@ -544,7 +580,7 @@
   justify-content: flex-start;
   background-image: linear-gradient(113deg, rgba(53, 133, 138, 0.8) 8.00%,rgba(136, 176, 71, 0.8) 94.00%),url('https://res.cloudinary.com/dhdonsil5/image/upload/v1671262007/IEES/Img/services/pm-5_uwjauo.jpg');
 }
-.maintenance-management-container29 {
+.maintenance-management-container31 {
   flex: 0 0 auto;
   width: auto;
   display: flex;
@@ -552,12 +588,12 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.maintenance-management-text091 {
+.maintenance-management-text093 {
   color: var(--dl-color-gray-white);
   width: fit-content;
   font-size: 2rem;
 }
-.maintenance-management-text096 {
+.maintenance-management-text098 {
   color: var(--dl-color-gray-white);
   margin-top: 32px;
   text-align: left;
@@ -572,7 +608,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.maintenance-management-container31 {
+.maintenance-management-container33 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -580,7 +616,7 @@
   align-items: center;
   justify-content: center;
 }
-.maintenance-management-text097 {
+.maintenance-management-text099 {
   width: 100%;
   font-size: 1.25rem;
   text-align: center;
@@ -590,13 +626,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.maintenance-management-text100 {
-  color: var(--dl-color-gray-white);
-}
-.maintenance-management-text101 {
-  color: var(--dl-color-gray-white);
-}
 .maintenance-management-text102 {
+  color: var(--dl-color-gray-white);
+}
+.maintenance-management-text103 {
+  color: var(--dl-color-gray-white);
+}
+.maintenance-management-text104 {
   color: var(--dl-color-gray-white);
 }
 .maintenance-management-solutions13 {
@@ -607,7 +643,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.maintenance-management-container33 {
+.maintenance-management-container35 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -615,7 +651,7 @@
   align-items: center;
   justify-content: center;
 }
-.maintenance-management-text103 {
+.maintenance-management-text105 {
   width: 100%;
   font-size: 1.25rem;
   text-align: center;
@@ -625,7 +661,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.maintenance-management-container34 {
+.maintenance-management-container36 {
   gap: var(--dl-space-space-halfunit);
   width: 100%;
   height: max-content;
@@ -636,32 +672,6 @@
   justify-content: flex-start;
   list-style-image: url();
 }
-.maintenance-management-container35 {
-  width: 100%;
-  height: auto;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.maintenance-management-container36 {
-  display: flex;
-  align-items: center;
-  margin-left: var(--dl-space-space-unit);
-}
-.maintenance-management-icon06 {
-  fill: var(--dl-color-primary-700);
-  width: var(--dl-size-size-triplequarterunit);
-  height: var(--dl-size-size-triplequarterunit);
-  margin-top: 0px;
-  margin-right: var(--dl-space-space-halfunit);
-  margin-bottom: 0px;
-}
-.maintenance-management-text106 {
-  color: var(--dl-color-primary-700);
-  width: 100%;
-  font-size: .9rem;
-  text-align: left;
-}
 .maintenance-management-container37 {
   width: 100%;
   height: auto;
@@ -670,32 +680,6 @@
   justify-content: flex-start;
 }
 .maintenance-management-container38 {
-  display: flex;
-  align-items: center;
-  margin-left: var(--dl-space-space-unit);
-}
-.maintenance-management-icon08 {
-  fill: var(--dl-color-primary-700);
-  width: var(--dl-size-size-triplequarterunit);
-  height: var(--dl-size-size-triplequarterunit);
-  margin-top: 0px;
-  margin-right: var(--dl-space-space-halfunit);
-  margin-bottom: 0px;
-}
-.maintenance-management-text107 {
-  color: var(--dl-color-primary-700);
-  width: 100%;
-  font-size: .9rem;
-  text-align: left;
-}
-.maintenance-management-container39 {
-  width: 100%;
-  height: auto;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.maintenance-management-container40 {
   display: flex;
   align-items: center;
   margin-left: var(--dl-space-space-unit);
@@ -714,14 +698,14 @@
   font-size: .9rem;
   text-align: left;
 }
-.maintenance-management-container41 {
+.maintenance-management-container39 {
   width: 100%;
   height: auto;
   align-items: flex-start;
   flex-direction: row;
   justify-content: flex-start;
 }
-.maintenance-management-container42 {
+.maintenance-management-container40 {
   display: flex;
   align-items: center;
   margin-left: var(--dl-space-space-unit);
@@ -735,6 +719,58 @@
   margin-bottom: 0px;
 }
 .maintenance-management-text109 {
+  color: var(--dl-color-primary-700);
+  width: 100%;
+  font-size: .9rem;
+  text-align: left;
+}
+.maintenance-management-container41 {
+  width: 100%;
+  height: auto;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.maintenance-management-container42 {
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+}
+.maintenance-management-icon14 {
+  fill: var(--dl-color-primary-700);
+  width: var(--dl-size-size-triplequarterunit);
+  height: var(--dl-size-size-triplequarterunit);
+  margin-top: 0px;
+  margin-right: var(--dl-space-space-halfunit);
+  margin-bottom: 0px;
+}
+.maintenance-management-text110 {
+  color: var(--dl-color-primary-700);
+  width: 100%;
+  font-size: .9rem;
+  text-align: left;
+}
+.maintenance-management-container43 {
+  width: 100%;
+  height: auto;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.maintenance-management-container44 {
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+}
+.maintenance-management-icon16 {
+  fill: var(--dl-color-primary-700);
+  width: var(--dl-size-size-triplequarterunit);
+  height: var(--dl-size-size-triplequarterunit);
+  margin-top: 0px;
+  margin-right: var(--dl-space-space-halfunit);
+  margin-bottom: 0px;
+}
+.maintenance-management-text111 {
   color: var(--dl-color-primary-700);
   width: 100%;
   font-size: .9rem;
@@ -757,7 +793,7 @@
   background-repeat: no-repeat;
   background-position: top left,bottom;
 }
-.maintenance-management-container43 {
+.maintenance-management-container45 {
   flex: 0 0 auto;
   width: auto;
   display: flex;
@@ -765,12 +801,12 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.maintenance-management-text110 {
+.maintenance-management-text112 {
   color: var(--dl-color-gray-white);
   width: fit-content;
   font-size: 2rem;
 }
-.maintenance-management-text115 {
+.maintenance-management-text117 {
   color: var(--dl-color-gray-white);
   margin-top: 32px;
   text-align: left;
@@ -785,7 +821,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.maintenance-management-container45 {
+.maintenance-management-container47 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -793,7 +829,7 @@
   align-items: center;
   justify-content: center;
 }
-.maintenance-management-text116 {
+.maintenance-management-text118 {
   width: 100%;
   font-size: 1.25rem;
   text-align: center;
@@ -803,7 +839,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.maintenance-management-text119 {
+.maintenance-management-text121 {
   color: var(--dl-color-gray-white);
 }
 .maintenance-management-ul08 {
@@ -811,16 +847,16 @@
   margin-top: var(--dl-space-space-halfunit);
   list-style-type: square;
 }
-.maintenance-management-text120 {
+.maintenance-management-text122 {
   color: var(--dl-color-gray-white);
 }
-.maintenance-management-text123 {
+.maintenance-management-text125 {
   color: var(--dl-color-gray-white);
 }
-.maintenance-management-text126 {
+.maintenance-management-text128 {
   color: var(--dl-color-gray-white);
 }
-.maintenance-management-text127 {
+.maintenance-management-text129 {
   color: var(--dl-color-gray-white);
 }
 .maintenance-management-solutions14 {
@@ -831,7 +867,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.maintenance-management-container47 {
+.maintenance-management-container49 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -839,7 +875,7 @@
   align-items: center;
   justify-content: center;
 }
-.maintenance-management-text128 {
+.maintenance-management-text130 {
   width: 100%;
   font-size: 1.25rem;
   text-align: center;
@@ -849,7 +885,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.maintenance-management-container48 {
+.maintenance-management-container50 {
   gap: var(--dl-space-space-halfunit);
   width: 100%;
   height: max-content;
@@ -877,7 +913,7 @@
   background-repeat: no-repeat;
   background-position: top left;
 }
-.maintenance-management-container50 {
+.maintenance-management-container52 {
   flex: 0 0 auto;
   width: auto;
   display: flex;
@@ -885,12 +921,12 @@
   margin-bottom: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.maintenance-management-text131 {
+.maintenance-management-text133 {
   color: var(--dl-color-gray-white);
   width: fit-content;
   font-size: 2rem;
 }
-.maintenance-management-text136 {
+.maintenance-management-text138 {
   color: var(--dl-color-gray-white);
   margin-top: 32px;
   text-align: left;
@@ -905,7 +941,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.maintenance-management-container52 {
+.maintenance-management-container54 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -913,7 +949,7 @@
   align-items: center;
   justify-content: center;
 }
-.maintenance-management-text137 {
+.maintenance-management-text139 {
   width: 100%;
   font-size: 1.25rem;
   text-align: center;
@@ -923,13 +959,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.maintenance-management-text140 {
+.maintenance-management-text142 {
   color: var(--dl-color-gray-white);
 }
-.maintenance-management-text143 {
+.maintenance-management-text145 {
   color: var(--dl-color-gray-white);
 }
-.maintenance-management-text144 {
+.maintenance-management-text146 {
   color: var(--dl-color-gray-white);
 }
 .maintenance-management-solutions15 {
@@ -940,7 +976,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.maintenance-management-container54 {
+.maintenance-management-container56 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -948,7 +984,7 @@
   align-items: center;
   justify-content: center;
 }
-.maintenance-management-text145 {
+.maintenance-management-text147 {
   width: 100%;
   font-size: 1.25rem;
   text-align: center;
@@ -958,7 +994,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.maintenance-management-container55 {
+.maintenance-management-container57 {
   gap: var(--dl-space-space-halfunit);
   width: 100%;
   height: max-content;
@@ -969,7 +1005,7 @@
   justify-content: flex-start;
   list-style-image: url();
 }
-.maintenance-management-container57 {
+.maintenance-management-container59 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -979,17 +1015,17 @@
   padding-bottom: var(--dl-space-space-sixunits);
   justify-content: center;
 }
-.maintenance-management-container58 {
+.maintenance-management-container60 {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.maintenance-management-text148 {
+.maintenance-management-text150 {
   font-size: 3rem;
 }
-.maintenance-management-container59 {
+.maintenance-management-container61 {
   width: 100%;
   display: flex;
   padding: 48px;
@@ -1004,7 +1040,7 @@
   background-repeat: repeat,no-repeat;
   background-position: top left,center;
 }
-.maintenance-management-text149 {
+.maintenance-management-text151 {
   color: var(--dl-color-primary-700);
   font-size: 2rem;
   transform: translateY(200%);
@@ -1017,7 +1053,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.maintenance-management-container61 {
+.maintenance-management-container63 {
   flex: 0 0 auto;
   width: 100%;
   height: 70%;
@@ -1025,11 +1061,11 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.maintenance-management-text150 {
+.maintenance-management-text152 {
   text-align: left;
   font-weight: 300;
 }
-.maintenance-management-container62 {
+.maintenance-management-container64 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -1059,7 +1095,7 @@
 .maintenance-management-pricing-card1:hover {
   transform: scale(1.02);
 }
-.maintenance-management-text151 {
+.maintenance-management-text153 {
   color: var(--dl-color-primary-700);
   font-size: 2rem;
   transform: translateY(200%);
@@ -1072,7 +1108,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.maintenance-management-container63 {
+.maintenance-management-container65 {
   width: 100%;
   bottom: 0;
   height: 60%;
@@ -1094,7 +1130,7 @@
   background-color: rgba(255, 255, 255, 0.8);
   animation-duration: 200ms;
 }
-.maintenance-management-container64 {
+.maintenance-management-container66 {
   flex: 0 0 auto;
   width: 100%;
   height: 70%;
@@ -1102,11 +1138,11 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.maintenance-management-text152 {
+.maintenance-management-text154 {
   text-align: left;
   font-weight: 300;
 }
-.maintenance-management-container65 {
+.maintenance-management-container67 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -1137,7 +1173,7 @@
 .maintenance-management-pricing-card2:hover {
   transform: scale(1.02);
 }
-.maintenance-management-text153 {
+.maintenance-management-text155 {
   color: var(--dl-color-primary-700);
   font-size: 2rem;
   transform: translateY(200%);
@@ -1150,7 +1186,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.maintenance-management-container66 {
+.maintenance-management-container68 {
   width: 100%;
   bottom: 0;
   height: 60%;
@@ -1172,7 +1208,7 @@
   background-color: rgba(255, 255, 255, 0.8);
   animation-duration: 200ms;
 }
-.maintenance-management-container67 {
+.maintenance-management-container69 {
   flex: 0 0 auto;
   width: 100%;
   height: 70%;
@@ -1180,11 +1216,11 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.maintenance-management-text154 {
+.maintenance-management-text156 {
   text-align: left;
   font-weight: 300;
 }
-.maintenance-management-container68 {
+.maintenance-management-container70 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -1219,7 +1255,7 @@
   align-items: center;
   justify-content: center;
 }
-.maintenance-management-icon14 {
+.maintenance-management-icon18 {
   width: 50px;
   height: 50px;
 }
@@ -1234,7 +1270,7 @@
   align-items: center;
   justify-content: center;
 }
-.maintenance-management-icon16 {
+.maintenance-management-icon20 {
   width: 50px;
   height: 50px;
 }
@@ -1311,19 +1347,19 @@
   .maintenance-management-solutions15 {
     width: 48%;
   }
-  .maintenance-management-container59 {
+  .maintenance-management-container61 {
     width: auto;
     flex-direction: column;
-  }
-  .maintenance-management-text150 {
-    line-height: 1.8;
-    letter-spacing: 1.1px;
   }
   .maintenance-management-text152 {
     line-height: 1.8;
     letter-spacing: 1.1px;
   }
   .maintenance-management-text154 {
+    line-height: 1.8;
+    letter-spacing: 1.1px;
+  }
+  .maintenance-management-text156 {
     line-height: 1.8;
     letter-spacing: 1.1px;
   }
@@ -1382,31 +1418,31 @@
   .maintenance-management-text073 {
     font-size: 0.8rem;
   }
+  .maintenance-management-text074 {
+    font-size: 0.8rem;
+  }
+  .maintenance-management-text075 {
+    font-size: 0.8rem;
+  }
   .maintenance-management-section3 {
     padding-left: var(--dl-space-space-doubleunit);
     flex-direction: column;
   }
-  .maintenance-management-text080 {
+  .maintenance-management-text082 {
     font-size: 1rem;
   }
-  .maintenance-management-text088 {
+  .maintenance-management-text090 {
     font-size: 1rem;
   }
   .maintenance-management-section4 {
     padding-left: var(--dl-space-space-doubleunit);
     flex-direction: column;
   }
-  .maintenance-management-text097 {
+  .maintenance-management-text099 {
     font-size: 1rem;
   }
-  .maintenance-management-text103 {
+  .maintenance-management-text105 {
     font-size: 1rem;
-  }
-  .maintenance-management-text106 {
-    font-size: 0.8rem;
-  }
-  .maintenance-management-text107 {
-    font-size: 0.8rem;
   }
   .maintenance-management-text108 {
     font-size: 0.8rem;
@@ -1414,30 +1450,36 @@
   .maintenance-management-text109 {
     font-size: 0.8rem;
   }
+  .maintenance-management-text110 {
+    font-size: 0.8rem;
+  }
+  .maintenance-management-text111 {
+    font-size: 0.8rem;
+  }
   .maintenance-management-section5 {
     padding-left: var(--dl-space-space-doubleunit);
     flex-direction: column;
   }
-  .maintenance-management-text116 {
+  .maintenance-management-text118 {
     font-size: 1rem;
   }
   .maintenance-management-ul08 {
     font-size: .7rem;
   }
-  .maintenance-management-text128 {
+  .maintenance-management-text130 {
     font-size: 1rem;
   }
   .maintenance-management-section7 {
     padding-left: var(--dl-space-space-doubleunit);
     flex-direction: column;
   }
-  .maintenance-management-text137 {
+  .maintenance-management-text139 {
     font-size: 1rem;
   }
-  .maintenance-management-text145 {
+  .maintenance-management-text147 {
     font-size: 1rem;
   }
-  .maintenance-management-container59 {
+  .maintenance-management-container61 {
     flex-direction: column;
   }
 }
@@ -1549,7 +1591,7 @@
     height: auto;
     justify-content: flex-start;
   }
-  .maintenance-management-container59 {
+  .maintenance-management-container61 {
     flex-flow: column;
     padding-left: 32px;
     padding-right: 32px;
@@ -1672,10 +1714,10 @@
   .maintenance-management-solutions15 {
     width: 100%;
   }
-  .maintenance-management-text148 {
+  .maintenance-management-text150 {
     font-size: 2rem;
   }
-  .maintenance-management-container59 {
+  .maintenance-management-container61 {
     padding-top: 32px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);

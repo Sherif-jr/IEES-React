@@ -206,3 +206,9 @@
     margin-left: 0px;
   }
 }
+@media(max-width: 479px) {
+  .footer-gray-text08 {
+    font-size: 14px;
+    letter-spacing: -0.4px;
+  }
+}

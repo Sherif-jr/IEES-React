@@ -157,12 +157,9 @@ const Header = (props) => {
             >
               Home
             </Link>
-            <Link
-              to="/contact-us"
-              className="header-services-link animate__fadeInRight animate__faster animate__animated"
-            >
+            <span className="header-services-link animate__fadeInRight animate__faster animate__animated">
               services
-            </Link>
+            </span>
             <Link
               to="/projects"
               className="header-projects-link animate__faster animate__fadeInLeft animate__animated"
@@ -195,6 +192,7 @@ const Header = (props) => {
 
 Header.defaultProps = {
   second_item: 'Maintenance Management',
+  link_servicesLink: '',
   rootClassName: '',
   image_src: '',
   first_item: 'Project Management',
@@ -206,6 +204,7 @@ Header.defaultProps = {
 
 Header.propTypes = {
   second_item: PropTypes.string,
+  link_servicesLink: PropTypes.string,
   rootClassName: PropTypes.string,
   image_src: PropTypes.string,
   first_item: PropTypes.string,

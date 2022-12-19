@@ -10,7 +10,7 @@
   box-shadow: 0 4px 7px -1px rgb(0 0 0 / 11%), 0 2px 4px -1px rgb(0 0 0 / 7%);
   font-style: normal;
   text-align: center;
-  transition: all .15s ease-in;
+  transition: all .3s ease-out;
   font-family: Open Sans;
   font-weight: 700;
   line-height: 1.4;
@@ -22,6 +22,9 @@
   letter-spacing: -0.025rem;
   padding-bottom: var(--dl-space-space-triplequarterunit);
   text-transform: uppercase;
+}
+.header-green-button-button:hover {
+  transform: scale(1.03);
 }
 
 @media(max-width: 767px) {

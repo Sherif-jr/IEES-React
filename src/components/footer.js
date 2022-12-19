@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -9,11 +10,13 @@ const Footer = (props) => {
     <footer className={`footer-footer ${props.rootClassName} `}>
       <div className="footer-container">
         <div className="footer-container1">
-          <img
-            alt={props.image_alt}
-            src={props.image_src}
-            className="footer-image"
-          />
+          <Link to="/" className="footer-navlink">
+            <img
+              alt={props.image_alt}
+              src={props.image_src}
+              className="footer-image"
+            />
+          </Link>
           <span className="footer-text">
             <span className="">Copyright © 2022</span>
             <br className=""></br>
@@ -21,16 +24,27 @@ const Footer = (props) => {
         </div>
         <div className="footer-container2">
           <div className="footer-container3">
-            <span className="footer-text03 Large">Company</span>
-            <span className="footer-text04 Large">About Us</span>
-            <span className="footer-text05 Large">Careers</span>
-            <span className="footer-text06 Large">Press</span>
+            <span className="footer-text3 Large">Company</span>
+            <Link to="/about" className="footer-navlink1 Large">
+              About Us
+            </Link>
+            <Link to="/contact-us" className="footer-navlink2 Large">
+              Contact
+            </Link>
+            <span className="footer-text4 Large">FAQs</span>
           </div>
           <div className="footer-container4">
-            <span className="footer-text07 Large">Pages</span>
-            <span className="footer-text08 Large">Login</span>
-            <span className="footer-text09 Large">Register</span>
-            <span className="footer-text10 Large">About</span>
+            <span className="footer-text5 Large">Services</span>
+            <Link to="/maintenance-management" className="footer-navlink3">
+              Maintenance Management
+            </Link>
+            <Link to="/energy-management" className="footer-navlink4 Large">
+              Energy Management
+            </Link>
+            <Link to="/project-management" className="footer-navlink5 Large">
+              <span className="">Project Management</span>
+              <br className=""></br>
+            </Link>
           </div>
           <div className="footer-container5">
             <svg viewBox="0 0 1024 1024" className="footer-icon">

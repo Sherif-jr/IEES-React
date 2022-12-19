@@ -20,7 +20,7 @@ const Home = (props) => {
         <title>IEES</title>
         <meta property="og:title" content="IEES" />
       </Helmet>
-      <Header></Header>
+      <Header link_servicesLink="#services"></Header>
       <div className="home-hero">
         <div className="home-container01">
           <div className="home-card">
@@ -391,9 +391,9 @@ const Home = (props) => {
         <div className="home-container39">
           <div className="home-container40">
             <div className="home-container41">
-              <p className="home-text57">Bargain Price, Premium Services</p>
-              <h3 className="home-text58">
-                <span className="home-text59">Our mission is </span>
+              <h3 className="home-text57">
+                <span className="home-text58">Our mission is</span>
+                <span className="home-text59"> </span>
                 <span>your comfort</span>
                 <br></br>
               </h3>

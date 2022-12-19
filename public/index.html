@@ -119,26 +119,26 @@
     </script>
     <script>
 
-      const detailsButtons= document.querySelectorAll('.details-button');
+      /* const detailsButtons= document.querySelectorAll('.details-button');
 
-      detailsButtons.forEach((button, index) =>{
-          button.id = `button${index+1}`;
-      });
+       detailsButtons.forEach((button, index) =>{
+           button.id = `button${index+1}`;
+       }); */
 
 
-      document.addEventListener('click', (e)=>{
-        if (e.target.classList.contains("details-button")){
-          const detailsSection = document.querySelector(`#project-details${e.target.id[6]}`);
+       document.addEventListener('click', (e)=>{
+         if (e.target.classList.contains("details-button")){
+           const detailsSection = document.querySelector(`#project-details${e.target.id[6]}`);
 
-          if (detailsSection.classList.contains("custom-hide")){
-            e.target.textContent= "Hide Details";
-              detailsSection.classList.remove("custom-hide");
-          } else{
-            e.target.textContent= "Show Details";
-              detailsSection.classList.add("custom-hide");
-          }
-        }
-      });
+           if (detailsSection.classList.contains("custom-hide")){
+             e.target.textContent= "Hide Details";
+               detailsSection.classList.remove("custom-hide");
+           } else{
+             e.target.textContent= "Show Details";
+               detailsSection.classList.add("custom-hide");
+           }
+         }
+       });
     </script>
   </body>
 </html>

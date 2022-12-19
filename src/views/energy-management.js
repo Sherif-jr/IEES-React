@@ -267,7 +267,7 @@ const EnergyManagement = (props) => {
                     <span>
                       Lack of knowledge about the project-specific details such
                       as consumption and operation conditions, efficiency,
-                      energy drainage, equipment and alternatives.
+                      energy losses, equipment and alternatives.
                     </span>
                     <br></br>
                   </span>
@@ -311,12 +311,12 @@ const EnergyManagement = (props) => {
                   rootClassName="icon-list-item-dark-root-class-name55"
                 ></IconListItemDark>
                 <IconListItemDark
-                  text="Attach a feasibility study for the recommendation using lifetime cost analysis offering detailed information about ROI and Payback Period."
-                  rootClassName="icon-list-item-dark-root-class-name56"
-                ></IconListItemDark>
-                <IconListItemDark
                   text="Analyze the audit result and offer recommendations."
                   rootClassName="icon-list-item-dark-root-class-name57"
+                ></IconListItemDark>
+                <IconListItemDark
+                  text="Attach a feasibility study for the recommendation using lifetime cost analysis offering detailed information about ROI and Payback Period."
+                  rootClassName="icon-list-item-dark-root-class-name56"
                 ></IconListItemDark>
               </div>
               <div className="serv-section-spacer"></div>
@@ -356,8 +356,7 @@ const EnergyManagement = (props) => {
               <ul className="list serv-section-problems-list">
                 <li className="list-item">
                   <span className="energy-management-text077">
-                    Lack of an evaluation about the entire process of energy
-                    management.
+                    lack of energy conservation projects evaluation approaches.
                   </span>
                 </li>
                 <li className="list-item">
@@ -509,7 +508,7 @@ const EnergyManagement = (props) => {
               </div>
               <div className="energy-management-container42 list">
                 <IconListItemDark
-                  text="Define system standards to make it independent, self-maintained and predicted."
+                  text="Define system standards to make it independent, self-maintained and predictive."
                   rootClassName="icon-list-item-dark-root-class-name50"
                 ></IconListItemDark>
                 <IconListItemDark

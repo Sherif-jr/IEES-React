@@ -1056,10 +1056,17 @@
   }
   .about-container03 {
     margin-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
   }
   .about-container04 {
     font-size: 1.2rem;
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
     letter-spacing: 1.2;
+  }
+  .about-container05 {
+    width: 98%;
   }
   .about-icon {
     width: var(--dl-size-size-doubleunit);
@@ -1067,7 +1074,7 @@
   }
   .about-text02 {
     width: auto;
-    font-size: 2rem;
+    font-size: 1.8rem;
     letter-spacing: 1.2;
   }
   .about-icon02 {
@@ -1076,7 +1083,7 @@
   }
   .about-text03 {
     width: auto;
-    font-size: 2rem;
+    font-size: 1.8rem;
     letter-spacing: 1.2;
   }
   .about-icon04 {
@@ -1085,7 +1092,7 @@
   }
   .about-text04 {
     width: auto;
-    font-size: 2rem;
+    font-size: 1.8rem;
     letter-spacing: 1.2;
   }
   .about-icon06 {
@@ -1094,7 +1101,7 @@
   }
   .about-text05 {
     width: auto;
-    font-size: 2rem;
+    font-size: 1.8rem;
     letter-spacing: 1.2;
   }
   .about-icon08 {
@@ -1103,7 +1110,7 @@
   }
   .about-text06 {
     width: auto;
-    font-size: 2rem;
+    font-size: 1.8rem;
     letter-spacing: 1.2;
   }
   .about-container15 {

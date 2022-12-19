@@ -151,15 +151,15 @@ const ProjectManagement = (props) => {
                   rootClassName="icon-list-item-dark-root-class-name"
                 ></IconListItemDark>
                 <IconListItemDark
-                  text="Establish a man in between role to raise the level of communication between all project parties."
+                  text="Establish a man in between role to raise the level of communication between all project stakeholders."
                   rootClassName="icon-list-item-dark-root-class-name1"
                 ></IconListItemDark>
                 <IconListItemDark
-                  text="Translate the owner's ideas and desires to an engineering concept."
+                  text="Translate the owner's ideas to an engineering concept."
                   rootClassName="icon-list-item-dark-root-class-name2"
                 ></IconListItemDark>
                 <IconListItemDark
-                  text="A future study for the project to get the best estimation which will reflect on the plans and equipment selection."
+                  text="A future expansion for the project to get the best estimation which will reflect on the plans and equipment selection."
                   rootClassName="icon-list-item-dark-root-class-name3"
                 ></IconListItemDark>
                 <IconListItemDark
@@ -285,8 +285,8 @@ const ProjectManagement = (props) => {
               <ul className="list serv-section-problems-list">
                 <li className="list-item project-management-li10">
                   <span className="project-management-text59">
-                    Contractor selection which shouldn’t be on the financial
-                    side of the offer only.
+                    Contractor selection which shouldn’t be based on the
+                    financial side of the offer only.
                   </span>
                 </li>
                 <li className="list-item">
@@ -318,7 +318,7 @@ const ProjectManagement = (props) => {
                   rootClassName="icon-list-item-dark-root-class-name9"
                 ></IconListItemDark>
                 <IconListItemDark
-                  text="Ensure effectiveness and efficiency of the selected contractor/s, their time schedules and plans."
+                  text="Ensure effectiveness and efficiency of the selected contractor/s, their time schedules, quality and technicality."
                   rootClassName="icon-list-item-dark-root-class-name10"
                 ></IconListItemDark>
                 <IconListItemDark
@@ -411,12 +411,8 @@ const ProjectManagement = (props) => {
                   rootClassName="icon-list-item-dark-root-class-name16"
                 ></IconListItemDark>
                 <IconListItemDark
-                  text="Supervise the installation process and apply the required tests."
+                  text="Supervise the installation and the operation processes and apply the required tests."
                   rootClassName="icon-list-item-dark-root-class-name17"
-                ></IconListItemDark>
-                <IconListItemDark
-                  text="Supervise the operation process and apply the required tests."
-                  rootClassName="icon-list-item-dark-root-class-name18"
                 ></IconListItemDark>
               </div>
             </div>
