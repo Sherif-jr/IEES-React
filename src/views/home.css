@@ -1161,32 +1161,18 @@
   }
   .home-container18 {
     background-size: cover;
-    background-image: url("/playground_assets/uoc01-1500h.jpg");
   }
   .home-text30 {
     color: var(--dl-color-gray-white);
   }
   .home-container21 {
     background-size: cover;
-    background-image: url("/playground_assets/uoc01-1500h.jpg");
   }
   .home-text34 {
     color: var(--dl-color-gray-white);
   }
-  .home-container24 {
-    background-size: cover;
-    background-image: url("/playground_assets/uoc01-1500h.jpg");
-  }
-  .home-container27 {
-    background-size: cover;
-    background-image: url("/playground_assets/uoc01-1500h.jpg");
-  }
   .home-text44 {
     color: var(--dl-color-gray-white);
-  }
-  .home-container30 {
-    background-size: cover;
-    background-image: url("/playground_assets/uoc01-1500h.jpg");
   }
   .home-text52 {
     color: var(--dl-color-gray-white);
@@ -1325,7 +1311,6 @@
   .home-container21 {
     padding-left: var(--dl-space-space-fourunits);
     padding-right: var(--dl-space-space-fourunits);
-    background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg');
   }
   .home-container23 {
     max-width: 200px;
@@ -1348,7 +1333,6 @@
   .home-container24 {
     padding-left: var(--dl-space-space-fourunits);
     padding-right: var(--dl-space-space-fourunits);
-    background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg');
   }
   .home-container26 {
     max-width: 200px;
@@ -1366,7 +1350,6 @@
   .home-container27 {
     padding-left: var(--dl-space-space-fourunits);
     padding-right: var(--dl-space-space-fourunits);
-    background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg');
   }
   .home-container29 {
     max-width: 200px;
@@ -1388,7 +1371,6 @@
   .home-container30 {
     padding-left: var(--dl-space-space-fourunits);
     padding-right: var(--dl-space-space-fourunits);
-    background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg');
   }
   .home-container32 {
     max-width: 200px;
@@ -1429,7 +1411,6 @@
   }
   .home-text58 {
     color: var(--dl-color-gray-white);
-    width: 382px;
     font-family: Open Sans;
     font-weight: 700;
     line-height: 1.375;
