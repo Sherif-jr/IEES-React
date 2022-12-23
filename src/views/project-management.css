@@ -1165,6 +1165,11 @@
   .project-management-solutions13 {
     width: 100%;
   }
+  .project-management-text80 {
+    font-size: 2rem;
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+  }
   .project-management-container30 {
     padding-top: 32px;
     padding-left: var(--dl-space-space-unitandahalfunit);
