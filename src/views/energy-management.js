@@ -536,10 +536,10 @@ const EnergyManagement = (props) => {
               <div className="folder">
                 <div className="energy-management-container48">
                   <span className="energy-management-text106">
-                    We support clients to achieve the best lifetime for their
-                    assets and equipment by proposing the optimum maintenance
-                    scenario and following up on the implementation of this
-                    scenario.
+                    Providing the best scenario for managing MEP projects by
+                    optimizing the dilemma between Scope, time, quality, and
+                    budget. Using our experience in managing MEP projects and
+                    through our specialization in MEP systems.
                   </span>
                 </div>
                 <div className="energy-management-container49">
@@ -559,10 +559,10 @@ const EnergyManagement = (props) => {
               <div className="energy-management-container50 folder">
                 <div className="energy-management-container51">
                   <span className="energy-management-text108">
-                    Providing the best scenario for managing MEP projects by
-                    optimizing the dilemma between Scope, time, quality, and
-                    budget. Using our experience in managing MEP projects and
-                    through our specialization in MEP systems.
+                    We support clients to achieve the best lifetime for their
+                    assets and equipment by proposing the optimum maintenance
+                    scenario and following up on the implementation of this
+                    scenario.
                   </span>
                 </div>
                 <div className="energy-management-container52">
@@ -591,7 +591,7 @@ const EnergyManagement = (props) => {
                 </div>
                 <div className="energy-management-container55">
                   <Link
-                    to="/project-management"
+                    to="/energy-management"
                     className="energy-management-navlink1 button"
                   >
                     Learn More

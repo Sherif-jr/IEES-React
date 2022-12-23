@@ -76,7 +76,7 @@ const Header = (props) => {
                   data-thq="thq-dropdown"
                   className="header-dropdown2 list-item"
                 >
-                  <Link to="/maintenance-management" className="">
+                  <Link to="/energy-management" className="">
                     <div
                       data-thq="thq-dropdown-toggle"
                       className="header-dropdown-toggle3"

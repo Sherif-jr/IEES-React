@@ -485,7 +485,7 @@ const ProjectManagement = (props) => {
                 </div>
                 <div className="project-management-container39">
                   <Link
-                    to="/project-management"
+                    to="/energy-management"
                     className="project-management-navlink1 button"
                   >
                     Learn More

@@ -780,7 +780,7 @@ const MaintenanceManagement = (props) => {
                 </div>
                 <div className="maintenance-management-container70">
                   <Link
-                    to="/project-management"
+                    to="/energy-management"
                     className="maintenance-management-navlink1 button"
                   >
                     Learn More
