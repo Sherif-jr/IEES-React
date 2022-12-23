@@ -725,10 +725,10 @@ const MaintenanceManagement = (props) => {
               <div className="folder">
                 <div className="maintenance-management-container63">
                   <span className="maintenance-management-text152">
-                    We support clients to achieve the best lifetime for their
-                    assets and equipment by proposing the optimum maintenance
-                    scenario and following up on the implementation of this
-                    scenario.
+                    Providing the best scenario for managing MEP projects by
+                    optimizing the dilemma between Scope, time, quality, and
+                    budget. Using our experience in managing MEP projects and
+                    through our specialization in MEP systems.
                   </span>
                 </div>
                 <div className="maintenance-management-container64">
@@ -748,10 +748,10 @@ const MaintenanceManagement = (props) => {
               <div className="maintenance-management-container65 folder">
                 <div className="maintenance-management-container66">
                   <span className="maintenance-management-text154">
-                    Providing the best scenario for managing MEP projects by
-                    optimizing the dilemma between Scope, time, quality, and
-                    budget. Using our experience in managing MEP projects and
-                    through our specialization in MEP systems.
+                    We support clients to achieve the best lifetime for their
+                    assets and equipment by proposing the optimum maintenance
+                    scenario and following up on the implementation of this
+                    scenario.
                   </span>
                 </div>
                 <div className="maintenance-management-container67">

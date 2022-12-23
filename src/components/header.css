@@ -490,7 +490,7 @@
     display: none;
   }
   .header-mobile-menu {
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
   }

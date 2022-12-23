@@ -88,9 +88,10 @@ const Home = (props) => {
                 <span>Management</span>
               </h3>
               <p className="home-text10">
-                We support clients to achieve the best lifetime for their assets
-                and equipment by proposing the optimum maintenance scenario and
-                following up on the implementation of this scenario.
+                Providing the best scenario for managing MEP projects by
+                optimizing the dilemma between Scope, time, quality, and budget.
+                Using our experience in managing MEP projects and through our
+                specialization in MEP systems.
               </p>
               <div className="home-container06">
                 <Link to="/project-management" className="home-navlink01">
@@ -122,10 +123,9 @@ const Home = (props) => {
                 <br></br>
               </h3>
               <p className="home-text15">
-                Providing the best scenario for managing MEP projects by
-                optimizing the dilemma between Scope, time, quality, and budget.
-                Using our experience in managing MEP projects and through our
-                specialization in MEP systems.
+                We support clients to achieve the best lifetime for their assets
+                and equipment by proposing the optimum maintenance scenario and
+                following up on the implementation of this scenario.
               </p>
               <div className="home-container09">
                 <Link to="/maintenance-management" className="home-navlink02">
@@ -183,7 +183,7 @@ const Home = (props) => {
               <p className="home-text21">The Added Unique Feature</p>
               <h2 className="home-text22 HeadingOne">ENERGY MANAGEMENT</h2>
               <p className="home-text23">
-                supports clients in achieving energy targets that may be
+                Supports clients in achieving energy targets that may be
                 achieved by well-trained staff and feasible studied recommended
                 projects using the most updated and calibrated devices and by
                 auditing energy consumptions.​
@@ -209,6 +209,15 @@ const Home = (props) => {
               </div>
             </div>
           </div>
+          <Player
+            src="https://assets7.lottiefiles.com/packages/lf20_ulfrygzw.json"
+            loop
+            hover
+            speed="1.25"
+            autoplay
+            background="transparent"
+            className="home-lottie-node3"
+          ></Player>
         </div>
         <img
           alt="image"

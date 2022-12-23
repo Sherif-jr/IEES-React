@@ -56,8 +56,8 @@ const Projects = (props) => {
               <div className="projects-container09">
                 <div className="projects-container10">
                   <button
-                    type="button"
                     id="button1"
+                    type="button"
                     className="projects-button details-button"
                   >
                     Show DETAILS
@@ -377,8 +377,8 @@ const Projects = (props) => {
               <div className="projects-container18">
                 <div className="projects-container19">
                   <button
-                    type="button"
                     id="button2"
+                    type="button"
                     className="projects-button1 details-button"
                   >
                     Show DETAILS
@@ -657,8 +657,8 @@ const Projects = (props) => {
               <div className="projects-container27">
                 <div className="projects-container28">
                   <button
-                    type="button"
                     id="button3"
+                    type="button"
                     className="projects-button2 details-button"
                   >
                     Show DETAILS
@@ -910,8 +910,8 @@ const Projects = (props) => {
               <div className="projects-container36">
                 <div className="projects-container37">
                   <button
-                    type="button"
                     id="button4"
+                    type="button"
                     className="projects-button3 details-button"
                   >
                     Show DETAILS
@@ -1163,8 +1163,8 @@ const Projects = (props) => {
               <div className="projects-container45">
                 <div className="projects-container46">
                   <button
-                    type="button"
                     id="button5"
+                    type="button"
                     className="projects-button4 details-button"
                   >
                     Show DETAILS

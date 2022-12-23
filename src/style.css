@@ -498,6 +498,9 @@
     height: 500px;
     max-width: 400px;
   }
+  .serv-section-problems {
+    max-height: unset;
+  }
   .serv-section-solutions {
     padding: var(--dl-space-space-unit);
   }

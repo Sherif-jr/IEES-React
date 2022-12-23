@@ -229,7 +229,7 @@
   background-repeat: no-repeat;
   background-position: top left,center;
 }
-.project-management-container10 {
+.project-management-container09 {
   flex: 0 0 auto;
   width: auto;
   display: flex;
@@ -257,7 +257,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.project-management-container12 {
+.project-management-container11 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -295,7 +295,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.project-management-container14 {
+.project-management-container13 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -313,7 +313,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.project-management-container15 {
+.project-management-container14 {
   gap: var(--dl-space-space-halfunit);
   width: 100%;
   height: max-content;
@@ -341,7 +341,7 @@
   background-repeat: no-repeat;
   background-position: top left,bottom;
 }
-.project-management-container17 {
+.project-management-container16 {
   flex: 0 0 auto;
   width: auto;
   display: flex;
@@ -369,7 +369,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.project-management-container19 {
+.project-management-container18 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -403,7 +403,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.project-management-container21 {
+.project-management-container20 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -421,7 +421,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.project-management-container22 {
+.project-management-container21 {
   gap: var(--dl-space-space-halfunit);
   width: 100%;
   height: max-content;
@@ -447,7 +447,7 @@
   justify-content: flex-start;
   background-image: linear-gradient(113deg, rgba(53, 133, 138, 0.8) 8.00%,rgba(136, 176, 71, 0.8) 94.00%),url('https://res.cloudinary.com/dhdonsil5/image/upload/v1671262007/IEES/Img/services/pm-5_uwjauo.jpg');
 }
-.project-management-container24 {
+.project-management-container23 {
   flex: 0 0 auto;
   width: auto;
   display: flex;
@@ -475,7 +475,12 @@
   flex-direction: column;
   justify-content: center;
 }
-.project-management-container26 {
+.project-management-card6 {
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-bottom: var(--dl-space-space-doubleunit);
+  justify-content: flex-start;
+}
+.project-management-container25 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -491,6 +496,10 @@
   background-image: linear-gradient(315deg, rgba(0, 0, 0, 0.72) 4.00%,rgba(43, 66, 6, 0.92) 99.00%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.project-management-ul3 {
+  margin-top: var(--dl-space-space-doubleunit);
+  padding-top: var(--dl-space-space-unit);
 }
 .project-management-text73 {
   color: var(--dl-color-gray-white);
@@ -517,7 +526,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.project-management-container28 {
+.project-management-container26 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -535,7 +544,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.project-management-container29 {
+.project-management-container27 {
   gap: var(--dl-space-space-halfunit);
   width: 100%;
   height: max-content;
@@ -546,7 +555,7 @@
   justify-content: flex-start;
   list-style-image: url();
 }
-.project-management-container30 {
+.project-management-container28 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -556,7 +565,7 @@
   padding-bottom: var(--dl-space-space-sixunits);
   justify-content: center;
 }
-.project-management-container31 {
+.project-management-container29 {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
@@ -565,8 +574,14 @@
 }
 .project-management-text80 {
   font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-unit);
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.project-management-container32 {
+.project-management-container30 {
   width: 100%;
   display: flex;
   padding: 48px;
@@ -594,7 +609,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.project-management-container34 {
+.project-management-container32 {
   flex: 0 0 auto;
   width: 100%;
   height: 70%;
@@ -606,7 +621,7 @@
   text-align: left;
   font-weight: 300;
 }
-.project-management-container35 {
+.project-management-container33 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -649,7 +664,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.project-management-container36 {
+.project-management-container34 {
   width: 100%;
   bottom: 0;
   height: 60%;
@@ -671,7 +686,7 @@
   background-color: rgba(255, 255, 255, 0.8);
   animation-duration: 200ms;
 }
-.project-management-container37 {
+.project-management-container35 {
   flex: 0 0 auto;
   width: 100%;
   height: 70%;
@@ -683,7 +698,7 @@
   text-align: left;
   font-weight: 300;
 }
-.project-management-container38 {
+.project-management-container36 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -727,7 +742,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.project-management-container39 {
+.project-management-container37 {
   width: 100%;
   bottom: 0;
   height: 60%;
@@ -749,7 +764,7 @@
   background-color: rgba(255, 255, 255, 0.8);
   animation-duration: 200ms;
 }
-.project-management-container40 {
+.project-management-container38 {
   flex: 0 0 auto;
   width: 100%;
   height: 70%;
@@ -761,7 +776,7 @@
   text-align: left;
   font-weight: 300;
 }
-.project-management-container41 {
+.project-management-container39 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -828,6 +843,15 @@
   .project-management-solutions1 {
     width: 48%;
   }
+  .project-management-card1 {
+    padding-top: var(--dl-space-space-tripleunit);
+    padding-bottom: var(--dl-space-space-doubleunit);
+    justify-content: flex-start;
+  }
+  .project-management-container08 {
+    margin-top: var(--dl-space-space-doubleunit);
+    padding-top: var(--dl-space-space-unit);
+  }
   .project-management-section2 {
     padding-top: var(--dl-space-space-fourunits);
     padding-left: var(--dl-space-space-doubleunit);
@@ -861,10 +885,19 @@
   .project-management-problems13 {
     width: 48%;
   }
+  .project-management-card6 {
+    padding-top: var(--dl-space-space-tripleunit);
+    padding-bottom: var(--dl-space-space-doubleunit);
+    justify-content: flex-start;
+  }
+  .project-management-ul3 {
+    margin-top: var(--dl-space-space-doubleunit);
+    padding-top: var(--dl-space-space-unit);
+  }
   .project-management-solutions13 {
     width: 48%;
   }
-  .project-management-container32 {
+  .project-management-container30 {
     width: auto;
     flex-direction: column;
   }
@@ -901,6 +934,9 @@
   .project-management-text31 {
     font-size: 1rem;
   }
+  .project-management-container08 {
+    padding-top: 0px;
+  }
   .project-management-section2 {
     padding-left: var(--dl-space-space-doubleunit);
     flex-direction: column;
@@ -934,7 +970,7 @@
   .project-management-text77 {
     font-size: 1rem;
   }
-  .project-management-container32 {
+  .project-management-container30 {
     flex-direction: column;
   }
 }
@@ -964,6 +1000,7 @@
     justify-content: flex-start;
   }
   .project-management-container08 {
+    margin-top: var(--dl-space-space-unitandahalfunit);
     margin-bottom: 0;
   }
   .project-management-section2 {
@@ -1014,7 +1051,7 @@
     height: auto;
     justify-content: flex-start;
   }
-  .project-management-container32 {
+  .project-management-container30 {
     flex-flow: column;
     padding-left: 32px;
     padding-right: 32px;
@@ -1121,16 +1158,17 @@
   .project-management-problems13 {
     width: 100%;
   }
+  .project-management-ul3 {
+    margin-top: var(--dl-space-space-unitandahalfunit);
+    padding-top: 0px;
+  }
   .project-management-solutions13 {
     width: 100%;
   }
-  .project-management-text80 {
-    font-size: 2rem;
-  }
-  .project-management-container32 {
+  .project-management-container30 {
     padding-top: 32px;
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-unitandahalfunit);
+    padding-right: var(--dl-space-space-unitandahalfunit);
     padding-bottom: 32px;
   }
 }
