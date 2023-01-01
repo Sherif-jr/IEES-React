@@ -467,6 +467,7 @@
   padding: 48px;
   margin-top: var(--dl-space-space-sixunits);
   align-items: center;
+  margin-bottom: var(--dl-space-space-twelveunits);
   flex-direction: column;
   justify-content: space-between;
 }
@@ -1007,6 +1008,7 @@
   }
   .about-mission {
     margin-top: var(--dl-space-space-tripleunit);
+    margin-bottom: var(--dl-space-space-sixunits);
   }
   .about-text23 {
     color: var(--dl-color-gray-white);
@@ -1161,6 +1163,7 @@
   .about-mission {
     margin-top: 0px;
     padding-left: 32px;
+    margin-bottom: var(--dl-space-space-unit);
     padding-right: 32px;
   }
   .about-text25 {
@@ -1336,6 +1339,7 @@
   .about-mission {
     padding-top: 32px;
     padding-left: var(--dl-space-space-unit);
+    margin-bottom: 0px;
     padding-right: var(--dl-space-space-unit);
     padding-bottom: 32px;
   }

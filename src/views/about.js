@@ -227,10 +227,10 @@ const About = (props) => {
             <div className="folder">
               <div className="about-container29">
                 <span className="about-text27">
-                  We support clients to achieve the best lifetime for their
-                  assets and equipment by proposing the optimum maintenance
-                  scenario and following up on the implementation of this
-                  scenario.
+                  Providing the best scenario for managing MEP projects by
+                  optimizing the dilemma between Scope, time, quality, and
+                  budget. Using our experience in managing MEP projects and
+                  through our specialization in MEP systems.
                 </span>
               </div>
               <div className="about-container30">
@@ -247,10 +247,10 @@ const About = (props) => {
             <div className="about-container31 folder">
               <div className="about-container32">
                 <span className="about-text29">
-                  Providing the best scenario for managing MEP projects by
-                  optimizing the dilemma between Scope, time, quality, and
-                  budget. Using our experience in managing MEP projects and
-                  through our specialization in MEP systems.
+                  We support clients to achieve the best lifetime for their
+                  assets and equipment by proposing the optimum maintenance
+                  scenario and following up on the implementation of this
+                  scenario.
                 </span>
               </div>
               <div className="about-container33">

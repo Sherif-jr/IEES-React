@@ -1124,6 +1124,7 @@
   .energy-management-section3 {
     padding-left: var(--dl-space-space-doubleunit);
     flex-direction: column;
+    background-position: top left,right;
   }
   .energy-management-text057 {
     font-size: 1rem;
@@ -1217,6 +1218,7 @@
     min-height: 100vh;
     padding-top: var(--dl-space-space-tripleunit);
     padding-bottom: var(--dl-space-space-tripleunit);
+    background-position: top left,center;
   }
   .energy-management-problems12 {
     width: 90%;
@@ -1341,6 +1343,7 @@
     padding-left: 32px;
     padding-right: 32px;
     padding-bottom: var(--dl-space-space-fourunits);
+    background-position: top left,center;
   }
   .energy-management-problems12 {
     width: 100%;
@@ -1365,6 +1368,8 @@
     padding-left: 32px;
     padding-right: 32px;
     padding-bottom: var(--dl-space-space-fourunits);
+    background-image: linear-gradient(113deg, rgba(83, 141, 144, 0.75) 8.00%,rgba(83, 164, 61, 0.76) 94.00%),url('https://images.unsplash.com/photo-1512580770426-cbed71c40e94?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIyfHxib29rfGVufDB8fHx8MTY3MjUyMzcxOA&ixlib=rb-4.0.3&w=1500');
+    background-position: top left,right;
   }
   .energy-management-problems14 {
     width: 100%;
