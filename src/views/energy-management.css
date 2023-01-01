@@ -19,12 +19,13 @@
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: linear-gradient(113deg, rgba(0, 54, 57, 0.7) 8.00%,rgba(50, 74, 10, 0.8) 94.00%),url('https://images.unsplash.com/photo-1603335730747-ca17baa3aac2?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fGFpciUyMGNvbmRpdGlvbmVyfGVufDB8fHx8MTY3MTI5NTcwNg&ixlib=rb-4.0.3&w=1500');
+  background-image: linear-gradient(113deg, rgba(0, 54, 57, 0.7) 8.00%,rgba(50, 74, 10, 0.8) 94.00%),url('https://images.unsplash.com/photo-1534224039826-c7a0eda0e6b3?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDJ8fGVuZXJneSUyMG1hbmFnZW1lbnR8ZW58MHx8fHwxNjcyNTcxNzU4&ixlib=rb-4.0.3&w=1500');
   background-repeat: center,no-repeat;
-  background-position: top left,left;
+  background-position: top left,center;
 }
 .energy-management-container01 {
   flex: 0 0 auto;
+  width: 100%;
   display: flex;
   max-width: 1350px;
   align-items: center;
@@ -34,6 +35,7 @@
   color: var(--dl-color-gray-white);
   font-size: 3rem;
   margin-bottom: var(--dl-space-space-tripleunit);
+  text-transform: uppercase;
   animation-delay: .4s;
 }
 .energy-management-text001 {
@@ -60,7 +62,7 @@
 .energy-management-get-started-button {
   text-decoration: none;
 }
-.energy-management-button {
+.energy-management-link1 {
   color: var(--dl-color-gray-white);
   font-size: 0.75rem;
   transition: 0.3s;
@@ -72,9 +74,10 @@
   padding-bottom: var(--dl-space-space-unit);
   text-transform: uppercase;
   animation-delay: .7s;
+  text-decoration: none;
   background-color: transparent;
 }
-.energy-management-button:hover {
+.energy-management-link1:hover {
   transform: scale(1.02);
 }
 .energy-management-text012:hover {
@@ -733,7 +736,7 @@
   justify-content: flex-start;
   list-style-image: url();
 }
-.energy-management-container44 {
+.energy-management-other-services {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -743,7 +746,7 @@
   padding-bottom: var(--dl-space-space-sixunits);
   justify-content: center;
 }
-.energy-management-container45 {
+.energy-management-container44 {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
@@ -753,7 +756,7 @@
 .energy-management-text104 {
   font-size: 3rem;
 }
-.energy-management-container46 {
+.energy-management-container45 {
   width: 100%;
   display: flex;
   padding: 48px;
@@ -781,7 +784,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.energy-management-container48 {
+.energy-management-container47 {
   flex: 0 0 auto;
   width: 100%;
   height: 70%;
@@ -793,7 +796,7 @@
   text-align: left;
   font-weight: 300;
 }
-.energy-management-container49 {
+.energy-management-container48 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -801,7 +804,7 @@
   align-items: flex-end;
   justify-content: center;
 }
-.energy-management-link1 {
+.energy-management-link2 {
   color: var(--dl-color-gray-white);
   align-self: center;
   margin-top: auto;
@@ -813,7 +816,7 @@
   padding-bottom: var(--dl-space-space-unit);
   background-color: var(--dl-color-gray-black);
 }
-.energy-management-link1:hover {
+.energy-management-link2:hover {
   background-color: var(--dl-color-applegreen-main);
 }
 .energy-management-pricing-card1 {
@@ -836,7 +839,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.energy-management-container50 {
+.energy-management-container49 {
   width: 100%;
   bottom: 0;
   height: 60%;
@@ -858,7 +861,7 @@
   background-color: rgba(255, 255, 255, 0.8);
   animation-duration: 200ms;
 }
-.energy-management-container51 {
+.energy-management-container50 {
   flex: 0 0 auto;
   width: 100%;
   height: 70%;
@@ -870,7 +873,7 @@
   text-align: left;
   font-weight: 300;
 }
-.energy-management-container52 {
+.energy-management-container51 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -914,7 +917,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.energy-management-container53 {
+.energy-management-container52 {
   width: 100%;
   bottom: 0;
   height: 60%;
@@ -936,7 +939,7 @@
   background-color: rgba(255, 255, 255, 0.8);
   animation-duration: 200ms;
 }
-.energy-management-container54 {
+.energy-management-container53 {
   flex: 0 0 auto;
   width: 100%;
   height: 70%;
@@ -948,7 +951,7 @@
   text-align: left;
   font-weight: 300;
 }
-.energy-management-container55 {
+.energy-management-container54 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -1063,7 +1066,7 @@
   .energy-management-solutions14 {
     width: 48%;
   }
-  .energy-management-container46 {
+  .energy-management-container45 {
     width: auto;
     flex-direction: column;
   }
@@ -1083,6 +1086,8 @@
 @media(max-width: 991px) {
   .energy-management-hero {
     flex-direction: column;
+    background-size: cover,contain;
+    background-repeat: center,no-repeat;
   }
   .energy-management-text {
     text-align: center;
@@ -1158,7 +1163,7 @@
   .energy-management-text101 {
     font-size: 1rem;
   }
-  .energy-management-container46 {
+  .energy-management-container45 {
     flex-direction: column;
   }
 }
@@ -1166,7 +1171,8 @@
   .energy-management-hero {
     padding-left: 32px;
     padding-right: 32px;
-    background-image: linear-gradient(113deg, rgba(0, 54, 57, 0.7) 8.00%,rgba(50, 74, 10, 0.8) 94.00%),url('https://images.unsplash.com/photo-1603335730747-ca17baa3aac2?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fGFpciUyMGNvbmRpdGlvbmVyfGVufDB8fHx8MTY3MTI5NTcwNg&ixlib=rb-4.0.3&w=1500');
+    background-size: cover;
+    background-image: linear-gradient(113deg, rgba(0, 54, 57, 0.7) 8.00%,rgba(50, 74, 10, 0.8) 94.00%),url('https://images.unsplash.com/photo-1529310399831-ed472b81d589?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fGVuZXJneSUyMG1hbmFnZW1lbnR8ZW58MHx8fHwxNjcyNTcxNzU4&ixlib=rb-4.0.3&w=1500');
   }
   .energy-management-text005 {
     width: 70%;
@@ -1254,7 +1260,7 @@
     height: auto;
     justify-content: flex-start;
   }
-  .energy-management-container46 {
+  .energy-management-container45 {
     flex-flow: column;
     padding-left: 32px;
     padding-right: 32px;
@@ -1274,6 +1280,7 @@
     padding-bottom: var(--dl-space-space-doubleunit);
   }
   .energy-management-text {
+    color: var(--dl-color-gray-white);
     font-size: 2.4rem;
   }
   .energy-management-text005 {
@@ -1291,7 +1298,7 @@
   .energy-management-btn-group {
     flex-direction: column;
   }
-  .energy-management-button {
+  .energy-management-link1 {
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
   }
@@ -1368,7 +1375,7 @@
   .energy-management-text104 {
     font-size: 2rem;
   }
-  .energy-management-container46 {
+  .energy-management-container45 {
     padding-top: 32px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);

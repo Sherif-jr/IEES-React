@@ -21,9 +21,16 @@ const EnergyManagement = (props) => {
         <div className="energy-management-container01">
           <h1 className="energy-management-text animate__fadeInUp animate__animated">
             <span className="energy-management-text001">E</span>
-            <span>NERGY </span>
+            <span>
+              nergy
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
             <span className="energy-management-text003">M</span>
-            <span>ANAGEMENT</span>
+            <span>anagement</span>
           </h1>
           <span className="energy-management-text005 animate__fadeIn animate__animated">
             <span className="energy-management-text006">
@@ -51,14 +58,17 @@ const EnergyManagement = (props) => {
                 className="energy-management-get-started-button"
               ></AppComponent>
             </a>
-            <button className="energy-management-button button animate__fadeInDown animate__animated">
+            <a
+              href="#other-services"
+              className="energy-management-link1 button animate__fadeInDown animate__animated"
+            >
               <span>
                 <span className="energy-management-text012">
                   oTHER SERVICES
                 </span>
                 <br></br>
               </span>
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -525,16 +535,16 @@ const EnergyManagement = (props) => {
           </div>
         </div>
       </div>
-      <div className="energy-management-container44">
-        <div className="energy-management-container45">
+      <div id="other-services" className="energy-management-other-services">
+        <div className="energy-management-container44">
           <h4 className="energy-management-text104">Other Services</h4>
-          <div className="energy-management-container46">
+          <div className="energy-management-container45">
             <div className="energy-management-pricing-card Card">
               <h3 className="energy-management-text105 title transition">
                 PROJECT MANAGEMENT
               </h3>
               <div className="folder">
-                <div className="energy-management-container48">
+                <div className="energy-management-container47">
                   <span className="energy-management-text106">
                     Providing the best scenario for managing MEP projects by
                     optimizing the dilemma between Scope, time, quality, and
@@ -542,10 +552,10 @@ const EnergyManagement = (props) => {
                     through our specialization in MEP systems.
                   </span>
                 </div>
-                <div className="energy-management-container49">
+                <div className="energy-management-container48">
                   <a
                     href="/project-management"
-                    className="energy-management-link1 button"
+                    className="energy-management-link2 button"
                   >
                     Learn More
                   </a>
@@ -556,8 +566,8 @@ const EnergyManagement = (props) => {
               <h3 className="energy-management-text107 title transition">
                 MAINTENANCE MANAGEMENT
               </h3>
-              <div className="energy-management-container50 folder">
-                <div className="energy-management-container51">
+              <div className="energy-management-container49 folder">
+                <div className="energy-management-container50">
                   <span className="energy-management-text108">
                     We support clients to achieve the best lifetime for their
                     assets and equipment by proposing the optimum maintenance
@@ -565,7 +575,7 @@ const EnergyManagement = (props) => {
                     scenario.
                   </span>
                 </div>
-                <div className="energy-management-container52">
+                <div className="energy-management-container51">
                   <Link
                     to="/maintenance-management"
                     className="energy-management-navlink button"
@@ -579,8 +589,8 @@ const EnergyManagement = (props) => {
               <h3 className="energy-management-text109 title transition">
                 ENERGY MANAGEMENT
               </h3>
-              <div className="energy-management-container53 folder">
-                <div className="energy-management-container54">
+              <div className="energy-management-container52 folder">
+                <div className="energy-management-container53">
                   <span className="energy-management-text110">
                     Developing optimized Mechanical, Electrical, and Plumbing
                     (MEP) designs as per client requirements. we design, select,
@@ -589,7 +599,7 @@ const EnergyManagement = (props) => {
                     standards with considering the best life cycle cost.
                   </span>
                 </div>
-                <div className="energy-management-container55">
+                <div className="energy-management-container54">
                   <Link
                     to="/energy-management"
                     className="energy-management-navlink1 button"

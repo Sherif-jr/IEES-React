@@ -74,7 +74,7 @@
   color: var(--dl-color-gray-white);
   background-color: var(--dl-color-primary-500);
 }
-.project-management-button {
+.project-management-link1 {
   color: var(--dl-color-gray-white);
   font-size: 0.75rem;
   transition: 0.3s;
@@ -86,9 +86,10 @@
   padding-bottom: var(--dl-space-space-unit);
   text-transform: uppercase;
   animation-delay: .7s;
+  text-decoration: none;
   background-color: transparent;
 }
-.project-management-button:hover {
+.project-management-link1:hover {
   transform: scale(1.02);
 }
 .project-management-text12:hover {
@@ -555,7 +556,7 @@
   justify-content: flex-start;
   list-style-image: url();
 }
-.project-management-container28 {
+.project-management-other-services {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -565,7 +566,7 @@
   padding-bottom: var(--dl-space-space-sixunits);
   justify-content: center;
 }
-.project-management-container29 {
+.project-management-container28 {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
@@ -581,7 +582,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.project-management-container30 {
+.project-management-container29 {
   width: 100%;
   display: flex;
   padding: 48px;
@@ -609,7 +610,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.project-management-container32 {
+.project-management-container31 {
   flex: 0 0 auto;
   width: 100%;
   height: 70%;
@@ -621,7 +622,7 @@
   text-align: left;
   font-weight: 300;
 }
-.project-management-container33 {
+.project-management-container32 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -629,7 +630,7 @@
   align-items: flex-end;
   justify-content: center;
 }
-.project-management-link1 {
+.project-management-link2 {
   color: var(--dl-color-gray-white);
   align-self: center;
   margin-top: auto;
@@ -641,7 +642,7 @@
   padding-bottom: var(--dl-space-space-unit);
   background-color: var(--dl-color-gray-black);
 }
-.project-management-link1:hover {
+.project-management-link2:hover {
   background-color: var(--dl-color-applegreen-main);
 }
 .project-management-pricing-card1 {
@@ -664,7 +665,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.project-management-container34 {
+.project-management-container33 {
   width: 100%;
   bottom: 0;
   height: 60%;
@@ -686,7 +687,7 @@
   background-color: rgba(255, 255, 255, 0.8);
   animation-duration: 200ms;
 }
-.project-management-container35 {
+.project-management-container34 {
   flex: 0 0 auto;
   width: 100%;
   height: 70%;
@@ -698,7 +699,7 @@
   text-align: left;
   font-weight: 300;
 }
-.project-management-container36 {
+.project-management-container35 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -742,7 +743,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.project-management-container37 {
+.project-management-container36 {
   width: 100%;
   bottom: 0;
   height: 60%;
@@ -764,7 +765,7 @@
   background-color: rgba(255, 255, 255, 0.8);
   animation-duration: 200ms;
 }
-.project-management-container38 {
+.project-management-container37 {
   flex: 0 0 auto;
   width: 100%;
   height: 70%;
@@ -776,7 +777,7 @@
   text-align: left;
   font-weight: 300;
 }
-.project-management-container39 {
+.project-management-container38 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -897,7 +898,7 @@
   .project-management-solutions13 {
     width: 48%;
   }
-  .project-management-container30 {
+  .project-management-container29 {
     width: auto;
     flex-direction: column;
   }
@@ -970,7 +971,7 @@
   .project-management-text77 {
     font-size: 1rem;
   }
-  .project-management-container30 {
+  .project-management-container29 {
     flex-direction: column;
   }
 }
@@ -1051,7 +1052,7 @@
     height: auto;
     justify-content: flex-start;
   }
-  .project-management-container30 {
+  .project-management-container29 {
     flex-flow: column;
     padding-left: 32px;
     padding-right: 32px;
@@ -1095,7 +1096,7 @@
     padding-left: 32px;
     padding-right: 32px;
   }
-  .project-management-button {
+  .project-management-link1 {
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
   }
@@ -1170,7 +1171,7 @@
     padding-left: var(--dl-space-space-halfunit);
     padding-right: var(--dl-space-space-halfunit);
   }
-  .project-management-container30 {
+  .project-management-container29 {
     padding-top: 32px;
     padding-left: var(--dl-space-space-unitandahalfunit);
     padding-right: var(--dl-space-space-unitandahalfunit);

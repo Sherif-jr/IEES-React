@@ -60,7 +60,7 @@
 .maintenance-management-get-started-button {
   text-decoration: none;
 }
-.maintenance-management-button {
+.maintenance-management-link1 {
   color: var(--dl-color-gray-white);
   font-size: 0.75rem;
   transition: 0.3s;
@@ -72,9 +72,10 @@
   padding-bottom: var(--dl-space-space-unit);
   text-transform: uppercase;
   animation-delay: .7s;
+  text-decoration: none;
   background-color: transparent;
 }
-.maintenance-management-button:hover {
+.maintenance-management-link1:hover {
   transform: scale(1.02);
 }
 .maintenance-management-text012:hover {
@@ -1005,7 +1006,7 @@
   justify-content: flex-start;
   list-style-image: url();
 }
-.maintenance-management-container59 {
+.maintenance-management-other-services {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -1015,7 +1016,7 @@
   padding-bottom: var(--dl-space-space-sixunits);
   justify-content: center;
 }
-.maintenance-management-container60 {
+.maintenance-management-container59 {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
@@ -1025,7 +1026,7 @@
 .maintenance-management-text150 {
   font-size: 3rem;
 }
-.maintenance-management-container61 {
+.maintenance-management-container60 {
   width: 100%;
   display: flex;
   padding: 48px;
@@ -1053,7 +1054,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.maintenance-management-container63 {
+.maintenance-management-container62 {
   flex: 0 0 auto;
   width: 100%;
   height: 70%;
@@ -1065,7 +1066,7 @@
   text-align: left;
   font-weight: 300;
 }
-.maintenance-management-container64 {
+.maintenance-management-container63 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -1073,7 +1074,7 @@
   align-items: flex-end;
   justify-content: center;
 }
-.maintenance-management-link1 {
+.maintenance-management-link2 {
   color: var(--dl-color-gray-white);
   align-self: center;
   margin-top: auto;
@@ -1085,7 +1086,7 @@
   padding-bottom: var(--dl-space-space-unit);
   background-color: var(--dl-color-gray-black);
 }
-.maintenance-management-link1:hover {
+.maintenance-management-link2:hover {
   background-color: var(--dl-color-applegreen-main);
 }
 .maintenance-management-pricing-card1 {
@@ -1108,7 +1109,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.maintenance-management-container65 {
+.maintenance-management-container64 {
   width: 100%;
   bottom: 0;
   height: 60%;
@@ -1130,7 +1131,7 @@
   background-color: rgba(255, 255, 255, 0.8);
   animation-duration: 200ms;
 }
-.maintenance-management-container66 {
+.maintenance-management-container65 {
   flex: 0 0 auto;
   width: 100%;
   height: 70%;
@@ -1142,7 +1143,7 @@
   text-align: left;
   font-weight: 300;
 }
-.maintenance-management-container67 {
+.maintenance-management-container66 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -1186,7 +1187,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.maintenance-management-container68 {
+.maintenance-management-container67 {
   width: 100%;
   bottom: 0;
   height: 60%;
@@ -1208,7 +1209,7 @@
   background-color: rgba(255, 255, 255, 0.8);
   animation-duration: 200ms;
 }
-.maintenance-management-container69 {
+.maintenance-management-container68 {
   flex: 0 0 auto;
   width: 100%;
   height: 70%;
@@ -1220,7 +1221,7 @@
   text-align: left;
   font-weight: 300;
 }
-.maintenance-management-container70 {
+.maintenance-management-container69 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -1347,7 +1348,7 @@
   .maintenance-management-solutions15 {
     width: 48%;
   }
-  .maintenance-management-container61 {
+  .maintenance-management-container60 {
     width: auto;
     flex-direction: column;
   }
@@ -1479,7 +1480,7 @@
   .maintenance-management-text147 {
     font-size: 1rem;
   }
-  .maintenance-management-container61 {
+  .maintenance-management-container60 {
     flex-direction: column;
   }
 }
@@ -1487,7 +1488,6 @@
   .maintenance-management-hero {
     padding-left: 32px;
     padding-right: 32px;
-    background-image: linear-gradient(113deg, rgba(0, 54, 57, 0.7) 8.00%,rgba(50, 74, 10, 0.8) 94.00%),url('https://images.unsplash.com/photo-1603335730747-ca17baa3aac2?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fGFpciUyMGNvbmRpdGlvbmVyfGVufDB8fHx8MTY3MTI5NTcwNg&ixlib=rb-4.0.3&w=1500');
   }
   .maintenance-management-text005 {
     width: 70%;
@@ -1591,7 +1591,7 @@
     height: auto;
     justify-content: flex-start;
   }
-  .maintenance-management-container61 {
+  .maintenance-management-container60 {
     flex-flow: column;
     padding-left: 32px;
     padding-right: 32px;
@@ -1611,7 +1611,14 @@
     padding-bottom: var(--dl-space-space-doubleunit);
   }
   .maintenance-management-text {
+    color: var(--dl-color-gray-white);
     font-size: 2.4rem;
+  }
+  .maintenance-management-text001 {
+    color: var(--dl-color-applegreen-main);
+  }
+  .maintenance-management-text003 {
+    color: var(--dl-color-applegreen-main);
   }
   .maintenance-management-text005 {
     color: var(--dl-color-gray-white);
@@ -1628,7 +1635,7 @@
   .maintenance-management-btn-group {
     flex-direction: column;
   }
-  .maintenance-management-button {
+  .maintenance-management-link1 {
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
   }
@@ -1717,7 +1724,7 @@
   .maintenance-management-text150 {
     font-size: 2rem;
   }
-  .maintenance-management-container61 {
+  .maintenance-management-container60 {
     padding-top: 32px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);

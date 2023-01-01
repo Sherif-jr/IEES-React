@@ -56,14 +56,17 @@ const MaintenanceManagement = (props) => {
                 className="maintenance-management-get-started-button"
               ></AppComponent>
             </a>
-            <button className="maintenance-management-button button animate__fadeInDown animate__animated">
+            <a
+              href="#other-services"
+              className="maintenance-management-link1 button animate__fadeInDown animate__animated"
+            >
               <span>
                 <span className="maintenance-management-text012">
                   oTHER SERVICES
                 </span>
                 <br></br>
               </span>
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -714,16 +717,19 @@ const MaintenanceManagement = (props) => {
           </div>
         </div>
       </div>
-      <div className="maintenance-management-container59">
-        <div className="maintenance-management-container60">
+      <div
+        id="other-services"
+        className="maintenance-management-other-services"
+      >
+        <div className="maintenance-management-container59">
           <h4 className="maintenance-management-text150">Other Services</h4>
-          <div className="maintenance-management-container61">
+          <div className="maintenance-management-container60">
             <div className="maintenance-management-pricing-card Card">
               <h3 className="maintenance-management-text151 title transition">
                 PROJECT MANAGEMENT
               </h3>
               <div className="folder">
-                <div className="maintenance-management-container63">
+                <div className="maintenance-management-container62">
                   <span className="maintenance-management-text152">
                     Providing the best scenario for managing MEP projects by
                     optimizing the dilemma between Scope, time, quality, and
@@ -731,10 +737,10 @@ const MaintenanceManagement = (props) => {
                     through our specialization in MEP systems.
                   </span>
                 </div>
-                <div className="maintenance-management-container64">
+                <div className="maintenance-management-container63">
                   <a
                     href="/project-management"
-                    className="maintenance-management-link1 button"
+                    className="maintenance-management-link2 button"
                   >
                     Learn More
                   </a>
@@ -745,8 +751,8 @@ const MaintenanceManagement = (props) => {
               <h3 className="maintenance-management-text153 title transition">
                 MAINTENANCE MANAGEMENT
               </h3>
-              <div className="maintenance-management-container65 folder">
-                <div className="maintenance-management-container66">
+              <div className="maintenance-management-container64 folder">
+                <div className="maintenance-management-container65">
                   <span className="maintenance-management-text154">
                     We support clients to achieve the best lifetime for their
                     assets and equipment by proposing the optimum maintenance
@@ -754,7 +760,7 @@ const MaintenanceManagement = (props) => {
                     scenario.
                   </span>
                 </div>
-                <div className="maintenance-management-container67">
+                <div className="maintenance-management-container66">
                   <Link
                     to="/maintenance-management"
                     className="maintenance-management-navlink button"
@@ -768,8 +774,8 @@ const MaintenanceManagement = (props) => {
               <h3 className="maintenance-management-text155 title transition">
                 ENERGY MANAGEMENT
               </h3>
-              <div className="maintenance-management-container68 folder">
-                <div className="maintenance-management-container69">
+              <div className="maintenance-management-container67 folder">
+                <div className="maintenance-management-container68">
                   <span className="maintenance-management-text156">
                     Developing optimized Mechanical, Electrical, and Plumbing
                     (MEP) designs as per client requirements. we design, select,
@@ -778,7 +784,7 @@ const MaintenanceManagement = (props) => {
                     standards with considering the best life cycle cost.
                   </span>
                 </div>
-                <div className="maintenance-management-container70">
+                <div className="maintenance-management-container69">
                   <Link
                     to="/energy-management"
                     className="maintenance-management-navlink1 button"

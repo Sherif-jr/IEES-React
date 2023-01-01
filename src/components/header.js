@@ -161,6 +161,24 @@ const Header = (props) => {
               services
             </span>
             <Link
+              to="/maintenance-management"
+              className="header-services-link1 animate__fadeInRight animate__faster animate__animated"
+            >
+              MAINTENANCE MANAGEMENT
+            </Link>
+            <Link
+              to="/project-management"
+              className="header-services-link2 animate__fadeInRight animate__faster animate__animated"
+            >
+              Project MANAGEMENT
+            </Link>
+            <Link
+              to="/energy-management"
+              className="header-services-link3 animate__fadeInRight animate__faster animate__animated"
+            >
+              energy MANAGEMENT
+            </Link>
+            <Link
               to="/projects"
               className="header-projects-link animate__faster animate__fadeInLeft animate__animated"
             >
