@@ -33,6 +33,7 @@
 .maintenance-management-text {
   color: var(--dl-color-gray-white);
   font-size: 3rem;
+  font-weight: bold;
   margin-bottom: var(--dl-space-space-tripleunit);
   animation-delay: .4s;
 }
@@ -1369,6 +1370,9 @@
   .maintenance-management-hero {
     flex-direction: column;
   }
+  .maintenance-management-container01 {
+    margin-top: var(--dl-space-space-sixunits);
+  }
   .maintenance-management-text {
     text-align: center;
   }
@@ -1489,8 +1493,12 @@
     padding-left: 32px;
     padding-right: 32px;
   }
+  .maintenance-management-text {
+    font-size: 2.6rem;
+  }
   .maintenance-management-text005 {
     width: 70%;
+    font-size: .9rem;
   }
   .maintenance-management-text006 {
     width: 70%;

@@ -34,6 +34,7 @@
 .energy-management-text {
   color: var(--dl-color-gray-white);
   font-size: 3rem;
+  font-weight: bold;
   margin-bottom: var(--dl-space-space-tripleunit);
   text-transform: uppercase;
   animation-delay: .4s;
@@ -1089,6 +1090,9 @@
     background-size: cover,contain;
     background-repeat: center,no-repeat;
   }
+  .energy-management-container01 {
+    margin-top: var(--dl-space-space-sixunits);
+  }
   .energy-management-text {
     text-align: center;
   }
@@ -1175,8 +1179,12 @@
     background-size: cover;
     background-image: linear-gradient(113deg, rgba(0, 54, 57, 0.7) 8.00%,rgba(50, 74, 10, 0.8) 94.00%),url('https://images.unsplash.com/photo-1529310399831-ed472b81d589?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fGVuZXJneSUyMG1hbmFnZW1lbnR8ZW58MHx8fHwxNjcyNTcxNzU4&ixlib=rb-4.0.3&w=1500');
   }
+  .energy-management-text {
+    font-size: 2.6rem;
+  }
   .energy-management-text005 {
     width: 70%;
+    font-size: .9rem;
   }
   .energy-management-text006 {
     width: 70%;
